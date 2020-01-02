@@ -6,47 +6,47 @@
     <message>
         <location filename="../AboutDialog.ui" line="14"/>
         <source>About DB Browser for SQLite</source>
-        <translation type="unfinished">DB Browser for SQLite について</translation>
+        <translation>DB Browser for SQLite について</translation>
     </message>
     <message>
         <location filename="../AboutDialog.ui" line="47"/>
         <source>Version</source>
-        <translation type="unfinished"></translation>
+        <translation>バージョン</translation>
     </message>
     <message>
         <location filename="../AboutDialog.ui" line="102"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;DB Browser for SQLite is an open source, freeware visual tool used to create, design and edit SQLite database files.&lt;/p&gt;&lt;p&gt;It is bi-licensed under the Mozilla Public License Version 2, as well as the GNU General Public License Version 3 or later. You can modify or redistribute it under the conditions of these licenses.&lt;/p&gt;&lt;p&gt;See &lt;a href=&quot;http://www.gnu.org/licenses/gpl.html&quot;&gt;http://www.gnu.org/licenses/gpl.html&lt;/a&gt; and &lt;a href=&quot;https://www.mozilla.org/MPL/2.0/index.txt&quot;&gt;https://www.mozilla.org/MPL/2.0/index.txt&lt;/a&gt; for details.&lt;/p&gt;&lt;p&gt;For more information on this program please visit our website at: &lt;a href=&quot;http://sqlitebrowser.org&quot;&gt;http://sqlitebrowser.org&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-size:small;&quot;&gt;This software uses the GPL/LGPL Qt Toolkit from &lt;/span&gt;&lt;a href=&quot;http://qt-project.org/&quot;&gt;&lt;span style=&quot; font-size:small;&quot;&gt;http://qt-project.org/&lt;/span&gt;&lt;/a&gt;&lt;span style=&quot; font-size:small;&quot;&gt;&lt;br/&gt;See &lt;/span&gt;&lt;a href=&quot;http://qt-project.org/doc/qt-5/licensing.html&quot;&gt;&lt;span style=&quot; font-size:small;&quot;&gt;http://qt-project.org/doc/qt-5/licensing.html&lt;/span&gt;&lt;/a&gt;&lt;span style=&quot; font-size:small;&quot;&gt; for licensing terms and information.&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-size:small;&quot;&gt;It also uses the Silk icon set by Mark James licensed under a Creative Commons Attribution 2.5 and 3.0 license.&lt;br/&gt;See &lt;/span&gt;&lt;a href=&quot;http://www.famfamfam.com/lab/icons/silk/&quot;&gt;&lt;span style=&quot; font-size:small;&quot;&gt;http://www.famfamfam.com/lab/icons/silk/&lt;/span&gt;&lt;/a&gt;&lt;span style=&quot; font-size:small;&quot;&gt; for details.&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;DB Browser for SQLite は SQLite データベースを作成、デザイン、編集できる、オープンソースで無料のヴィジュアルツールです。&lt;/p&gt;&lt;p&gt;このソフトウェアは Mozilla Public License Version 2&#x3000;と the GNU General Public License Version 3 (もしくはそれ以降のもの) の2つでライセンスされています。あなたはこれらのライセンスの条件の下でこのソフトウェアを変更、もしくは、再配布できます。&lt;/p&gt;&lt;p&gt;詳細は &lt;a href=&quot;http://www.gnu.org/licenses/gpl.html&quot;&gt;http://www.gnu.org/licenses/gpl.html&lt;/a&gt; と &lt;a href=&quot;https://www.mozilla.org/MPL/2.0/index.txt&quot;&gt;https://www.mozilla.org/MPL/2.0/index.txt&lt;/a&gt; をご覧ください。&lt;/p&gt;&lt;p&gt;このプログラムのさらなる情報は、私たちのウェブサイトをご覧ください。: &lt;a href=&quot;http://sqlitebrowser.org&quot;&gt;http://sqlitebrowser.org&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-size:small;&quot;&gt;このソフトウェアは GPL/LGPL Qt Toolkit を使用しています。 &lt;/span&gt;&lt;a href=&quot;http://qt-project.org/&quot;&gt;&lt;span style=&quot; font-size:small;&quot;&gt;http://qt-project.org/&lt;/span&gt;&lt;/a&gt;&lt;span style=&quot; font-size:small;&quot;&gt;&lt;br/&gt;ライセンス条項や情報は &lt;/span&gt;&lt;a href=&quot;http://qt-project.org/doc/qt-5/licensing.html&quot;&gt;&lt;span style=&quot; font-size:small;&quot;&gt;http://qt-project.org/doc/qt-5/licensing.html&lt;/span&gt;&lt;/a&gt;&lt;span style=&quot; font-size:small;&quot;&gt; をご覧ください。&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-size:small;&quot;&gt;また、 Mark James の Silk icon set を Creative Commons Attribution 2.5 and 3.0 license の元で使用しています。&lt;br/&gt;詳細は &lt;/span&gt;&lt;a href=&quot;http://www.famfamfam.com/lab/icons/silk/&quot;&gt;&lt;span style=&quot; font-size:small;&quot;&gt;http://www.famfamfam.com/lab/icons/silk/&lt;/span&gt;&lt;/a&gt;&lt;span style=&quot; font-size:small;&quot;&gt; をご覧ください。&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
         <location filename="../AboutDialog.cpp" line="17"/>
         <source>SQLite Version </source>
-        <translation type="unfinished"></translation>
+        <translation>SQLite バージョン </translation>
     </message>
     <message>
         <location filename="../AboutDialog.cpp" line="19"/>
         <source>SQLCipher Version </source>
-        <translation type="unfinished"></translation>
+        <translation>SQLCipher バージョン </translation>
     </message>
     <message>
         <location filename="../AboutDialog.cpp" line="19"/>
         <source> (based on SQLite %1)</source>
-        <translation type="unfinished"></translation>
+        <translation> (SQLite %1 がベース)</translation>
     </message>
     <message>
         <location filename="../AboutDialog.cpp" line="21"/>
         <source>Version </source>
-        <translation type="unfinished"></translation>
+        <translation>バージョン </translation>
     </message>
     <message>
         <location filename="../AboutDialog.cpp" line="22"/>
         <source>Built for </source>
-        <translation type="unfinished"></translation>
+        <translation>ビルド </translation>
     </message>
     <message>
         <location filename="../AboutDialog.cpp" line="23"/>
         <source>Qt Version </source>
-        <translation type="unfinished"></translation>
+        <translation>Qt バージョン </translation>
     </message>
 </context>
 <context>
@@ -54,89 +54,96 @@
     <message>
         <location filename="../AddRecordDialog.ui" line="14"/>
         <source>Add New Record</source>
-        <translation type="unfinished"></translation>
+        <translation>新しいレコードを追加</translation>
     </message>
     <message>
         <location filename="../AddRecordDialog.ui" line="27"/>
         <source>Enter values for the new record considering constraints. Fields in bold are mandatory.</source>
-        <translation type="unfinished"></translation>
+        <translation>制約を考慮して新しいレコードに値を入力します。太字のフィールドは必須です。</translation>
     </message>
     <message>
         <location filename="../AddRecordDialog.ui" line="67"/>
         <source>In the Value column you can specify the value for the field identified in the Name column. The Type column indicates the type of the field. Default values are displayed in the same style as NULL values.</source>
-        <translation type="unfinished"></translation>
+        <translation>「値」列では、「名前」列で識別されたフィールドの値を指定できます。「データ型」列はフィールドのデータ型を示します。 デフォルト値はNULL値と同じスタイルで表示されます。</translation>
     </message>
     <message>
         <location filename="../AddRecordDialog.ui" line="74"/>
         <source>Name</source>
-        <translation type="unfinished"></translation>
+        <translation>名前</translation>
     </message>
     <message>
         <location filename="../AddRecordDialog.ui" line="79"/>
         <source>Type</source>
-        <translation type="unfinished"></translation>
+        <translation>データ型</translation>
     </message>
     <message>
         <location filename="../AddRecordDialog.ui" line="84"/>
         <source>Value</source>
-        <translation type="unfinished"></translation>
+        <translation>値</translation>
     </message>
     <message>
         <location filename="../AddRecordDialog.ui" line="87"/>
         <source>Values to insert. Pre-filled default values are inserted automatically unless they are changed.</source>
-        <translation type="unfinished"></translation>
+        <translation>挿入する値。変更されない限り、事前入力されたデフォルト値が自動的に挿入されます。</translation>
     </message>
     <message>
         <location filename="../AddRecordDialog.ui" line="93"/>
         <source>When you edit the values in the upper frame, the SQL query for inserting this new record is shown here. You can edit manually the query before saving.</source>
-        <translation type="unfinished"></translation>
+        <translation>上のフレームで値を編集すると、この新しいレコードを挿入する SQL クエリーがここに表示されます。保存する前にこのクエリーを手動で編集できます。</translation>
     </message>
     <message>
         <location filename="../AddRecordDialog.ui" line="110"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;Save&lt;/span&gt; will submit the shown SQL statement to the database for inserting the new record.&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;Restore Defaults&lt;/span&gt; will restore the initial values in the &lt;span style=&quot; font-weight:600;&quot;&gt;Value&lt;/span&gt; column.&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;Cancel&lt;/span&gt; will close this dialog without executing the query.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;保存&lt;/span&gt;は表示されている新しいレコードを挿入するSQL文をデータベースに適用します。&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;デフォルトに戻す&lt;/span&gt;は&lt;span style=&quot; font-weight:600;&quot;&gt;「値」&lt;/span&gt;列を初期値に戻します。&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;キャンセル&lt;/span&gt;はクエリーを実行せずにダイアログを閉じます。&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
         <location filename="../AddRecordDialog.cpp" line="209"/>
         <source>Auto-increment
 </source>
-        <translation type="unfinished"></translation>
+        <translation>自動増加
+</translation>
     </message>
     <message>
         <location filename="../AddRecordDialog.cpp" line="212"/>
         <source>Unique constraint
 </source>
-        <translation type="unfinished"></translation>
+        <translation>一意性制約
+</translation>
     </message>
     <message>
         <location filename="../AddRecordDialog.cpp" line="215"/>
         <source>Check constraint:	 %1
 </source>
-        <translation type="unfinished"></translation>
+        <translation>制約をチェック:	 %1
+</translation>
     </message>
     <message>
         <location filename="../AddRecordDialog.cpp" line="219"/>
         <source>Foreign key:	 %1
 </source>
-        <translation type="unfinished"></translation>
+        <translation>外部キー:	 %1
+</translation>
     </message>
     <message>
         <location filename="../AddRecordDialog.cpp" line="227"/>
         <source>Default value:	 %1
 </source>
-        <translation type="unfinished"></translation>
+        <translation>デフォルト値:	 %1
+</translation>
     </message>
     <message>
         <location filename="../AddRecordDialog.cpp" line="253"/>
         <source>Error adding record. Message from database engine:
 
 %1</source>
-        <translation type="unfinished"></translation>
+        <translation>レコード追加でエラー。データベースエンジンからのメッセージ:
+
+%1</translation>
     </message>
     <message>
         <location filename="../AddRecordDialog.cpp" line="334"/>
         <source>Are you sure you want to restore all the entered values to their defaults?</source>
-        <translation type="unfinished"></translation>
+        <translation>入力した値を全てデフォルトに戻しますか?</translation>
     </message>
 </context>
 <context>
