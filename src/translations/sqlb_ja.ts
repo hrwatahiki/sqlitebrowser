@@ -152,82 +152,83 @@
         <location filename="../Application.cpp" line="86"/>
         <source>Usage: %1 [options] [db]
 </source>
-        <translation type="unfinished"></translation>
+        <translation>使い方: %1 [オプション] [DB]
+</translation>
     </message>
     <message>
         <location filename="../Application.cpp" line="87"/>
         <source>Possible command line arguments:</source>
-        <translation type="unfinished"></translation>
+        <translation>使用可能なコマンドライン引数:</translation>
     </message>
     <message>
         <location filename="../Application.cpp" line="88"/>
         <source>  -h, --help		Show command line options</source>
-        <translation type="unfinished"></translation>
+        <translation>  -h, --help		コマンドラインのオプションを表示</translation>
     </message>
     <message>
         <location filename="../Application.cpp" line="89"/>
         <source>  -q, --quit		Exit application after running scripts</source>
-        <translation type="unfinished"></translation>
+        <translation>  -q, --quit		スクリプト実行後にアプリケーションを終了</translation>
     </message>
     <message>
         <location filename="../Application.cpp" line="90"/>
         <source>  -s, --sql [file]	Execute this SQL file after opening the DB</source>
-        <translation type="unfinished"></translation>
+        <translation>  -s, --sql [ファイル]	DBを開いた後、このSQLファイルを実行</translation>
     </message>
     <message>
         <location filename="../Application.cpp" line="91"/>
         <source>  -t, --table [table]	Browse this table after opening the DB</source>
-        <translation type="unfinished"></translation>
+        <translation>  -t, --table [table]	DB開いた後このテーブルを閲覧</translation>
     </message>
     <message>
         <location filename="../Application.cpp" line="92"/>
         <source>  -R, --read-only	Open database in read-only mode</source>
-        <translation type="unfinished"></translation>
+        <translation>  -R, --read-only	読み取り専用モードでデータベースを開く</translation>
     </message>
     <message>
         <location filename="../Application.cpp" line="93"/>
         <source>  -o, --option [group/setting=value]	Run application with this setting temporarily set to value</source>
-        <translation type="unfinished"></translation>
+        <translation>  -o, --option [グループ/設定=値]	一時的にこの値を設定してアプリケーションを実行</translation>
     </message>
     <message>
         <location filename="../Application.cpp" line="94"/>
         <source>  -v, --version		Display the current version</source>
-        <translation type="unfinished"></translation>
+        <translation>  -v, --version		現在のバージョンを表示</translation>
     </message>
     <message>
         <location filename="../Application.cpp" line="95"/>
         <source>  [file]		Open this SQLite database</source>
-        <translation type="unfinished"></translation>
+        <translation>  [ファイル]		この SQLite データベースを開く</translation>
     </message>
     <message>
         <location filename="../Application.cpp" line="98"/>
         <source>This is DB Browser for SQLite version %1.</source>
-        <translation type="unfinished"></translation>
+        <translation>これは DB Browser for SQLite バージョン %1 です.</translation>
     </message>
     <message>
         <location filename="../Application.cpp" line="103"/>
         <source>The -s/--sql option requires an argument</source>
-        <translation type="unfinished"></translation>
+        <translation>-s/--sql オプションは引数が必要です</translation>
     </message>
     <message>
         <location filename="../Application.cpp" line="105"/>
         <source>The file %1 does not exist</source>
-        <translation type="unfinished"></translation>
+        <translation>ファイル %1 が存在しません</translation>
     </message>
     <message>
         <location filename="../Application.cpp" line="110"/>
         <source>The -t/--table option requires an argument</source>
-        <translation type="unfinished"></translation>
+        <translation>-t/--table オプションは引数が必要です</translation>
     </message>
     <message>
         <location filename="../Application.cpp" line="118"/>
         <source>The -o/--option option requires an argument in the form group/setting=value</source>
-        <translation type="unfinished"></translation>
+        <translation>-o/--option オプションは グループ/設定=値 の形式で引数が必要です</translation>
     </message>
     <message>
         <location filename="../Application.cpp" line="138"/>
         <source>Invalid option/non-existant file: %1</source>
-        <translation type="unfinished"></translation>
+        <translation>不正なオプション/存在しないファイルです: %1</translation>
     </message>
 </context>
 <context>
@@ -235,67 +236,67 @@
     <message>
         <location filename="../CipherDialog.ui" line="14"/>
         <source>SQLCipher encryption</source>
-        <translation type="unfinished"></translation>
+        <translation>SQLCipher 暗号化</translation>
     </message>
     <message>
         <location filename="../CipherDialog.ui" line="27"/>
         <source>&amp;Password</source>
-        <translation type="unfinished"></translation>
+        <translation>パスワード(&amp;P)</translation>
     </message>
     <message>
         <location filename="../CipherDialog.ui" line="44"/>
         <source>&amp;Reenter password</source>
-        <translation type="unfinished"></translation>
+        <translation>パスワードの再入力(&amp;R)</translation>
     </message>
     <message>
         <location filename="../CipherDialog.ui" line="66"/>
         <source>Passphrase</source>
-        <translation type="unfinished"></translation>
+        <translation>パスフレーズ</translation>
     </message>
     <message>
         <location filename="../CipherDialog.ui" line="71"/>
         <source>Raw key</source>
-        <translation type="unfinished"></translation>
+        <translation>生のキー</translation>
     </message>
     <message>
         <location filename="../CipherDialog.ui" line="98"/>
         <source>Encr&amp;yption settings</source>
-        <translation type="unfinished"></translation>
+        <translation>暗号化設定(&amp;Y)</translation>
     </message>
     <message>
         <location filename="../CipherDialog.ui" line="110"/>
         <source>SQLCipher &amp;3 defaults</source>
-        <translation type="unfinished"></translation>
+        <translation>SQLCipher 3 デフォルト(&amp;3)</translation>
     </message>
     <message>
         <location filename="../CipherDialog.ui" line="117"/>
         <source>SQLCipher &amp;4 defaults</source>
-        <translation type="unfinished"></translation>
+        <translation>SQLCipher 4 デフォルト(&amp;4)</translation>
     </message>
     <message>
         <location filename="../CipherDialog.ui" line="124"/>
         <source>Custo&amp;m</source>
-        <translation type="unfinished"></translation>
+        <translation>カスタム(&amp;M)</translation>
     </message>
     <message>
         <location filename="../CipherDialog.ui" line="133"/>
         <source>Page si&amp;ze</source>
-        <translation type="unfinished"></translation>
+        <translation>ページサイズ(&amp;Z)</translation>
     </message>
     <message>
         <location filename="../CipherDialog.ui" line="146"/>
         <source>&amp;KDF iterations</source>
-        <translation type="unfinished"></translation>
+        <translation>KDF反復回数(&amp;K)</translation>
     </message>
     <message>
         <location filename="../CipherDialog.ui" line="166"/>
         <source>HMAC algorithm</source>
-        <translation type="unfinished"></translation>
+        <translation>HMACアルゴリズム</translation>
     </message>
     <message>
         <location filename="../CipherDialog.ui" line="195"/>
         <source>KDF algorithm</source>
-        <translation type="unfinished"></translation>
+        <translation>KDFアルゴリズム</translation>
     </message>
     <message>
         <location filename="../CipherDialog.cpp" line="35"/>
@@ -303,13 +304,17 @@
 Note that if you change any of the other, optional, settings you&apos;ll need to re-enter them as well every time you open the database file.
 Leave the password fields empty to disable the encryption.
 The encryption process might take some time and you should have a backup copy of your database! Unsaved changes are applied before modifying the encryption.</source>
-        <translation type="unfinished"></translation>
+        <translation>データベースを暗号化するキーを設定してください。
+そのほかの任意の設定を変更すると、データベースファイルを開くときは毎回再入力が必要になることに注意してください。
+暗号化を無効にするにはパスワード欄を空白にします。
+暗号化工程には少し時間がかかるでしょう。データベースのバックアップを作成するべきです! 保存していない変更は暗号化の前に反映されます。</translation>
     </message>
     <message>
         <location filename="../CipherDialog.cpp" line="40"/>
         <source>Please enter the key used to encrypt the database.
 If any of the other settings were altered for this database file you need to provide this information as well.</source>
-        <translation type="unfinished"></translation>
+        <translation>データベースの暗号化に使用するキーを入力してください。
+このデータベースファイルの他の設定が変更された場合は、この情報も指定する必要があります。</translation>
     </message>
 </context>
 <context>
@@ -317,102 +322,102 @@ If any of the other settings were altered for this database file you need to pro
     <message>
         <location filename="../ColumnDisplayFormatDialog.ui" line="14"/>
         <source>Choose display format</source>
-        <translation type="unfinished"></translation>
+        <translation>表示書式を選択</translation>
     </message>
     <message>
         <location filename="../ColumnDisplayFormatDialog.ui" line="20"/>
         <source>Display format</source>
-        <translation type="unfinished"></translation>
+        <translation>表示書式</translation>
     </message>
     <message>
         <location filename="../ColumnDisplayFormatDialog.ui" line="26"/>
         <source>Choose a display format for the column &apos;%1&apos; which is applied to each value prior to showing it.</source>
-        <translation type="unfinished"></translation>
+        <translation>カラム &apos;%1&apos; の表示形式を選択してください。これは表示前に各値に適用されます。</translation>
     </message>
     <message>
         <location filename="../ColumnDisplayFormatDialog.cpp" line="12"/>
         <source>Default</source>
-        <translation type="unfinished"></translation>
+        <translation>デフォルト</translation>
     </message>
     <message>
         <location filename="../ColumnDisplayFormatDialog.cpp" line="14"/>
         <source>Decimal number</source>
-        <translation type="unfinished"></translation>
+        <translation>十進数</translation>
     </message>
     <message>
         <location filename="../ColumnDisplayFormatDialog.cpp" line="15"/>
         <source>Exponent notation</source>
-        <translation type="unfinished"></translation>
+        <translation>指数表記</translation>
     </message>
     <message>
         <location filename="../ColumnDisplayFormatDialog.cpp" line="16"/>
         <source>Hex blob</source>
-        <translation type="unfinished"></translation>
+        <translation>十六進Blob</translation>
     </message>
     <message>
         <location filename="../ColumnDisplayFormatDialog.cpp" line="17"/>
         <source>Hex number</source>
-        <translation type="unfinished"></translation>
+        <translation>十六進数</translation>
     </message>
     <message>
         <location filename="../ColumnDisplayFormatDialog.cpp" line="18"/>
         <source>Octal number</source>
-        <translation type="unfinished"></translation>
+        <translation>八進数</translation>
     </message>
     <message>
         <location filename="../ColumnDisplayFormatDialog.cpp" line="19"/>
         <source>Round number</source>
-        <translation type="unfinished"></translation>
+        <translation>概数</translation>
     </message>
     <message>
         <location filename="../ColumnDisplayFormatDialog.cpp" line="21"/>
         <source>Apple NSDate to date</source>
-        <translation type="unfinished"></translation>
+        <translation>Apple NSDate を日付に</translation>
     </message>
     <message>
         <location filename="../ColumnDisplayFormatDialog.cpp" line="22"/>
         <source>Java epoch (milliseconds) to date</source>
-        <translation type="unfinished"></translation>
+        <translation>Java エポック (ミリ秒) を日付に</translation>
     </message>
     <message>
         <location filename="../ColumnDisplayFormatDialog.cpp" line="23"/>
         <source>Julian day to date</source>
-        <translation type="unfinished"></translation>
+        <translation>ユリウス日を日付に</translation>
     </message>
     <message>
         <location filename="../ColumnDisplayFormatDialog.cpp" line="24"/>
         <source>Unix epoch to date</source>
-        <translation type="unfinished"></translation>
+        <translation>Unix エポックを日付に</translation>
     </message>
     <message>
         <location filename="../ColumnDisplayFormatDialog.cpp" line="25"/>
         <source>Unix epoch to local time</source>
-        <translation type="unfinished"></translation>
+        <translation>Unix エポックを地方時に</translation>
     </message>
     <message>
         <location filename="../ColumnDisplayFormatDialog.cpp" line="26"/>
         <source>Windows DATE to date</source>
-        <translation type="unfinished"></translation>
+        <translation>Windows DATE を日付に</translation>
     </message>
     <message>
         <location filename="../ColumnDisplayFormatDialog.cpp" line="27"/>
         <source>Date as dd/mm/yyyy</source>
-        <translation type="unfinished"></translation>
+        <translation>日付(dd/mm/yyyy)</translation>
     </message>
     <message>
         <location filename="../ColumnDisplayFormatDialog.cpp" line="29"/>
         <source>Lower case</source>
-        <translation type="unfinished"></translation>
+        <translation>小文字</translation>
     </message>
     <message>
         <location filename="../ColumnDisplayFormatDialog.cpp" line="30"/>
         <source>Upper case</source>
-        <translation type="unfinished"></translation>
+        <translation>大文字</translation>
     </message>
     <message>
         <location filename="../ColumnDisplayFormatDialog.cpp" line="66"/>
         <source>Custom</source>
-        <translation type="unfinished"></translation>
+        <translation>カスタム</translation>
     </message>
 </context>
 <context>
@@ -420,191 +425,196 @@ If any of the other settings were altered for this database file you need to pro
     <message>
         <location filename="../sqlitedb.cpp" line="204"/>
         <source>This database has already been attached. Its schema name is &apos;%1&apos;.</source>
-        <translation type="unfinished"></translation>
+        <translation>このデータベースには既に接続しています。このスキーマの名前は &apos;%1&apos; です。</translation>
     </message>
     <message>
         <location filename="../sqlitedb.cpp" line="215"/>
         <source>Please specify the database name under which you want to access the attached database</source>
-        <translation type="unfinished"></translation>
+        <translation>接続したデータベースへのアクセス時に使用するデータベース名を指定してください</translation>
     </message>
     <message>
         <location filename="../sqlitedb.cpp" line="286"/>
         <source>Invalid file format</source>
-        <translation type="unfinished"></translation>
+        <translation>不正なファイルフォーマット</translation>
     </message>
     <message>
         <location filename="../sqlitedb.cpp" line="623"/>
         <source>Do you really want to close this temporary database? All data will be lost.</source>
-        <translation type="unfinished"></translation>
+        <translation>本当にこの一時データベースを閉じますか? 全てのデータは喪失します。</translation>
     </message>
     <message>
         <location filename="../sqlitedb.cpp" line="628"/>
         <source>Do you want to save the changes made to the database file %1?</source>
-        <translation type="unfinished"></translation>
+        <translation>データベースファイル &apos;%1&apos; への変更を保存しますか?</translation>
     </message>
     <message>
         <location filename="../sqlitedb.cpp" line="680"/>
         <source>The database is currently busy: </source>
-        <translation type="unfinished"></translation>
+        <translation>データベースは現在ビジー状態です: </translation>
     </message>
     <message>
         <location filename="../sqlitedb.cpp" line="681"/>
         <source>Do you want to abort that other operation?</source>
-        <translation type="unfinished"></translation>
+        <translation>他の操作を中断しますか?</translation>
     </message>
     <message>
         <location filename="../sqlitedb.cpp" line="730"/>
         <source>Exporting database to SQL file...</source>
-        <translation type="unfinished"></translation>
+        <translation>データベースをSQLファイルにエクスポート...</translation>
     </message>
     <message>
         <location filename="../sqlitedb.cpp" line="731"/>
         <location filename="../sqlitedb.cpp" line="940"/>
         <source>Cancel</source>
-        <translation type="unfinished"></translation>
+        <translation>キャンセル</translation>
     </message>
     <message>
         <location filename="../sqlitedb.cpp" line="897"/>
         <location filename="../sqlitedb.cpp" line="930"/>
         <source>No database file opened</source>
-        <translation type="unfinished"></translation>
+        <translation>データベースファイルを開いていません</translation>
     </message>
     <message>
         <location filename="../sqlitedb.cpp" line="939"/>
         <source>Executing SQL...</source>
-        <translation type="unfinished"></translation>
+        <translation>SQLを実行...</translation>
     </message>
     <message>
         <location filename="../sqlitedb.cpp" line="967"/>
         <source>Action cancelled.</source>
-        <translation type="unfinished"></translation>
+        <translation>操作をキャンセルしました。</translation>
     </message>
     <message>
         <location filename="../sqlitedb.cpp" line="1038"/>
         <location filename="../sqlitedb.cpp" line="1051"/>
         <source>Error in statement #%1: %2.
 Aborting execution%3.</source>
-        <translation type="unfinished"></translation>
+        <translation>この文でエラー #%1: %2。
+実行を中断%3。</translation>
     </message>
     <message>
         <location filename="../sqlitedb.cpp" line="1041"/>
         <location filename="../sqlitedb.cpp" line="1054"/>
         <source> and rolling back</source>
-        <translation type="unfinished"></translation>
+        <translation> ロールバックしました</translation>
     </message>
     <message>
         <location filename="../sqlitedb.cpp" line="1094"/>
         <source>didn&apos;t receive any output from %1</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 から出力を得られませんでした</translation>
     </message>
     <message>
         <location filename="../sqlitedb.cpp" line="1100"/>
         <source>could not execute command: %1</source>
-        <translation type="unfinished"></translation>
+        <translation>コマンド: %1 を実行できませんでした</translation>
     </message>
     <message>
         <location filename="../sqlitedb.cpp" line="1268"/>
         <source>Cannot delete this object</source>
-        <translation type="unfinished"></translation>
+        <translation>このオブジェクトは削除できません</translation>
     </message>
     <message>
         <location filename="../sqlitedb.cpp" line="1299"/>
         <source>Cannot set data on this object</source>
-        <translation type="unfinished"></translation>
+        <translation>このオブジェクトにデータ設定はできません</translation>
     </message>
     <message>
         <location filename="../sqlitedb.cpp" line="1417"/>
         <source>A table with the name &apos;%1&apos; already exists in schema &apos;%2&apos;.</source>
-        <translation type="unfinished"></translation>
+        <translation>名前が &apos;%1&apos; のテーブルはスキーマ &apos;%2&apos; に既に存在します。</translation>
     </message>
     <message>
         <location filename="../sqlitedb.cpp" line="1428"/>
         <source>renameColumn: cannot find column %1.</source>
-        <translation type="unfinished"></translation>
+        <translation>カラム名変更: 列 %1 が見つかりません。</translation>
     </message>
     <message>
         <location filename="../sqlitedb.cpp" line="1436"/>
         <source>renameColumn: creating savepoint failed. DB says: %1</source>
-        <translation type="unfinished"></translation>
+        <translation>カラム名変更: セーブポイントの作成に失敗。DBの反応: %1</translation>
     </message>
     <message>
         <location filename="../sqlitedb.cpp" line="1482"/>
         <source>renameColumn: creating new table failed. DB says: %1</source>
-        <translation type="unfinished"></translation>
+        <translation>カラム名変更: 新しいテーブルの作成に失敗。DBの反応: %1</translation>
     </message>
     <message>
         <location filename="../sqlitedb.cpp" line="1495"/>
         <source>renameColumn: copying data to new table failed. DB says:
 %1</source>
-        <translation type="unfinished"></translation>
+        <translation>カラム名変更: 新しいテーブルへのデータコピーに失敗。DBの反応: %1</translation>
     </message>
     <message>
         <location filename="../sqlitedb.cpp" line="1552"/>
         <source>renameColumn: deleting old table failed. DB says: %1</source>
-        <translation type="unfinished"></translation>
+        <translation>カラム名変更: 古いテーブルの削除に失敗。DBの反応: %1</translation>
     </message>
     <message>
         <location filename="../sqlitedb.cpp" line="1577"/>
         <source>Restoring some of the objects associated with this table failed. This is most likely because some column names changed. Here&apos;s the SQL statement which you might want to fix and execute manually:
 
 </source>
-        <translation type="unfinished"></translation>
+        <translation>このテーブルに関連するオブジェクトの復元に失敗しました。これはおそらく一部のカラム名が変更されたためです。このSQL文を手動で修正し実行してください。
+Restoring some of the objects associated with this table failed. This is most likely because some column names changed. Here&apos;s the SQL statement which you might want to fix and execute manually:
+
+</translation>
     </message>
     <message>
         <location filename="../sqlitedb.cpp" line="1586"/>
         <source>renameColumn: releasing savepoint failed. DB says: %1</source>
-        <translation type="unfinished"></translation>
+        <translation>カラム名変更: セーブポイントの開放に失敗。DBの反応: %1</translation>
     </message>
     <message>
         <location filename="../sqlitedb.cpp" line="1625"/>
         <source>Error renaming table &apos;%1&apos; to &apos;%2&apos;.Message from database engine:
 %3</source>
-        <translation type="unfinished"></translation>
+        <translation>テーブル名を &apos;%1&apos; から &apos;%2&apos; へ変更時にエラー。データベースエンジンからのメッセージ:
+%3</translation>
     </message>
     <message>
         <location filename="../sqlitedb.cpp" line="1660"/>
         <source>... &lt;string can not be logged, contains binary data&gt; ...</source>
-        <translation type="unfinished"></translation>
+        <translation>... &lt;文字列は記録されません。バイナリーデータを含んでいます&gt; ...</translation>
     </message>
     <message>
         <location filename="../sqlitedb.cpp" line="1763"/>
         <source>could not get list of db objects: %1, %2</source>
-        <translation type="unfinished"></translation>
+        <translation>DBオブジェクトの一覧を取得できません: %1, %2</translation>
     </message>
     <message>
         <location filename="../sqlitedb.cpp" line="1769"/>
         <source>could not get list of databases: %1</source>
-        <translation type="unfinished"></translation>
+        <translation>データベースの一覧を取得できません: %1</translation>
     </message>
     <message>
         <location filename="../sqlitedb.cpp" line="1799"/>
         <source>didn&apos;t receive any output from pragma %1</source>
-        <translation type="unfinished"></translation>
+        <translation>プラグマ %1 から出力を得られませんでした</translation>
     </message>
     <message>
         <location filename="../sqlitedb.cpp" line="1803"/>
         <source>could not execute pragma command: %1, %2</source>
-        <translation type="unfinished"></translation>
+        <translation>プラグマを実行できませんでした: %1, %2</translation>
     </message>
     <message>
         <location filename="../sqlitedb.cpp" line="1824"/>
         <source>Error setting pragma %1 to %2: %3</source>
-        <translation type="unfinished"></translation>
+        <translation>プラグマ %1 を %2 に設定時にエラー: %3</translation>
     </message>
     <message>
         <location filename="../sqlitedb.cpp" line="1870"/>
         <source>File not found.</source>
-        <translation type="unfinished"></translation>
+        <translation>ファイルが見つかりません。</translation>
     </message>
     <message>
         <location filename="../sqlitedb.cpp" line="1908"/>
         <source>Error loading extension: %1</source>
-        <translation type="unfinished"></translation>
+        <translation>拡張の読み込みでエラー: %1</translation>
     </message>
     <message>
         <location filename="../sqlitedb.cpp" line="1933"/>
         <source>could not get column information</source>
-        <translation type="unfinished"></translation>
+        <translation>カラム情報が取得できませんでした</translation>
     </message>
 </context>
 <context>
@@ -612,62 +622,62 @@ Aborting execution%3.</source>
     <message>
         <location filename="../DbStructureModel.cpp" line="19"/>
         <source>Name</source>
-        <translation type="unfinished"></translation>
+        <translation>名前</translation>
     </message>
     <message>
         <location filename="../DbStructureModel.cpp" line="19"/>
         <source>Object</source>
-        <translation type="unfinished"></translation>
+        <translation>オブジェクト</translation>
     </message>
     <message>
         <location filename="../DbStructureModel.cpp" line="19"/>
         <source>Type</source>
-        <translation type="unfinished"></translation>
+        <translation>データ型</translation>
     </message>
     <message>
         <location filename="../DbStructureModel.cpp" line="19"/>
         <source>Schema</source>
-        <translation type="unfinished"></translation>
+        <translation>スキーマ</translation>
     </message>
     <message>
         <location filename="../DbStructureModel.cpp" line="19"/>
         <source>Database</source>
-        <translation type="unfinished"></translation>
+        <translation>データベース</translation>
     </message>
     <message>
         <location filename="../DbStructureModel.cpp" line="154"/>
         <source>Browsables</source>
-        <translation type="unfinished"></translation>
+        <translation>表示可能</translation>
     </message>
     <message>
         <location filename="../DbStructureModel.cpp" line="159"/>
         <source>All</source>
-        <translation type="unfinished"></translation>
+        <translation>全て</translation>
     </message>
     <message>
         <location filename="../DbStructureModel.cpp" line="168"/>
         <source>Temporary</source>
-        <translation type="unfinished"></translation>
+        <translation>一時</translation>
     </message>
     <message>
         <location filename="../DbStructureModel.cpp" line="306"/>
         <source>Tables (%1)</source>
-        <translation type="unfinished"></translation>
+        <translation>テーブル (%1)</translation>
     </message>
     <message>
         <location filename="../DbStructureModel.cpp" line="311"/>
         <source>Indices (%1)</source>
-        <translation type="unfinished"></translation>
+        <translation>インデックス (%1)</translation>
     </message>
     <message>
         <location filename="../DbStructureModel.cpp" line="316"/>
         <source>Views (%1)</source>
-        <translation type="unfinished"></translation>
+        <translation>ビュー (%1)</translation>
     </message>
     <message>
         <location filename="../DbStructureModel.cpp" line="321"/>
         <source>Triggers (%1)</source>
-        <translation type="unfinished"></translation>
+        <translation>トリガー (%1)</translation>
     </message>
 </context>
 <context>
@@ -675,217 +685,219 @@ Aborting execution%3.</source>
     <message>
         <location filename="../EditDialog.ui" line="14"/>
         <source>Edit database cell</source>
-        <translation type="unfinished"></translation>
+        <translation>データベースのセルを編集</translation>
     </message>
     <message>
         <location filename="../EditDialog.ui" line="28"/>
         <source>Mode:</source>
-        <translation type="unfinished"></translation>
+        <translation>モード:</translation>
     </message>
     <message>
         <location filename="../EditDialog.ui" line="41"/>
         <source>This is the list of supported modes for the cell editor. Choose a mode for viewing or editing the data of the current cell.</source>
-        <translation type="unfinished"></translation>
+        <translation>これはサポートしているセル編集モードの一覧です。現在のセルデータの表示修正に使用するモードを選んでください。</translation>
     </message>
     <message>
         <location filename="../EditDialog.ui" line="45"/>
         <source>Text</source>
-        <translation type="unfinished"></translation>
+        <translation>テキスト</translation>
     </message>
     <message>
         <location filename="../EditDialog.ui" line="50"/>
         <source>Binary</source>
-        <translation type="unfinished"></translation>
+        <translation>バイナリー</translation>
     </message>
     <message>
         <location filename="../EditDialog.ui" line="55"/>
         <source>Image</source>
-        <translation type="unfinished"></translation>
+        <translation>画像</translation>
     </message>
     <message>
         <location filename="../EditDialog.ui" line="60"/>
         <source>JSON</source>
-        <translation type="unfinished"></translation>
+        <translation>JSON</translation>
     </message>
     <message>
         <location filename="../EditDialog.ui" line="65"/>
         <source>XML</source>
-        <translation type="unfinished"></translation>
+        <translation>XML</translation>
     </message>
     <message>
         <location filename="../EditDialog.ui" line="73"/>
         <location filename="../EditDialog.ui" line="76"/>
         <source>Automatically adjust the editor mode to the loaded data type</source>
-        <translation type="unfinished"></translation>
+        <translation>編集モードを読み込んだデータ型に自動的に調整</translation>
     </message>
     <message>
         <location filename="../EditDialog.ui" line="79"/>
         <source>This checkable button enables or disables the automatic switching of the editor mode. When a new cell is selected or new data is imported and the automatic switching is enabled, the mode adjusts to the detected data type. You can then change the editor mode manually. If you want to keep this manually switched mode while moving through the cells, switch the button off.</source>
-        <translation type="unfinished"></translation>
+        <translation>このチェックボタンは編集モードの自動切り替えを有効/無効にします。新しいセルが選択されるか新しいデータがインポートされた時に自動切り替えが有効だと、検出したデータ型にモードを調整します。その後、編集モードは手動で変更できます。セル間の移動時に手動で変更したモードを維持したいならば、このボタンをオフにします。</translation>
     </message>
     <message>
         <location filename="../EditDialog.ui" line="82"/>
         <source>Auto-switch</source>
-        <translation type="unfinished"></translation>
+        <translation>自動切替</translation>
     </message>
     <message>
         <location filename="../EditDialog.ui" line="116"/>
         <location filename="../EditDialog.ui" line="119"/>
         <source>Auto-format: pretty print on loading, compact on saving.</source>
-        <translation type="unfinished"></translation>
+        <translation>自動整形: きれいに表示、圧縮して保存。</translation>
     </message>
     <message>
         <location filename="../EditDialog.ui" line="122"/>
         <source>When enabled, the auto-format feature formats the data on loading, breaking the text in lines and indenting it for maximum readability. On data saving, the auto-format feature compacts the data removing end of lines, and unnecessary whitespace.</source>
-        <translation type="unfinished"></translation>
+        <translation>有効にすると、自動整形機能は読み込み時にデータの可読性を高める改行とインデントを加えます。データの保存時には、改行と不要な空白を取り除きデータを圧縮します。</translation>
     </message>
     <message>
         <location filename="../EditDialog.ui" line="125"/>
         <source>Autoformat</source>
-        <translation type="unfinished"></translation>
+        <translation>自動整形</translation>
     </message>
     <message>
         <location filename="../EditDialog.ui" line="145"/>
         <source>Import from file</source>
-        <translation type="unfinished"></translation>
+        <translation>ファイルからインポート</translation>
     </message>
     <message>
         <location filename="../EditDialog.ui" line="148"/>
         <source>Opens a file dialog used to import any kind of data to this database cell.</source>
-        <translation type="unfinished"></translation>
+        <translation>このデータベースのセルに任意の種類のデータをインポートするファイルダイアログを開きます。</translation>
     </message>
     <message>
         <location filename="../EditDialog.ui" line="151"/>
         <source>&amp;Import</source>
-        <translation type="unfinished"></translation>
+        <translation>インポート(&amp;I)</translation>
     </message>
     <message>
         <location filename="../EditDialog.ui" line="164"/>
         <source>Export to file</source>
-        <translation type="unfinished"></translation>
+        <translation>ファイルへエクスポート</translation>
     </message>
     <message>
         <location filename="../EditDialog.ui" line="167"/>
         <source>Opens a file dialog used to export the contents of this database cell to a file.</source>
-        <translation type="unfinished"></translation>
+        <translation>このデータベースのセルの内容をファイルにエクスポートするファイルダイアログを開きます。</translation>
     </message>
     <message>
         <location filename="../EditDialog.ui" line="170"/>
         <source>&amp;Export</source>
-        <translation type="unfinished"></translation>
+        <translation>エクスポート(&amp;E)</translation>
     </message>
     <message>
         <location filename="../EditDialog.ui" line="183"/>
         <source>Set this cell to NULL</source>
-        <translation type="unfinished"></translation>
+        <translation>このセルをNULLに設定</translation>
     </message>
     <message>
         <location filename="../EditDialog.ui" line="186"/>
         <source>Erases the contents of the cell</source>
-        <translation type="unfinished"></translation>
+        <translation>セルの内容を削除</translation>
     </message>
     <message>
         <location filename="../EditDialog.ui" line="189"/>
         <source>Set as &amp;NULL</source>
-        <translation type="unfinished"></translation>
+        <translation>NULLに設定(&amp;N)</translation>
     </message>
     <message>
         <location filename="../EditDialog.ui" line="210"/>
         <source>This area displays information about the data present in this database cell</source>
-        <translation type="unfinished"></translation>
+        <translation>このデータベースのセルに存在するデータの情報をここに表示</translation>
     </message>
     <message>
         <location filename="../EditDialog.ui" line="253"/>
         <source>This editor mode lets you edit JSON or XML data with syntax highlighting, automatic formatting and validation before saving.
 
 Errors are indicated with a red squiggle underline.</source>
-        <translation type="unfinished"></translation>
+        <translation>この編集モードは構文強調してJSONやXMLデータを編集しやすくします。保存前に自動的に整形と検証をします。
+
+エラーは赤い破線で示されます。</translation>
     </message>
     <message>
         <location filename="../EditDialog.ui" line="267"/>
         <source>Type of data currently in cell</source>
-        <translation type="unfinished"></translation>
+        <translation>現在セルにあるデータの種類</translation>
     </message>
     <message>
         <location filename="../EditDialog.ui" line="274"/>
         <source>Size of data currently in table</source>
-        <translation type="unfinished"></translation>
+        <translation>現在テーブルにあるデータのサイズ</translation>
     </message>
     <message>
         <location filename="../EditDialog.ui" line="296"/>
         <source>Apply data to cell [Ctrl+Return]</source>
-        <translation type="unfinished"></translation>
+        <translation>セルにデータを適用 [Ctrl+Return]</translation>
     </message>
     <message>
         <location filename="../EditDialog.ui" line="299"/>
         <source>This button saves the changes performed in the cell editor to the database cell.</source>
-        <translation type="unfinished"></translation>
+        <translation>このボタンはエディターで行われた変更をデータベースのセルに保存します。</translation>
     </message>
     <message>
         <location filename="../EditDialog.ui" line="302"/>
         <source>Apply</source>
-        <translation type="unfinished"></translation>
+        <translation>適用</translation>
     </message>
     <message>
         <location filename="../EditDialog.ui" line="318"/>
         <location filename="../EditDialog.ui" line="333"/>
         <source>Print...</source>
-        <translation type="unfinished"></translation>
+        <translation>印刷...</translation>
     </message>
     <message>
         <location filename="../EditDialog.ui" line="321"/>
         <source>Open preview dialog for printing displayed image</source>
-        <translation type="unfinished"></translation>
+        <translation>表示された画像を印刷するプレビューダイアログを開く</translation>
     </message>
     <message>
         <location filename="../EditDialog.ui" line="324"/>
         <location filename="../EditDialog.ui" line="339"/>
         <source>Ctrl+P</source>
-        <translation type="unfinished"></translation>
+        <translation>Ctrl+P</translation>
     </message>
     <message>
         <location filename="../EditDialog.ui" line="336"/>
         <source>Open preview dialog for printing displayed text</source>
-        <translation type="unfinished"></translation>
+        <translation>表示されたテキストを印刷するプレビューダイアログを開く</translation>
     </message>
     <message>
         <location filename="../EditDialog.ui" line="348"/>
         <source>Copy Hex and ASCII</source>
-        <translation type="unfinished"></translation>
+        <translation>十六進数とASCIIをコピー</translation>
     </message>
     <message>
         <location filename="../EditDialog.ui" line="351"/>
         <source>Copy selected hexadecimal and ASCII columns to the clipboard</source>
-        <translation type="unfinished"></translation>
+        <translation>選択した十六進数とASCIIのカラムをクリップボードにコピー</translation>
     </message>
     <message>
         <location filename="../EditDialog.ui" line="354"/>
         <source>Ctrl+Shift+C</source>
-        <translation type="unfinished"></translation>
+        <translation>Ctrl+Shift+C</translation>
     </message>
     <message>
         <location filename="../EditDialog.cpp" line="213"/>
         <location filename="../EditDialog.cpp" line="222"/>
         <source>Image data can&apos;t be viewed in this mode.</source>
-        <translation type="unfinished"></translation>
+        <translation>画像データはこのモードでは表示できません。</translation>
     </message>
     <message>
         <location filename="../EditDialog.cpp" line="214"/>
         <location filename="../EditDialog.cpp" line="223"/>
         <source>Try switching to Image or Binary mode.</source>
-        <translation type="unfinished"></translation>
+        <translation>画像/バイナリーモードに切り替えてみてください。</translation>
     </message>
     <message>
         <location filename="../EditDialog.cpp" line="279"/>
         <location filename="../EditDialog.cpp" line="288"/>
         <source>Binary data can&apos;t be viewed in this mode.</source>
-        <translation type="unfinished"></translation>
+        <translation>バイナリーデータはこのモードでは表示できません。</translation>
     </message>
     <message>
         <location filename="../EditDialog.cpp" line="280"/>
         <location filename="../EditDialog.cpp" line="289"/>
         <source>Try switching to Binary mode.</source>
-        <translation type="unfinished"></translation>
+        <translation>バイナリーモードに切り替えてみてください。</translation>
     </message>
     <message>
         <location filename="../EditDialog.cpp" line="312"/>
@@ -893,14 +905,14 @@ Errors are indicated with a red squiggle underline.</source>
         <location filename="../EditDialog.cpp" line="385"/>
         <location filename="../EditDialog.cpp" line="387"/>
         <source>Text files (*.txt)</source>
-        <translation type="unfinished"></translation>
+        <translation>テキストファイル (*.txt)</translation>
     </message>
     <message>
         <location filename="../EditDialog.cpp" line="313"/>
         <location filename="../EditDialog.cpp" line="335"/>
         <location filename="../EditDialog.cpp" line="390"/>
         <source>JSON files (*.json)</source>
-        <translation type="unfinished"></translation>
+        <translation>JSONファイル (*.json)</translation>
     </message>
     <message>
         <location filename="../EditDialog.cpp" line="314"/>
@@ -908,110 +920,110 @@ Errors are indicated with a red squiggle underline.</source>
         <location filename="../EditDialog.cpp" line="385"/>
         <location filename="../EditDialog.cpp" line="387"/>
         <source>XML files (*.xml)</source>
-        <translation type="unfinished"></translation>
+        <translation>XMLファイル (*.xml)</translation>
     </message>
     <message>
         <location filename="../EditDialog.cpp" line="315"/>
         <location filename="../EditDialog.cpp" line="332"/>
         <source>Image files (%1)</source>
-        <translation type="unfinished"></translation>
+        <translation>画像ファイル (%1)</translation>
     </message>
     <message>
         <location filename="../EditDialog.cpp" line="316"/>
         <location filename="../EditDialog.cpp" line="329"/>
         <location filename="../EditDialog.cpp" line="380"/>
         <source>Binary files (*.bin)</source>
-        <translation type="unfinished"></translation>
+        <translation>バイナリーファイル (*.bin)</translation>
     </message>
     <message>
         <location filename="../EditDialog.cpp" line="316"/>
         <location filename="../EditDialog.cpp" line="402"/>
         <source>All files (*)</source>
-        <translation type="unfinished"></translation>
+        <translation>全てのファイル (*)</translation>
     </message>
     <message>
         <location filename="../EditDialog.cpp" line="343"/>
         <source>Choose a file to import</source>
-        <translation type="unfinished"></translation>
+        <translation>インポートするファイルを選択</translation>
     </message>
     <message>
         <location filename="../EditDialog.cpp" line="376"/>
         <source>%1 Image</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 画像</translation>
     </message>
     <message>
         <location filename="../EditDialog.cpp" line="393"/>
         <source>SVG files (*.svg)</source>
-        <translation type="unfinished"></translation>
+        <translation>SVGファイル (*.svg)</translation>
     </message>
     <message>
         <location filename="../EditDialog.cpp" line="400"/>
         <location filename="../EditDialog.cpp" line="420"/>
         <source>Hex dump files (*.txt)</source>
-        <translation type="unfinished"></translation>
+        <translation>十六進ダンプファイル (*.txt)</translation>
     </message>
     <message>
         <location filename="../EditDialog.cpp" line="407"/>
         <source>Choose a filename to export data</source>
-        <translation type="unfinished"></translation>
+        <translation>エクスポートデータのファイル名を選択</translation>
     </message>
     <message>
         <location filename="../EditDialog.cpp" line="474"/>
         <source>Invalid data for this mode</source>
-        <translation type="unfinished"></translation>
+        <translation>このモードでは不正なデータ</translation>
     </message>
     <message>
         <location filename="../EditDialog.cpp" line="475"/>
         <source>The cell contains invalid %1 data. Reason: %2. Do you really want to apply it to the cell?</source>
-        <translation type="unfinished"></translation>
+        <translation>セルに不正なデータ %1 があります。理由: %2。本当にセルに適用しますか?</translation>
     </message>
     <message>
         <location filename="../EditDialog.cpp" line="765"/>
         <location filename="../EditDialog.cpp" line="956"/>
         <source>Type of data currently in cell: Text / Numeric</source>
-        <translation type="unfinished"></translation>
+        <translation>現在セルにあるデータの種類: テキスト / 数値</translation>
     </message>
     <message numerus="yes">
         <location filename="../EditDialog.cpp" line="767"/>
         <location filename="../EditDialog.cpp" line="957"/>
         <location filename="../EditDialog.cpp" line="965"/>
         <source>%n char(s)</source>
-        <translation type="unfinished">
-            <numerusform></numerusform>
+        <translation>
+            <numerusform>%n 文字</numerusform>
         </translation>
     </message>
     <message>
         <location filename="../EditDialog.cpp" line="929"/>
         <source>Type of data currently in cell: %1 Image</source>
-        <translation type="unfinished"></translation>
+        <translation>現在セルにあるデータの種類: %1 画像</translation>
     </message>
     <message>
         <location filename="../EditDialog.cpp" line="935"/>
         <source>%1x%2 pixel(s)</source>
-        <translation type="unfinished"></translation>
+        <translation>%1x%2 ピクセル</translation>
     </message>
     <message>
         <location filename="../EditDialog.cpp" line="946"/>
         <source>Type of data currently in cell: NULL</source>
-        <translation type="unfinished"></translation>
+        <translation>現在セルにあるデータの種類: NULL</translation>
     </message>
     <message numerus="yes">
         <location filename="../EditDialog.cpp" line="947"/>
         <location filename="../EditDialog.cpp" line="974"/>
         <source>%n byte(s)</source>
-        <translation type="unfinished">
-            <numerusform></numerusform>
+        <translation>
+            <numerusform>%n バイト</numerusform>
         </translation>
     </message>
     <message>
         <location filename="../EditDialog.cpp" line="964"/>
         <source>Type of data currently in cell: Valid JSON</source>
-        <translation type="unfinished"></translation>
+        <translation>現在セルにあるデータの種類: 正規なJSON</translation>
     </message>
     <message>
         <location filename="../EditDialog.cpp" line="973"/>
         <source>Type of data currently in cell: Binary</source>
-        <translation type="unfinished"></translation>
+        <translation>現在セルにあるデータの種類: バイナリー</translation>
     </message>
 </context>
 <context>
