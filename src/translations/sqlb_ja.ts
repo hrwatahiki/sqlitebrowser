@@ -143,7 +143,7 @@
     <message>
         <location filename="../AddRecordDialog.cpp" line="334"/>
         <source>Are you sure you want to restore all the entered values to their defaults?</source>
-        <translation>入力した値を全てデフォルトに戻しますか?</translation>
+        <translation>入力した値をすべてデフォルトに戻しますか?</translation>
     </message>
 </context>
 <context>
@@ -440,7 +440,7 @@ If any of the other settings were altered for this database file you need to pro
     <message>
         <location filename="../sqlitedb.cpp" line="623"/>
         <source>Do you really want to close this temporary database? All data will be lost.</source>
-        <translation>本当にこの一時データベースを閉じますか? 全てのデータは喪失します。</translation>
+        <translation>本当にこの一時データベースを閉じますか? すべてのデータは喪失します。</translation>
     </message>
     <message>
         <location filename="../sqlitedb.cpp" line="628"/>
@@ -652,7 +652,7 @@ Restoring some of the objects associated with this table failed. This is most li
     <message>
         <location filename="../DbStructureModel.cpp" line="159"/>
         <source>All</source>
-        <translation>全て</translation>
+        <translation>すべて</translation>
     </message>
     <message>
         <location filename="../DbStructureModel.cpp" line="168"/>
@@ -939,7 +939,7 @@ Errors are indicated with a red squiggle underline.</source>
         <location filename="../EditDialog.cpp" line="316"/>
         <location filename="../EditDialog.cpp" line="402"/>
         <source>All files (*)</source>
-        <translation>全てのファイル (*)</translation>
+        <translation>すべてのファイル (*)</translation>
     </message>
     <message>
         <location filename="../EditDialog.cpp" line="343"/>
@@ -1031,74 +1031,76 @@ Errors are indicated with a red squiggle underline.</source>
     <message>
         <location filename="../EditIndexDialog.ui" line="14"/>
         <source>Edit Index Schema</source>
-        <translation type="unfinished"></translation>
+        <translation>インデックスのスキーマを編集</translation>
     </message>
     <message>
         <location filename="../EditIndexDialog.ui" line="26"/>
         <source>&amp;Name</source>
-        <translation type="unfinished"></translation>
+        <translation>名前(&amp;N)</translation>
     </message>
     <message>
         <location filename="../EditIndexDialog.ui" line="39"/>
         <source>&amp;Table</source>
-        <translation type="unfinished"></translation>
+        <translation>テーブル(&amp;T)</translation>
     </message>
     <message>
         <location filename="../EditIndexDialog.ui" line="52"/>
         <source>&amp;Unique</source>
-        <translation type="unfinished"></translation>
+        <translation>一意(&amp;U)</translation>
     </message>
     <message>
         <location filename="../EditIndexDialog.ui" line="69"/>
         <source>For restricting the index to only a part of the table you can specify a WHERE clause here that selects the part of the table that should be indexed</source>
-        <translation type="unfinished"></translation>
+        <translation>インデックスをテーブルの一部のみに制限する場合は、その部分を選択するWHERE節をここに指定します</translation>
     </message>
     <message>
         <location filename="../EditIndexDialog.ui" line="72"/>
         <source>Partial inde&amp;x clause</source>
-        <translation type="unfinished"></translation>
+        <translation>インデックス指定節(&amp;X)</translation>
     </message>
     <message>
         <location filename="../EditIndexDialog.ui" line="85"/>
         <source>Colu&amp;mns</source>
-        <translation type="unfinished"></translation>
+        <translation>カラム(&amp;M)</translation>
     </message>
     <message>
         <location filename="../EditIndexDialog.ui" line="130"/>
         <source>Table column</source>
-        <translation type="unfinished"></translation>
+        <translation>テーブルのカラム</translation>
     </message>
     <message>
         <location filename="../EditIndexDialog.ui" line="135"/>
         <source>Type</source>
-        <translation type="unfinished"></translation>
+        <translation>データ型</translation>
     </message>
     <message>
         <location filename="../EditIndexDialog.ui" line="172"/>
         <source>Add a new expression column to the index. Expression columns contain SQL expression rather than column names.</source>
-        <translation type="unfinished"></translation>
+        <translation>新しい式カラムをインデックスに加える。式カラムはカラム名でなくSQL式を持ちます。</translation>
     </message>
     <message>
         <location filename="../EditIndexDialog.ui" line="232"/>
         <source>Index column</source>
-        <translation type="unfinished"></translation>
+        <translation>インデックスカラム</translation>
     </message>
     <message>
         <location filename="../EditIndexDialog.ui" line="237"/>
         <source>Order</source>
-        <translation type="unfinished"></translation>
+        <translation>順番</translation>
     </message>
     <message>
         <location filename="../EditIndexDialog.cpp" line="268"/>
         <source>Deleting the old index failed:
 %1</source>
-        <translation type="unfinished"></translation>
+        <translation>古いインデックスの削除に失敗:
+%1</translation>
     </message>
     <message>
         <location filename="../EditIndexDialog.cpp" line="277"/>
         <source>Creating the index failed:
 %1</source>
-        <translation type="unfinished"></translation>
+        <translation>インデックスの作成に失敗:
+%1</translation>
     </message>
 </context>
 <context>
@@ -1106,205 +1108,213 @@ Errors are indicated with a red squiggle underline.</source>
     <message>
         <location filename="../EditTableDialog.ui" line="14"/>
         <source>Edit table definition</source>
-        <translation type="unfinished"></translation>
+        <translation>テーブルの定義を編集</translation>
     </message>
     <message>
         <location filename="../EditTableDialog.ui" line="27"/>
         <source>Table</source>
-        <translation type="unfinished"></translation>
+        <translation>テーブル</translation>
     </message>
     <message>
         <location filename="../EditTableDialog.ui" line="43"/>
         <source>Advanced</source>
-        <translation type="unfinished"></translation>
+        <translation>高度な設定</translation>
     </message>
     <message>
         <location filename="../EditTableDialog.ui" line="62"/>
         <source>Database schema</source>
-        <translation type="unfinished"></translation>
+        <translation>データベーススキーマ</translation>
     </message>
     <message>
         <location filename="../EditTableDialog.ui" line="75"/>
         <source>Without Rowid</source>
-        <translation type="unfinished"></translation>
+        <translation>Rowidなし</translation>
     </message>
     <message>
         <location filename="../EditTableDialog.ui" line="85"/>
         <source>Make this a &apos;WITHOUT rowid&apos; table. Setting this flag requires a field of type INTEGER with the primary key flag set and the auto increment flag unset.</source>
-        <translation type="unfinished"></translation>
+        <translation>テーブルをrowidなしで作成します。これを設定するには、主キーに設定された自動増加なしのINTEGERフィールドが必要です。</translation>
     </message>
     <message>
         <location filename="../EditTableDialog.ui" line="98"/>
         <source>Fields</source>
-        <translation type="unfinished"></translation>
+        <translation>フィールド</translation>
     </message>
     <message>
         <location filename="../EditTableDialog.ui" line="106"/>
         <source>Add field</source>
-        <translation type="unfinished"></translation>
+        <translation>フィールドを追加</translation>
     </message>
     <message>
         <location filename="../EditTableDialog.ui" line="126"/>
         <source>Remove field</source>
-        <translation type="unfinished"></translation>
+        <translation>フィールドを削除</translation>
     </message>
     <message>
         <location filename="../EditTableDialog.ui" line="146"/>
         <source>Move field up</source>
-        <translation type="unfinished"></translation>
+        <translation>フィールドを上へ</translation>
     </message>
     <message>
         <location filename="../EditTableDialog.ui" line="166"/>
         <source>Move field down</source>
-        <translation type="unfinished"></translation>
+        <translation>フィールドを下へ</translation>
     </message>
     <message>
         <location filename="../EditTableDialog.ui" line="236"/>
         <source>Name</source>
-        <translation type="unfinished"></translation>
+        <translation>名前</translation>
     </message>
     <message>
         <location filename="../EditTableDialog.ui" line="241"/>
         <source>Type</source>
-        <translation type="unfinished"></translation>
+        <translation>データ型</translation>
     </message>
     <message>
         <location filename="../EditTableDialog.ui" line="246"/>
         <source>NN</source>
-        <translation type="unfinished"></translation>
+        <translation>NN</translation>
     </message>
     <message>
         <location filename="../EditTableDialog.ui" line="249"/>
         <source>Not null</source>
-        <translation type="unfinished"></translation>
+        <translation>非null</translation>
     </message>
     <message>
         <location filename="../EditTableDialog.ui" line="254"/>
         <source>PK</source>
-        <translation type="unfinished"></translation>
+        <translation>PK</translation>
     </message>
     <message>
         <location filename="../EditTableDialog.ui" line="257"/>
         <source>Primary key</source>
-        <translation type="unfinished"></translation>
+        <translation>主キー</translation>
     </message>
     <message>
         <location filename="../EditTableDialog.ui" line="262"/>
         <source>AI</source>
-        <translation type="unfinished"></translation>
+        <translation>AI</translation>
     </message>
     <message>
         <location filename="../EditTableDialog.ui" line="265"/>
         <source>Autoincrement</source>
-        <translation type="unfinished"></translation>
+        <translation>自動増加</translation>
     </message>
     <message>
         <location filename="../EditTableDialog.ui" line="270"/>
         <source>U</source>
-        <translation type="unfinished"></translation>
+        <translation>U</translation>
     </message>
     <message>
         <location filename="../EditTableDialog.ui" line="273"/>
         <source>Unique</source>
-        <translation type="unfinished"></translation>
+        <translation>一意</translation>
     </message>
     <message>
         <location filename="../EditTableDialog.ui" line="278"/>
         <source>Default</source>
-        <translation type="unfinished"></translation>
+        <translation>デフォルト</translation>
     </message>
     <message>
         <location filename="../EditTableDialog.ui" line="281"/>
         <source>Default value</source>
-        <translation type="unfinished"></translation>
+        <translation>デフォルト値</translation>
     </message>
     <message>
         <location filename="../EditTableDialog.ui" line="286"/>
         <source>Check</source>
-        <translation type="unfinished"></translation>
+        <translation>検査</translation>
     </message>
     <message>
         <location filename="../EditTableDialog.ui" line="289"/>
         <source>Check constraint</source>
-        <translation type="unfinished"></translation>
+        <translation>検査制約</translation>
     </message>
     <message>
         <location filename="../EditTableDialog.ui" line="294"/>
         <source>Foreign Key</source>
-        <translation type="unfinished"></translation>
+        <translation>外部キー</translation>
     </message>
     <message>
         <location filename="../EditTableDialog.ui" line="314"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600; color:#ff0000;&quot;&gt;Warning: &lt;/span&gt;There is something with this table definition that our parser doesn&apos;t fully understand. Modifying and saving this table might result in problems.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600; color:#ff0000;&quot;&gt;警告: &lt;/span&gt;テーブル定義に構文解析できないものがあります。このテーブルを変更し保存すると問題が起きるかもしれません。.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
         <location filename="../EditTableDialog.cpp" line="167"/>
         <source>Error creating table. Message from database engine:
 %1</source>
-        <translation type="unfinished"></translation>
+        <translation>テーブル作成でエラー。データベースエンジンからのメッセージ:
+%1</translation>
     </message>
     <message>
         <location filename="../EditTableDialog.cpp" line="291"/>
         <source>There already is a field with that name. Please rename it first or choose a different name for this field.</source>
-        <translation type="unfinished"></translation>
+        <translation>この名前は既に別のフィールドに使用されています。既存のフィールド名を変更するか、別の名前を付けてください。</translation>
     </message>
     <message>
         <location filename="../EditTableDialog.cpp" line="314"/>
         <source>This column is referenced in a foreign key in table %1 and thus its name cannot be changed.</source>
-        <translation type="unfinished"></translation>
+        <translation>このカラムはテーブル %1 の外部キーに参照されているので、名前を変更できません。</translation>
     </message>
     <message>
         <location filename="../EditTableDialog.cpp" line="391"/>
         <source>There is at least one row with this field set to NULL. This makes it impossible to set this flag. Please change the table data first.</source>
-        <translation type="unfinished"></translation>
+        <translation>少なくとも1つの行でこのフィールドにNULLが設定されています。そのため、非NULLを設定するのは不可能です。先にテーブルのデータを変更してください。</translation>
     </message>
     <message>
         <location filename="../EditTableDialog.cpp" line="424"/>
         <source>There is at least one row with a non-integer value in this field. This makes it impossible to set the AI flag. Please change the table data first.</source>
-        <translation type="unfinished"></translation>
+        <translation>少なくとも1つの行でこのフィールドにINTEGERでない値が設定されています。そのため、自動増加を設定するのは不可能です。先にテーブルのデータを変更してください。</translation>
     </message>
     <message>
         <location filename="../EditTableDialog.cpp" line="480"/>
         <source>Column &apos;%1&apos; has duplicate data.
 </source>
-        <translation type="unfinished"></translation>
+        <translation>カラム &apos;%1&apos; に重複データがあります。
+</translation>
     </message>
     <message>
         <location filename="../EditTableDialog.cpp" line="481"/>
         <source>This makes it impossible to enable the &apos;Unique&apos; flag. Please remove the duplicate data, which will allow the &apos;Unique&apos; flag to then be enabled.</source>
-        <translation type="unfinished"></translation>
+        <translation>一意にするのは不可能です。重複データを削除すると、一意にできるようになります。</translation>
     </message>
     <message>
         <location filename="../EditTableDialog.cpp" line="540"/>
         <source>Modifying this column failed. Error returned from database:
 %1</source>
-        <translation type="unfinished"></translation>
+        <translation>このカラムの変更に失敗。データベースからのエラー:
+%1</translation>
     </message>
     <message>
         <location filename="../EditTableDialog.cpp" line="619"/>
         <source>Are you sure you want to delete the field &apos;%1&apos;?
 All data currently stored in this field will be lost.</source>
-        <translation type="unfinished"></translation>
+        <translation>本当にフィールド &apos;%1&apos; を削除しますか?
+現在このフィールドにあるすべてのデータは失われます。</translation>
     </message>
     <message>
         <location filename="../EditTableDialog.cpp" line="730"/>
         <source>Please add a field which meets the following criteria before setting the without rowid flag:
  - Primary key flag set
  - Auto increment disabled</source>
-        <translation type="unfinished"></translation>
+        <translation>rowidをなしにして、以下の条件に合うフィールドを追加してください。
+ - 主キーにする
+ - 自動増加なし</translation>
     </message>
     <message>
         <location filename="../EditTableDialog.cpp" line="758"/>
         <source>Setting the rowid column for the table failed. Error message:
 %1</source>
-        <translation type="unfinished"></translation>
+        <translation>テーブルへのrowidカラム設定に失敗。エラーメッセージ:
+%1</translation>
     </message>
     <message>
         <location filename="../EditTableDialog.cpp" line="776"/>
         <source>Changing the table schema failed. Error message:
 %1</source>
-        <translation type="unfinished"></translation>
+        <translation>テーブルスキーマ変更に失敗。エラーメッセージ:
+%1</translation>
     </message>
 </context>
 <context>
@@ -1312,136 +1322,136 @@ All data currently stored in this field will be lost.</source>
     <message>
         <location filename="../ExportDataDialog.ui" line="14"/>
         <source>Export data as CSV</source>
-        <translation type="unfinished"></translation>
+        <translation>データをCSVにエクスポート</translation>
     </message>
     <message>
         <location filename="../ExportDataDialog.ui" line="22"/>
         <source>Tab&amp;le(s)</source>
-        <translation type="unfinished"></translation>
+        <translation>テーブル(&amp;L)</translation>
     </message>
     <message>
         <location filename="../ExportDataDialog.ui" line="57"/>
         <source>Colu&amp;mn names in first line</source>
-        <translation type="unfinished"></translation>
+        <translation>先頭行をカラム名に(&amp;M)</translation>
     </message>
     <message>
         <location filename="../ExportDataDialog.ui" line="77"/>
         <source>Fie&amp;ld separator</source>
-        <translation type="unfinished"></translation>
+        <translation>フィールド区切り(&amp;L)</translation>
     </message>
     <message>
         <location filename="../ExportDataDialog.ui" line="102"/>
         <source>,</source>
-        <translation type="unfinished"></translation>
+        <translation>,</translation>
     </message>
     <message>
         <location filename="../ExportDataDialog.ui" line="107"/>
         <source>;</source>
-        <translation type="unfinished"></translation>
+        <translation>;</translation>
     </message>
     <message>
         <location filename="../ExportDataDialog.ui" line="112"/>
         <source>Tab</source>
-        <translation type="unfinished"></translation>
+        <translation>タブ</translation>
     </message>
     <message>
         <location filename="../ExportDataDialog.ui" line="117"/>
         <source>|</source>
-        <translation type="unfinished"></translation>
+        <translation>|</translation>
     </message>
     <message>
         <location filename="../ExportDataDialog.ui" line="122"/>
         <location filename="../ExportDataDialog.ui" line="192"/>
         <location filename="../ExportDataDialog.ui" line="254"/>
         <source>Other</source>
-        <translation type="unfinished"></translation>
+        <translation>その他</translation>
     </message>
     <message>
         <location filename="../ExportDataDialog.ui" line="152"/>
         <source>&amp;Quote character</source>
-        <translation type="unfinished"></translation>
+        <translation>引用符文字(&amp;Q)</translation>
     </message>
     <message>
         <location filename="../ExportDataDialog.ui" line="177"/>
         <source>&quot;</source>
-        <translation type="unfinished"></translation>
+        <translation>&quot;</translation>
     </message>
     <message>
         <location filename="../ExportDataDialog.ui" line="182"/>
         <source>&apos;</source>
-        <translation type="unfinished"></translation>
+        <translation>&apos;</translation>
     </message>
     <message>
         <location filename="../ExportDataDialog.ui" line="222"/>
         <source>New line characters</source>
-        <translation type="unfinished"></translation>
+        <translation>改行文字</translation>
     </message>
     <message>
         <location filename="../ExportDataDialog.ui" line="244"/>
         <source>Windows: CR+LF (\r\n)</source>
-        <translation type="unfinished"></translation>
+        <translation>Windows: CR+LF (\r\n)</translation>
     </message>
     <message>
         <location filename="../ExportDataDialog.ui" line="249"/>
         <source>Unix: LF (\n)</source>
-        <translation type="unfinished"></translation>
+        <translation>Unix: LF (\n)</translation>
     </message>
     <message>
         <location filename="../ExportDataDialog.ui" line="288"/>
         <source>Pretty print</source>
-        <translation type="unfinished"></translation>
+        <translation>整形</translation>
     </message>
     <message>
         <location filename="../ExportDataDialog.cpp" line="29"/>
         <source>Export data as JSON</source>
-        <translation type="unfinished"></translation>
+        <translation>データをJSONにエクスポート</translation>
     </message>
     <message>
         <location filename="../ExportDataDialog.cpp" line="120"/>
         <source>exporting CSV</source>
-        <translation type="unfinished"></translation>
+        <translation>CSVをエクスポート</translation>
     </message>
     <message>
         <location filename="../ExportDataDialog.cpp" line="188"/>
         <location filename="../ExportDataDialog.cpp" line="283"/>
         <source>Could not open output file: %1</source>
-        <translation type="unfinished"></translation>
+        <translation>出力ファイルを開けません: %1</translation>
     </message>
     <message>
         <location filename="../ExportDataDialog.cpp" line="204"/>
         <source>exporting JSON</source>
-        <translation type="unfinished"></translation>
+        <translation>JSONをエクスポート</translation>
     </message>
     <message>
         <location filename="../ExportDataDialog.cpp" line="297"/>
         <source>Text files(*.csv *.txt)</source>
-        <translation type="unfinished"></translation>
+        <translation>テキストファイル(*.csv *.txt)</translation>
     </message>
     <message>
         <location filename="../ExportDataDialog.cpp" line="301"/>
         <source>Text files(*.json *.js *.txt)</source>
-        <translation type="unfinished"></translation>
+        <translation>テキストファイル(*.json *.js *.txt)</translation>
     </message>
     <message>
         <location filename="../ExportDataDialog.cpp" line="311"/>
         <location filename="../ExportDataDialog.cpp" line="337"/>
         <source>Choose a filename to export data</source>
-        <translation type="unfinished"></translation>
+        <translation>エクスポートデータのファイル名を選択</translation>
     </message>
     <message>
         <location filename="../ExportDataDialog.cpp" line="327"/>
         <source>Please select at least 1 table.</source>
-        <translation type="unfinished"></translation>
+        <translation>少なくとも1つのテーブルを選択してください。</translation>
     </message>
     <message>
         <location filename="../ExportDataDialog.cpp" line="351"/>
         <source>Choose a directory</source>
-        <translation type="unfinished"></translation>
+        <translation>ディレクトリーを選択</translation>
     </message>
     <message>
         <location filename="../ExportDataDialog.cpp" line="382"/>
         <source>Export completed.</source>
-        <translation type="unfinished"></translation>
+        <translation>エクスポート完了。</translation>
     </message>
 </context>
 <context>
@@ -1449,87 +1459,87 @@ All data currently stored in this field will be lost.</source>
     <message>
         <location filename="../ExportSqlDialog.ui" line="14"/>
         <source>Export SQL...</source>
-        <translation type="unfinished"></translation>
+        <translation>SQLをエクスポート...</translation>
     </message>
     <message>
         <location filename="../ExportSqlDialog.ui" line="35"/>
         <source>Tab&amp;le(s)</source>
-        <translation type="unfinished"></translation>
+        <translation>テーブル(&amp;L)</translation>
     </message>
     <message>
         <location filename="../ExportSqlDialog.ui" line="63"/>
         <source>Select All</source>
-        <translation type="unfinished"></translation>
+        <translation>すべて選択</translation>
     </message>
     <message>
         <location filename="../ExportSqlDialog.ui" line="70"/>
         <source>Deselect All</source>
-        <translation type="unfinished"></translation>
+        <translation>すべて非選択</translation>
     </message>
     <message>
         <location filename="../ExportSqlDialog.ui" line="79"/>
         <source>&amp;Options</source>
-        <translation type="unfinished"></translation>
+        <translation>オプション(&amp;O)</translation>
     </message>
     <message>
         <location filename="../ExportSqlDialog.ui" line="85"/>
         <source>Keep column names in INSERT INTO</source>
-        <translation type="unfinished"></translation>
+        <translation>INSERT INTO にカラム名を保持</translation>
     </message>
     <message>
         <location filename="../ExportSqlDialog.ui" line="95"/>
         <source>Multiple rows (VALUES) per INSERT statement</source>
-        <translation type="unfinished"></translation>
+        <translation>INSERT文に複数行(VALUES)</translation>
     </message>
     <message>
         <location filename="../ExportSqlDialog.ui" line="116"/>
         <source>Export everything</source>
-        <translation type="unfinished"></translation>
+        <translation>すべてエクスポート</translation>
     </message>
     <message>
         <location filename="../ExportSqlDialog.ui" line="121"/>
         <source>Export schema only</source>
-        <translation type="unfinished"></translation>
+        <translation>スキーマのみをエクスポート</translation>
     </message>
     <message>
         <location filename="../ExportSqlDialog.ui" line="126"/>
         <source>Export data only</source>
-        <translation type="unfinished"></translation>
+        <translation>データのみをエクスポート</translation>
     </message>
     <message>
         <location filename="../ExportSqlDialog.ui" line="135"/>
         <source>Keep old schema (CREATE TABLE IF NOT EXISTS)</source>
-        <translation type="unfinished"></translation>
+        <translation>古いスキーマを保持 (CREATE TABLE IF NOT EXISTS)</translation>
     </message>
     <message>
         <location filename="../ExportSqlDialog.ui" line="140"/>
         <source>Overwrite old schema (DROP TABLE, then CREATE TABLE)</source>
-        <translation type="unfinished"></translation>
+        <translation>古いスキーマを上書き (DROP TABLE した後に CREATE TABLE)</translation>
     </message>
     <message>
         <location filename="../ExportSqlDialog.cpp" line="74"/>
         <source>Please select at least one table.</source>
-        <translation type="unfinished"></translation>
+        <translation>少なくとも1つのテーブルを選択してください。</translation>
     </message>
     <message>
         <location filename="../ExportSqlDialog.cpp" line="87"/>
         <source>Choose a filename to export</source>
-        <translation type="unfinished"></translation>
+        <translation>エクスポートするファイル名を選択</translation>
     </message>
     <message>
         <location filename="../ExportSqlDialog.cpp" line="88"/>
         <source>Text files(*.sql *.txt)</source>
-        <translation type="unfinished"></translation>
+        <translation>テキストファイル(*.sql *.txt)</translation>
     </message>
     <message>
         <location filename="../ExportSqlDialog.cpp" line="116"/>
         <source>Export completed.</source>
-        <translation type="unfinished"></translation>
+        <translation>エクスポート完了。</translation>
     </message>
     <message>
         <location filename="../ExportSqlDialog.cpp" line="118"/>
         <source>Export cancelled or failed.</source>
-        <translation type="unfinished"></translation>
+        <translation>エクスポートをキャンセルまたは失敗しました。</translation>
     </message>
 </context>
 <context>
@@ -1538,23 +1548,23 @@ All data currently stored in this field will be lost.</source>
         <location filename="../ExtendedScintilla.cpp" line="58"/>
         <location filename="../ExtendedScintilla.cpp" line="232"/>
         <source>Ctrl+H</source>
-        <translation type="unfinished"></translation>
+        <translation>Ctrl+H</translation>
     </message>
     <message>
         <location filename="../ExtendedScintilla.cpp" line="61"/>
         <location filename="../ExtendedScintilla.cpp" line="236"/>
         <source>Ctrl+P</source>
-        <translation type="unfinished"></translation>
+        <translation>Ctrl+P</translation>
     </message>
     <message>
         <location filename="../ExtendedScintilla.cpp" line="231"/>
         <source>Find and Replace...</source>
-        <translation type="unfinished"></translation>
+        <translation>検索と置換...</translation>
     </message>
     <message>
         <location filename="../ExtendedScintilla.cpp" line="235"/>
         <source>Print...</source>
-        <translation type="unfinished"></translation>
+        <translation>印刷...</translation>
     </message>
 </context>
 <context>
@@ -1562,98 +1572,99 @@ All data currently stored in this field will be lost.</source>
     <message>
         <location filename="../ExtendedTableWidget.cpp" line="195"/>
         <source>Use as Exact Filter</source>
-        <translation type="unfinished"></translation>
+        <translation>抽出フィルターに使う</translation>
     </message>
     <message>
         <location filename="../ExtendedTableWidget.cpp" line="196"/>
         <source>Containing</source>
-        <translation type="unfinished"></translation>
+        <translation>含む</translation>
     </message>
     <message>
         <location filename="../ExtendedTableWidget.cpp" line="197"/>
         <source>Not equal to</source>
-        <translation type="unfinished"></translation>
+        <translation>等しくない</translation>
     </message>
     <message>
         <location filename="../ExtendedTableWidget.cpp" line="198"/>
         <source>Greater than</source>
-        <translation type="unfinished"></translation>
+        <translation>より大きい</translation>
     </message>
     <message>
         <location filename="../ExtendedTableWidget.cpp" line="199"/>
         <source>Less than</source>
-        <translation type="unfinished"></translation>
+        <translation>未満</translation>
     </message>
     <message>
         <location filename="../ExtendedTableWidget.cpp" line="200"/>
         <source>Greater or equal</source>
-        <translation type="unfinished"></translation>
+        <translation>以上</translation>
     </message>
     <message>
         <location filename="../ExtendedTableWidget.cpp" line="201"/>
         <source>Less or equal</source>
-        <translation type="unfinished"></translation>
+        <translation>以下</translation>
     </message>
     <message>
         <location filename="../ExtendedTableWidget.cpp" line="202"/>
         <source>Between this and...</source>
-        <translation type="unfinished"></translation>
+        <translation>これとの間...</translation>
     </message>
     <message>
         <location filename="../ExtendedTableWidget.cpp" line="204"/>
         <source>Set to NULL</source>
-        <translation type="unfinished"></translation>
+        <translation>NULLに設定</translation>
     </message>
     <message>
         <location filename="../ExtendedTableWidget.cpp" line="205"/>
         <source>Copy</source>
-        <translation type="unfinished"></translation>
+        <translation>コピー</translation>
     </message>
     <message>
         <location filename="../ExtendedTableWidget.cpp" line="206"/>
         <source>Copy with Headers</source>
-        <translation type="unfinished"></translation>
+        <translation>ヘッダーを含めてコピー</translation>
     </message>
     <message>
         <location filename="../ExtendedTableWidget.cpp" line="207"/>
         <source>Copy as SQL</source>
-        <translation type="unfinished"></translation>
+        <translation>SQLとしてコピー</translation>
     </message>
     <message>
         <location filename="../ExtendedTableWidget.cpp" line="208"/>
         <source>Paste</source>
-        <translation type="unfinished"></translation>
+        <translation>貼り付け</translation>
     </message>
     <message>
         <location filename="../ExtendedTableWidget.cpp" line="209"/>
         <source>Print...</source>
-        <translation type="unfinished"></translation>
+        <translation>印刷...</translation>
     </message>
     <message>
         <location filename="../ExtendedTableWidget.cpp" line="212"/>
         <source>Use in Filter Expression</source>
-        <translation type="unfinished"></translation>
+        <translation>フィルター式を使用</translation>
     </message>
     <message>
         <location filename="../ExtendedTableWidget.cpp" line="238"/>
         <source>Alt+Del</source>
-        <translation type="unfinished"></translation>
+        <translation>Alt+Del</translation>
     </message>
     <message>
         <location filename="../ExtendedTableWidget.cpp" line="240"/>
         <source>Ctrl+Shift+C</source>
-        <translation type="unfinished"></translation>
+        <translation>Ctrl+Shift+C</translation>
     </message>
     <message>
         <location filename="../ExtendedTableWidget.cpp" line="241"/>
         <source>Ctrl+Alt+C</source>
-        <translation type="unfinished"></translation>
+        <translation>Ctrl+Alt+C</translation>
     </message>
     <message>
         <location filename="../ExtendedTableWidget.cpp" line="584"/>
         <source>The content of the clipboard is bigger than the range selected.
 Do you want to insert it anyway?</source>
-        <translation type="unfinished"></translation>
+        <translation>クリップボードの内容は選択された範囲より大きいです.
+それでも挿入しますか?</translation>
     </message>
 </context>
 <context>
@@ -1661,43 +1672,43 @@ Do you want to insert it anyway?</source>
     <message>
         <location filename="../FileExtensionManager.ui" line="14"/>
         <source>File Extension Manager</source>
-        <translation type="unfinished"></translation>
+        <translation>ファイル拡張子管理</translation>
     </message>
     <message>
         <location filename="../FileExtensionManager.ui" line="22"/>
         <source>&amp;Up</source>
-        <translation type="unfinished"></translation>
+        <translation>上へ(&amp;U)</translation>
     </message>
     <message>
         <location filename="../FileExtensionManager.ui" line="33"/>
         <source>&amp;Down</source>
-        <translation type="unfinished"></translation>
+        <translation>下へ(&amp;D)</translation>
     </message>
     <message>
         <location filename="../FileExtensionManager.ui" line="57"/>
         <source>&amp;Add</source>
-        <translation type="unfinished"></translation>
+        <translation>追加(&amp;A)</translation>
     </message>
     <message>
         <location filename="../FileExtensionManager.ui" line="68"/>
         <source>&amp;Remove</source>
-        <translation type="unfinished"></translation>
+        <translation>削除(&amp;R)</translation>
     </message>
     <message>
         <location filename="../FileExtensionManager.ui" line="94"/>
         <location filename="../FileExtensionManager.cpp" line="41"/>
         <source>Description</source>
-        <translation type="unfinished"></translation>
+        <translation>説明</translation>
     </message>
     <message>
         <location filename="../FileExtensionManager.ui" line="99"/>
         <source>Extensions</source>
-        <translation type="unfinished"></translation>
+        <translation>拡張子</translation>
     </message>
     <message>
         <location filename="../FileExtensionManager.cpp" line="42"/>
         <source>*.extension</source>
-        <translation type="unfinished"></translation>
+        <translation>*.拡張子</translation>
     </message>
 </context>
 <context>
@@ -1705,7 +1716,7 @@ Do you want to insert it anyway?</source>
     <message>
         <location filename="../FilterLineEdit.cpp" line="11"/>
         <source>Filter</source>
-        <translation type="unfinished"></translation>
+        <translation>フィルター</translation>
     </message>
     <message>
         <location filename="../FilterLineEdit.cpp" line="25"/>
@@ -1720,72 +1731,82 @@ The following operators are also supported:
 =	Equal to: exact match
 &lt;&gt;	Unequal: exact inverse match
 x~y	Range: values between x and y</source>
-        <translation type="unfinished"></translation>
+        <translation>この入力欄は現在選択したテーブルの即席フィルターになります。
+デフォルトでは入力テキストが含まれる行が抽出されます。
+以下の演算子にも対応しています。:
+%	ワイルドカード
+&gt;	より大きい
+&lt;	未満
+&gt;=	以上
+&lt;=	以下
+=	等しい: 完全に一致
+&lt;&gt;	等しくない: 不一致
+x~y	範囲: xとyの間</translation>
     </message>
     <message>
         <location filename="../FilterLineEdit.cpp" line="111"/>
         <source>Set Filter Expression</source>
-        <translation type="unfinished"></translation>
+        <translation>フィルター式を設定</translation>
     </message>
     <message>
         <location filename="../FilterLineEdit.cpp" line="113"/>
         <source>What&apos;s This?</source>
-        <translation type="unfinished"></translation>
+        <translation>これは何?</translation>
     </message>
     <message>
         <location filename="../FilterLineEdit.cpp" line="118"/>
         <source>Is NULL</source>
-        <translation type="unfinished"></translation>
+        <translation>NULL</translation>
     </message>
     <message>
         <location filename="../FilterLineEdit.cpp" line="123"/>
         <source>Is not NULL</source>
-        <translation type="unfinished"></translation>
+        <translation>NULLでない</translation>
     </message>
     <message>
         <location filename="../FilterLineEdit.cpp" line="128"/>
         <source>Is empty</source>
-        <translation type="unfinished"></translation>
+        <translation>空文字</translation>
     </message>
     <message>
         <location filename="../FilterLineEdit.cpp" line="133"/>
         <source>Is not empty</source>
-        <translation type="unfinished"></translation>
+        <translation>空文字でない</translation>
     </message>
     <message>
         <location filename="../FilterLineEdit.cpp" line="138"/>
         <source>Equal to...</source>
-        <translation type="unfinished"></translation>
+        <translation>等しい...</translation>
     </message>
     <message>
         <location filename="../FilterLineEdit.cpp" line="142"/>
         <source>Not equal to...</source>
-        <translation type="unfinished"></translation>
+        <translation>等しくない...</translation>
     </message>
     <message>
         <location filename="../FilterLineEdit.cpp" line="146"/>
         <source>Greater than...</source>
-        <translation type="unfinished"></translation>
+        <translation>より大きい...</translation>
     </message>
     <message>
         <location filename="../FilterLineEdit.cpp" line="150"/>
         <source>Less than...</source>
-        <translation type="unfinished"></translation>
+        <translation>未満...</translation>
     </message>
     <message>
         <location filename="../FilterLineEdit.cpp" line="154"/>
         <source>Greater or equal...</source>
-        <translation type="unfinished"></translation>
+        <translation>以上...</translation>
     </message>
     <message>
         <location filename="../FilterLineEdit.cpp" line="158"/>
         <source>Less or equal...</source>
-        <translation type="unfinished"></translation>
+        <translation>以下...</translation>
     </message>
     <message>
         <location filename="../FilterLineEdit.cpp" line="162"/>
         <source>In range...</source>
-        <translation type="unfinished"></translation>
+        <translation>範囲内...</translation>
     </message>
 </context>
 <context>
@@ -1793,123 +1814,123 @@ x~y	Range: values between x and y</source>
     <message>
         <location filename="../FindReplaceDialog.ui" line="14"/>
         <source>Find and Replace</source>
-        <translation type="unfinished"></translation>
+        <translation>検索と置換</translation>
     </message>
     <message>
         <location filename="../FindReplaceDialog.ui" line="43"/>
         <source>Fi&amp;nd text:</source>
-        <translation type="unfinished"></translation>
+        <translation>検索文字列(&amp;N):</translation>
     </message>
     <message>
         <location filename="../FindReplaceDialog.ui" line="56"/>
         <source>Re&amp;place with:</source>
-        <translation type="unfinished"></translation>
+        <translation>置換文字列(&amp;P):</translation>
     </message>
     <message>
         <location filename="../FindReplaceDialog.ui" line="69"/>
         <source>Match &amp;exact case</source>
-        <translation type="unfinished"></translation>
+        <translation>大/小文字を区別(&amp;E)</translation>
     </message>
     <message>
         <location filename="../FindReplaceDialog.ui" line="79"/>
         <source>Match &amp;only whole words</source>
-        <translation type="unfinished"></translation>
+        <translation>単語一致のみ(&amp;O)</translation>
     </message>
     <message>
         <location filename="../FindReplaceDialog.ui" line="86"/>
         <source>When enabled, the search continues from the other end when it reaches one end of the page</source>
-        <translation type="unfinished"></translation>
+        <translation>有効にすると、ページの最後に到達すると先頭に戻って検索します</translation>
     </message>
     <message>
         <location filename="../FindReplaceDialog.ui" line="89"/>
         <source>&amp;Wrap around</source>
-        <translation type="unfinished"></translation>
+        <translation>折り返しあり(&amp;W)</translation>
     </message>
     <message>
         <location filename="../FindReplaceDialog.ui" line="96"/>
         <source>When set, the search goes backwards from cursor position, otherwise it goes forward</source>
-        <translation type="unfinished"></translation>
+        <translation>設定するとカーソル位置から戻って検索します。設定しないとカーソル位置の先を検索します</translation>
     </message>
     <message>
         <location filename="../FindReplaceDialog.ui" line="99"/>
         <source>Search &amp;backwards</source>
-        <translation type="unfinished"></translation>
+        <translation>戻って検索(&amp;B)</translation>
     </message>
     <message>
         <location filename="../FindReplaceDialog.ui" line="106"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;When checked, the pattern to find is interpreted as a UNIX regular expression. See &lt;a href=&quot;https://en.wikibooks.org/wiki/Regular_Expressions&quot;&gt;Regular Expression in Wikibooks&lt;/a&gt;.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;設定すると、検索条件はUNIX正規表現と解釈されます。以下を参照 &lt;a href=&quot;https://ja.wikibooks.org/wiki/%E6%AD%A3%E8%A6%8F%E8%A1%A8%E7%8F%BE&quot;&gt;Wikibooksの正規表現&lt;/a&gt;。&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
         <location filename="../FindReplaceDialog.ui" line="109"/>
         <source>Use regular e&amp;xpressions</source>
-        <translation type="unfinished"></translation>
+        <translation>正規表現を使用(&amp;X)</translation>
     </message>
     <message>
         <location filename="../FindReplaceDialog.ui" line="129"/>
         <source>Find the next occurrence from the cursor position and in the direction set by &quot;Search backwards&quot;</source>
-        <translation type="unfinished"></translation>
+        <translation>カーソル位置から&quot;戻って検索&quot;で設定した方向にある、次に一致する文字列を検索します</translation>
     </message>
     <message>
         <location filename="../FindReplaceDialog.ui" line="132"/>
         <source>&amp;Find Next</source>
-        <translation type="unfinished"></translation>
+        <translation>次を検索(&amp;F)</translation>
     </message>
     <message>
         <location filename="../FindReplaceDialog.ui" line="139"/>
         <source>&amp;Replace</source>
-        <translation type="unfinished"></translation>
+        <translation>置換(&amp;R)</translation>
     </message>
     <message>
         <location filename="../FindReplaceDialog.ui" line="146"/>
         <source>Highlight all the occurrences of the text in the page</source>
-        <translation type="unfinished"></translation>
+        <translation>ページ内のすべての一致する文字列を強調</translation>
     </message>
     <message>
         <location filename="../FindReplaceDialog.ui" line="149"/>
         <source>F&amp;ind All</source>
-        <translation type="unfinished"></translation>
+        <translation>すべて検索(&amp;I)</translation>
     </message>
     <message>
         <location filename="../FindReplaceDialog.ui" line="156"/>
         <source>Replace all the occurrences of the text in the page</source>
-        <translation type="unfinished"></translation>
+        <translation>ページ内のすべての一致する文字列を置換</translation>
     </message>
     <message>
         <location filename="../FindReplaceDialog.ui" line="159"/>
         <source>Replace &amp;All</source>
-        <translation type="unfinished"></translation>
+        <translation>すべて置換(&amp;A)</translation>
     </message>
     <message>
         <location filename="../FindReplaceDialog.cpp" line="50"/>
         <source>The searched text was not found</source>
-        <translation type="unfinished"></translation>
+        <translation>検索文字列は見つかりませんでした</translation>
     </message>
     <message>
         <location filename="../FindReplaceDialog.cpp" line="97"/>
         <location filename="../FindReplaceDialog.cpp" line="131"/>
         <source>The searched text was not found.</source>
-        <translation type="unfinished"></translation>
+        <translation>検索文字列は見つかりませんでした。</translation>
     </message>
     <message>
         <location filename="../FindReplaceDialog.cpp" line="100"/>
         <source>The searched text was found one time.</source>
-        <translation type="unfinished"></translation>
+        <translation>検索文字列が1つありました。</translation>
     </message>
     <message>
         <location filename="../FindReplaceDialog.cpp" line="103"/>
         <source>The searched text was found %1 times.</source>
-        <translation type="unfinished"></translation>
+        <translation>検索文字列が%1つありました。</translation>
     </message>
     <message>
         <location filename="../FindReplaceDialog.cpp" line="134"/>
         <source>The searched text was replaced one time.</source>
-        <translation type="unfinished"></translation>
+        <translation>検索文字列を1つ置き換えました。</translation>
     </message>
     <message>
         <location filename="../FindReplaceDialog.cpp" line="137"/>
         <source>The searched text was replaced %1 times.</source>
-        <translation type="unfinished"></translation>
+        <translation>検索文字列を%1つ置き換えました。</translation>
     </message>
 </context>
 <context>
@@ -1917,12 +1938,12 @@ x~y	Range: values between x and y</source>
     <message>
         <location filename="../ForeignKeyEditorDelegate.cpp" line="19"/>
         <source>&amp;Reset</source>
-        <translation type="unfinished"></translation>
+        <translation>リセット(&amp;R)</translation>
     </message>
     <message>
         <location filename="../ForeignKeyEditorDelegate.cpp" line="22"/>
         <source>Foreign key clauses (ON UPDATE, ON DELETE etc.)</source>
-        <translation type="unfinished"></translation>
+        <translation>外部キー節 (ON UPDATE, ON DELETE など。)</translation>
     </message>
 </context>
 <context>
