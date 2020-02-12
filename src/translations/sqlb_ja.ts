@@ -1409,7 +1409,7 @@ All data currently stored in this field will be lost.</source>
     <message>
         <location filename="../ExportDataDialog.cpp" line="120"/>
         <source>exporting CSV</source>
-        <translation>CSVをエクスポート</translation>
+        <translation>CSVにエクスポート</translation>
     </message>
     <message>
         <location filename="../ExportDataDialog.cpp" line="188"/>
@@ -1420,7 +1420,7 @@ All data currently stored in this field will be lost.</source>
     <message>
         <location filename="../ExportDataDialog.cpp" line="204"/>
         <source>exporting JSON</source>
-        <translation>JSONをエクスポート</translation>
+        <translation>JSONにエクスポート</translation>
     </message>
     <message>
         <location filename="../ExportDataDialog.cpp" line="297"/>
@@ -1459,7 +1459,7 @@ All data currently stored in this field will be lost.</source>
     <message>
         <location filename="../ExportSqlDialog.ui" line="14"/>
         <source>Export SQL...</source>
-        <translation>SQLをエクスポート...</translation>
+        <translation>SQLにエクスポート...</translation>
     </message>
     <message>
         <location filename="../ExportSqlDialog.ui" line="35"/>
@@ -1951,186 +1951,186 @@ x~y	範囲: xとyの間</translation>
     <message>
         <location filename="../ImportCsvDialog.ui" line="14"/>
         <source>Import CSV file</source>
-        <translation type="unfinished"></translation>
+        <translation>CSVファイルをインポート</translation>
     </message>
     <message>
         <location filename="../ImportCsvDialog.ui" line="25"/>
         <source>Table na&amp;me</source>
-        <translation type="unfinished"></translation>
+        <translation>テーブル名(&amp;M)</translation>
     </message>
     <message>
         <location filename="../ImportCsvDialog.ui" line="38"/>
         <source>&amp;Column names in first line</source>
-        <translation type="unfinished"></translation>
+        <translation>先頭行をカラム名に(&amp;C)</translation>
     </message>
     <message>
         <location filename="../ImportCsvDialog.ui" line="55"/>
         <source>Field &amp;separator</source>
-        <translation type="unfinished"></translation>
+        <translation>フィールド区切り(&amp;S)</translation>
     </message>
     <message>
         <location filename="../ImportCsvDialog.ui" line="68"/>
         <source>,</source>
-        <translation type="unfinished"></translation>
+        <translation>,</translation>
     </message>
     <message>
         <location filename="../ImportCsvDialog.ui" line="73"/>
         <source>;</source>
-        <translation type="unfinished"></translation>
+        <translation>;</translation>
     </message>
     <message>
         <location filename="../ImportCsvDialog.ui" line="78"/>
         <location filename="../ImportCsvDialog.cpp" line="756"/>
         <source>Tab</source>
-        <translation type="unfinished"></translation>
+        <translation>タブ</translation>
     </message>
     <message>
         <location filename="../ImportCsvDialog.ui" line="83"/>
         <source>|</source>
-        <translation type="unfinished"></translation>
+        <translation>|</translation>
     </message>
     <message>
         <location filename="../ImportCsvDialog.ui" line="88"/>
         <location filename="../ImportCsvDialog.ui" line="146"/>
         <location filename="../ImportCsvDialog.ui" line="204"/>
         <source>Other</source>
-        <translation type="unfinished"></translation>
+        <translation>その他</translation>
     </message>
     <message>
         <location filename="../ImportCsvDialog.ui" line="118"/>
         <source>&amp;Quote character</source>
-        <translation type="unfinished"></translation>
+        <translation>引用符文字(&amp;Q)</translation>
     </message>
     <message>
         <location filename="../ImportCsvDialog.ui" line="131"/>
         <source>&quot;</source>
-        <translation type="unfinished"></translation>
+        <translation>&quot;</translation>
     </message>
     <message>
         <location filename="../ImportCsvDialog.ui" line="136"/>
         <source>&apos;</source>
-        <translation type="unfinished"></translation>
+        <translation>&apos;</translation>
     </message>
     <message>
         <location filename="../ImportCsvDialog.ui" line="176"/>
         <source>&amp;Encoding</source>
-        <translation type="unfinished"></translation>
+        <translation>エンコード(&amp;E)</translation>
     </message>
     <message>
         <location filename="../ImportCsvDialog.ui" line="189"/>
         <source>UTF-8</source>
-        <translation type="unfinished"></translation>
+        <translation>UTF-8</translation>
     </message>
     <message>
         <location filename="../ImportCsvDialog.ui" line="194"/>
         <source>UTF-16</source>
-        <translation type="unfinished"></translation>
+        <translation>UTF-16</translation>
     </message>
     <message>
         <location filename="../ImportCsvDialog.ui" line="199"/>
         <source>ISO-8859-1</source>
-        <translation type="unfinished"></translation>
+        <translation>ISO-8859-1</translation>
     </message>
     <message>
         <location filename="../ImportCsvDialog.ui" line="230"/>
         <source>Trim fields?</source>
-        <translation type="unfinished"></translation>
+        <translation>フィールドをトリムする?</translation>
     </message>
     <message>
         <location filename="../ImportCsvDialog.ui" line="250"/>
         <source>Separate tables</source>
-        <translation type="unfinished"></translation>
+        <translation>テーブルを分ける</translation>
     </message>
     <message>
         <location filename="../ImportCsvDialog.ui" line="267"/>
         <source>Advanced</source>
-        <translation type="unfinished"></translation>
+        <translation>高度な設定</translation>
     </message>
     <message>
         <location filename="../ImportCsvDialog.ui" line="281"/>
         <source>When importing an empty value from the CSV file into an existing table with a default value for this column, that default value is inserted. Activate this option to insert an empty value instead.</source>
-        <translation type="unfinished"></translation>
+        <translation>空値をCSVファイルから既存のテーブルのデフォルト値があるカラムにインポートすると、デフォルト値が挿入されます。このオプションを有効にすると代わりに空値が挿入されます。</translation>
     </message>
     <message>
         <location filename="../ImportCsvDialog.ui" line="288"/>
         <source>Ignore default &amp;values</source>
-        <translation type="unfinished"></translation>
+        <translation>デフォルト値を無視(&amp;V)</translation>
     </message>
     <message>
         <location filename="../ImportCsvDialog.ui" line="298"/>
         <source>Activate this option to stop the import when trying to import an empty value into a NOT NULL column without a default value.</source>
-        <translation type="unfinished"></translation>
+        <translation>このオプションを有効にすると、デフォルト値がなく NOT NULL なカラムに空値をインポートしようとしたときに、インポートを中止します。</translation>
     </message>
     <message>
         <location filename="../ImportCsvDialog.ui" line="305"/>
         <source>Fail on missing values </source>
-        <translation type="unfinished"></translation>
+        <translation>値がない場合中止 </translation>
     </message>
     <message>
         <location filename="../ImportCsvDialog.ui" line="315"/>
         <source>Disable data type detection</source>
-        <translation type="unfinished"></translation>
+        <translation>データ型検出を無効</translation>
     </message>
     <message>
         <location filename="../ImportCsvDialog.ui" line="322"/>
         <source>Disable the automatic data type detection when creating a new table.</source>
-        <translation type="unfinished"></translation>
+        <translation>新しいテーブルを作るときに自動データ型検出を無効にします。</translation>
     </message>
     <message>
         <location filename="../ImportCsvDialog.ui" line="370"/>
         <location filename="../ImportCsvDialog.cpp" line="337"/>
         <source>Deselect All</source>
-        <translation type="unfinished"></translation>
+        <translation>すべて非選択</translation>
     </message>
     <message>
         <location filename="../ImportCsvDialog.ui" line="386"/>
         <source>Match Similar</source>
-        <translation type="unfinished"></translation>
+        <translation>類似に一致</translation>
     </message>
     <message>
         <location filename="../ImportCsvDialog.cpp" line="217"/>
         <source>Import completed</source>
-        <translation type="unfinished"></translation>
+        <translation>インポート完了</translation>
     </message>
     <message>
         <location filename="../ImportCsvDialog.cpp" line="337"/>
         <source>Select All</source>
-        <translation type="unfinished"></translation>
+        <translation>すべて選択</translation>
     </message>
     <message>
         <location filename="../ImportCsvDialog.cpp" line="507"/>
         <source>There is already a table named &apos;%1&apos; and an import into an existing table is only possible if the number of columns match.</source>
-        <translation type="unfinished"></translation>
+        <translation>名前が &apos;%1&apos; のテーブルは既に存在しています。既存のテーブルへのインポートはカラムの数が一致する場合のみ可能です。</translation>
     </message>
     <message>
         <location filename="../ImportCsvDialog.cpp" line="514"/>
         <source>There is already a table named &apos;%1&apos;. Do you want to import the data into it?</source>
-        <translation type="unfinished"></translation>
+        <translation>名前が &apos;%1&apos; のテーブルは既に存在しています。データをこれにインポートしますか?</translation>
     </message>
     <message>
         <location filename="../ImportCsvDialog.cpp" line="541"/>
         <source>Creating restore point failed: %1</source>
-        <translation type="unfinished"></translation>
+        <translation>復元ポイントの作成に失敗: %1</translation>
     </message>
     <message>
         <location filename="../ImportCsvDialog.cpp" line="554"/>
         <source>Creating the table failed: %1</source>
-        <translation type="unfinished"></translation>
+        <translation>テーブルの作成に失敗: %1</translation>
     </message>
     <message>
         <location filename="../ImportCsvDialog.cpp" line="615"/>
         <source>importing CSV</source>
-        <translation type="unfinished"></translation>
+        <translation>CSVのインポート</translation>
     </message>
     <message>
         <location filename="../ImportCsvDialog.cpp" line="688"/>
         <source>Inserting row failed: %1</source>
-        <translation type="unfinished"></translation>
+        <translation>行の挿入に失敗: %1</translation>
     </message>
     <message>
         <location filename="../ImportCsvDialog.cpp" line="698"/>
         <source>Importing the file &apos;%1&apos; took %2ms. Of this %3ms were spent in the row function.</source>
-        <translation type="unfinished"></translation>
+        <translation>ファイル &apos;%1&apos; のインポートに %2msかかりました。内 %3ms は行関数に費やされました。</translation>
     </message>
 </context>
 <context>
@@ -2138,116 +2138,118 @@ x~y	範囲: xとyの間</translation>
     <message>
         <location filename="../MainWindow.ui" line="14"/>
         <source>DB Browser for SQLite</source>
-        <translation type="unfinished"></translation>
+        <translation>DB Browser for SQLite</translation>
     </message>
     <message>
         <location filename="../MainWindow.ui" line="29"/>
         <source>Database Structure</source>
-        <translation type="unfinished"></translation>
+        <translation>データベース構造</translation>
     </message>
     <message>
         <location filename="../MainWindow.ui" line="69"/>
         <source>This is the structure of the opened database.
 You can drag SQL statements from an object row and drop them into other applications or into another instance of &apos;DB Browser for SQLite&apos;.
 </source>
-        <translation type="unfinished"></translation>
+        <translation>これは開いているデータベースの構造です。
+SQL文をオブジェクト行からドラッグしほかのアプリケーションや&apos;DB Browser for SQLite&apos;の他のインスタンスにドロップできます。
+</translation>
     </message>
     <message>
         <location filename="../MainWindow.ui" line="94"/>
         <source>Browse Data</source>
-        <translation type="unfinished"></translation>
+        <translation>データ閲覧</translation>
     </message>
     <message>
         <location filename="../MainWindow.ui" line="102"/>
         <source>&amp;Table:</source>
-        <translation type="unfinished"></translation>
+        <translation>テーブル(&amp;T):</translation>
     </message>
     <message>
         <location filename="../MainWindow.ui" line="130"/>
         <source>Select a table to browse data</source>
-        <translation type="unfinished"></translation>
+        <translation>閲覧するデータのテーブルを選択</translation>
     </message>
     <message>
         <location filename="../MainWindow.ui" line="133"/>
         <source>Use this list to select a table to be displayed in the database view</source>
-        <translation type="unfinished"></translation>
+        <translation>この一覧を使ってデータベースビューに表示するテーブルを選択</translation>
     </message>
     <message>
         <location filename="../MainWindow.ui" line="146"/>
         <source>Refresh the data in the selected table [F5, Ctrl+R]</source>
-        <translation type="unfinished"></translation>
+        <translation>選択したテーブルのデータを更新 [F5, Ctrl+R]</translation>
     </message>
     <message>
         <location filename="../MainWindow.ui" line="149"/>
         <source>This button refreshes the data in the currently selected table.</source>
-        <translation type="unfinished"></translation>
+        <translation>このボタンで現在選択しているテーブルのデータを更新します。</translation>
     </message>
     <message>
         <location filename="../MainWindow.ui" line="163"/>
         <source>Clear all filters</source>
-        <translation type="unfinished"></translation>
+        <translation>全てのフィルターを消去</translation>
     </message>
     <message>
         <location filename="../MainWindow.ui" line="166"/>
         <source>This button clears all the filters set in the header input fields for the currently browsed table.</source>
-        <translation type="unfinished"></translation>
+        <translation>このボタンで現在閲覧しているテーブルのヘッダー入力欄に設定された全てのフィルターを消去します。</translation>
     </message>
     <message>
         <location filename="../MainWindow.ui" line="180"/>
         <source>Save the table as currently displayed</source>
-        <translation type="unfinished"></translation>
+        <translation>現在表示されているものをテーブルに保存</translation>
     </message>
     <message>
         <location filename="../MainWindow.ui" line="183"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;This popup menu provides the following options applying to the currently browsed and filtered table:&lt;/p&gt;&lt;ul style=&quot;margin-top: 0px; margin-bottom: 0px; margin-left: 0px; margin-right: 0px; -qt-list-indent: 1;&quot;&gt;&lt;li style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Export to CSV: this option exports the data of the browsed table as currently displayed (after filters, display formats and order column) to a CSV file.&lt;/li&gt;&lt;li style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Save as view: this option saves the current setting of the browsed table (filters, display formats and order column) as an SQL view that you can later browse or use in SQL statements.&lt;/li&gt;&lt;/ul&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;このポップアップメニューは現在閲覧しているテーブルに適用される以下のオプションを提供します。:&lt;/p&gt;&lt;ul style=&quot;margin-top: 0px; margin-bottom: 0px; margin-left: 0px; margin-right: 0px; -qt-list-indent: 1;&quot;&gt;&lt;li style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;CSVにエクスポート: このオプションは閲覧中のテーブルのデータを現在の表示通り(フィルター、表示形式、カラム順番)にCSVファイルにエクスポートします。&lt;/li&gt;&lt;li style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;ビューとして保存: このオプションは閲覧中のテーブルの現在の表示設定(フィルター、表示形式、カラム順番)をSQLビューとして保存し、あとで閲覧やSQL文として使用できるようにします。&lt;/li&gt;&lt;/ul&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
         <location filename="../MainWindow.ui" line="186"/>
         <source>...</source>
-        <translation type="unfinished"></translation>
+        <translation>...</translation>
     </message>
     <message>
         <location filename="../MainWindow.ui" line="197"/>
         <source>Print currently browsed table data [Ctrl+P]</source>
-        <translation type="unfinished"></translation>
+        <translation>現在閲覧中のテーブルデータを印刷 [Ctrl+P]</translation>
     </message>
     <message>
         <location filename="../MainWindow.ui" line="200"/>
         <source>Print currently browsed table data. Print selection if more than one cell is selected.</source>
-        <translation type="unfinished"></translation>
+        <translation>現在閲覧中のテーブルデータを印刷します。複数のセルを選択している場合、選択範囲を印刷します。</translation>
     </message>
     <message>
         <location filename="../MainWindow.ui" line="224"/>
         <source>Insert a new record in the current table</source>
-        <translation type="unfinished"></translation>
+        <translation>新しいレコードを現在のテーブルに挿入</translation>
     </message>
     <message>
         <location filename="../MainWindow.ui" line="227"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;This button creates a new record in the database. Hold the mouse button to open a pop-up menu of different options:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;New Record&lt;/span&gt;: insert a new record with default values in the database.&lt;/li&gt;&lt;li&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;Insert Values...&lt;/span&gt;: open a dialog for entering values before they are inserted in the database. This allows to enter values acomplishing the different constraints. This dialog is also open if the &lt;span style=&quot; font-weight:600;&quot;&gt;New Record&lt;/span&gt; option fails due to these constraints.&lt;/li&gt;&lt;/ul&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;このボタンは新しいレコードをデータベースに作成します。マウスボタンを押したままにすると、違うオプションのポップアップメニューが開きます:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;新しいレコード&lt;/span&gt;: データベースにデフォルト値で新しいレコードを挿入します。&lt;/li&gt;&lt;li&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;値を挿入...&lt;/span&gt;: データベースに挿入する前にデータを入力するダイアログを開きます。これで他の制約を満たす値が入力できます。このダイアログは&lt;span style=&quot; font-weight:600;&quot;&gt;新しいレコード&lt;/span&gt;オプションがそれらの制約のせいで失敗したときにも開きます。&lt;/li&gt;&lt;/ul&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
         <location filename="../MainWindow.ui" line="230"/>
         <location filename="../MainWindow.ui" line="2236"/>
         <source>New Record</source>
-        <translation type="unfinished"></translation>
+        <translation>新しいレコード</translation>
     </message>
     <message>
         <location filename="../MainWindow.ui" line="237"/>
         <source>Delete the current record</source>
-        <translation type="unfinished"></translation>
+        <translation>現在のレコードを削除</translation>
     </message>
     <message>
         <location filename="../MainWindow.ui" line="240"/>
         <source>This button deletes the record or records currently selected in the table</source>
-        <translation type="unfinished"></translation>
+        <translation>このボタンはテーブルにある現在選択中のレコードを削除します</translation>
     </message>
     <message>
         <location filename="../MainWindow.ui" line="243"/>
         <location filename="../MainWindow.cpp" line="3503"/>
         <source>Delete Record</source>
-        <translation type="unfinished"></translation>
+        <translation>レコードを削除</translation>
     </message>
     <message>
         <location filename="../MainWindow.ui" line="255"/>
@@ -2258,212 +2260,218 @@ You can drag SQL statements from an object row and drop them into other applicat
  - Ctrl+&quot; for duplicating the current record.
  - Ctrl+&apos; for copying the value from the cell above.
  - Standard selection and copy/paste operations.</source>
-        <translation type="unfinished"></translation>
+        <translation>これはデータベーステーブルのビューです。以下の操作ができます:
+ - 値をインライン編集できます。
+ - レコードをダブルクリックすると、セル編集ウィンドウで内容を編集できます。
+ - Alt+Del でセルの内容をNULLにできます。
+ - Ctrl+&quot; で現在のレコードを複製できます。
+ - Ctrl+&apos; で上のセルの値をコピーできます。
+ - 通常の操作で、選択/コピー/貼り付けができます。</translation>
     </message>
     <message>
         <location filename="../MainWindow.ui" line="288"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Scroll to the beginning&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation type="unfinished"></translation>
+        <translation>先頭へ</translation>
     </message>
     <message>
         <location filename="../MainWindow.ui" line="291"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Clicking this button navigates to the beginning in the table view above.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;このボタンをクリックすると、上のテーブルビューを先頭まで移動します。&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
         <location filename="../MainWindow.ui" line="294"/>
         <source>|&lt;</source>
-        <translation type="unfinished"></translation>
+        <translation>|&lt;</translation>
     </message>
     <message>
         <location filename="../MainWindow.ui" line="308"/>
         <source>Scroll one page upwards</source>
-        <translation type="unfinished"></translation>
+        <translation>1ページ前へ</translation>
     </message>
     <message>
         <location filename="../MainWindow.ui" line="311"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Clicking this button navigates one page of records upwards in the table view above.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;このボタンをクリックすると、上のテーブルビューを1ページ前へ移動します。&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
         <location filename="../MainWindow.ui" line="314"/>
         <source>&lt;</source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;</translation>
     </message>
     <message>
         <location filename="../MainWindow.ui" line="325"/>
         <source>0 - 0 of 0</source>
-        <translation type="unfinished"></translation>
+        <translation>0 - 0 of 0</translation>
     </message>
     <message>
         <location filename="../MainWindow.ui" line="335"/>
         <source>Scroll one page downwards</source>
-        <translation type="unfinished"></translation>
+        <translation>1ページ後へ</translation>
     </message>
     <message>
         <location filename="../MainWindow.ui" line="338"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Clicking this button navigates one page of records downwards in the table view above.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;このボタンをクリックすると、上のテーブルビューを1ページ後へ移動します。&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
         <location filename="../MainWindow.ui" line="341"/>
         <source>&gt;</source>
-        <translation type="unfinished"></translation>
+        <translation>&gt;</translation>
     </message>
     <message>
         <location filename="../MainWindow.ui" line="355"/>
         <source>Scroll to the end</source>
-        <translation type="unfinished"></translation>
+        <translation>末尾へ</translation>
     </message>
     <message>
         <location filename="../MainWindow.ui" line="358"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&amp;lt;html&amp;gt;&amp;lt;head/&amp;gt;&amp;lt;body&amp;gt;&amp;lt;p&amp;gt;Clicking this button navigates up to the end in the table view above.&amp;lt;/p&amp;gt;&amp;lt;/body&amp;gt;&amp;lt;/html&amp;gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;このボタンをクリックすると、上のテーブルビューを末尾まで移動します。&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
         <location filename="../MainWindow.ui" line="361"/>
         <source>&gt;|</source>
-        <translation type="unfinished"></translation>
+        <translation>&gt;|</translation>
     </message>
     <message>
         <location filename="../MainWindow.ui" line="385"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Click here to jump to the specified record&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;ここをクリックして指定のレコードまで移動&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
         <location filename="../MainWindow.ui" line="388"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;This button is used to navigate to the record number specified in the Go to area.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;このボタンは ここへ移動 の入力欄で指定された番号のレコードへ移動するために使用します。&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
         <location filename="../MainWindow.ui" line="391"/>
         <source>Go to:</source>
-        <translation type="unfinished"></translation>
+        <translation>ここへ移動:</translation>
     </message>
     <message>
         <location filename="../MainWindow.ui" line="398"/>
         <source>Enter record number to browse</source>
-        <translation type="unfinished"></translation>
+        <translation>閲覧するレコードの番号を入力</translation>
     </message>
     <message>
         <location filename="../MainWindow.ui" line="401"/>
         <source>Type a record number in this area and click the Go to: button to display the record in the database view</source>
-        <translation type="unfinished"></translation>
+        <translation>この欄にレコードの番号を入力し、ここへ移動ボタンをクリックすると、データベースビューにレコードが表示されます</translation>
     </message>
     <message>
         <location filename="../MainWindow.ui" line="404"/>
         <source>1</source>
-        <translation type="unfinished"></translation>
+        <translation>1</translation>
     </message>
     <message>
         <location filename="../MainWindow.ui" line="414"/>
         <source>Edit Pragmas</source>
-        <translation type="unfinished"></translation>
+        <translation>プラグマ編集</translation>
     </message>
     <message>
         <location filename="../MainWindow.ui" line="506"/>
         <source>Warning: this pragma is not readable and this value has been inferred. Writing the pragma might overwrite a redefined LIKE provided by an SQLite extension.</source>
-        <translation type="unfinished"></translation>
+        <translation>警告: このプラグマは読み取り可能でなく、この値は推定です。プラグマを書き込んでも、SQLite 拡張などで上書きされるかもしれません。</translation>
     </message>
     <message>
         <location filename="../MainWindow.ui" line="929"/>
         <source>Execute SQL</source>
-        <translation type="unfinished"></translation>
+        <translation>SQL実行</translation>
     </message>
     <message>
         <location filename="../MainWindow.ui" line="935"/>
         <source>toolBar1</source>
-        <translation type="unfinished"></translation>
+        <translation>ツールバー1</translation>
     </message>
     <message>
         <location filename="../MainWindow.ui" line="981"/>
         <source>&amp;File</source>
-        <translation type="unfinished"></translation>
+        <translation>ファイル(&amp;F)</translation>
     </message>
     <message>
         <location filename="../MainWindow.ui" line="985"/>
         <source>&amp;Import</source>
-        <translation type="unfinished"></translation>
+        <translation>インポート(&amp;I)</translation>
     </message>
     <message>
         <location filename="../MainWindow.ui" line="992"/>
         <source>&amp;Export</source>
-        <translation type="unfinished"></translation>
+        <translation>エクスポート(&amp;E)</translation>
     </message>
     <message>
         <location filename="../MainWindow.ui" line="1018"/>
         <source>&amp;Edit</source>
-        <translation type="unfinished"></translation>
+        <translation>編集(&amp;E)</translation>
     </message>
     <message>
         <location filename="../MainWindow.ui" line="1030"/>
         <source>&amp;View</source>
-        <translation type="unfinished"></translation>
+        <translation>ビュー(&amp;V)</translation>
     </message>
     <message>
         <location filename="../MainWindow.ui" line="1038"/>
         <source>&amp;Help</source>
-        <translation type="unfinished"></translation>
+        <translation>ヘルプ(&amp;H)</translation>
     </message>
     <message>
         <location filename="../MainWindow.ui" line="1054"/>
         <source>&amp;Tools</source>
-        <translation type="unfinished"></translation>
+        <translation>ツール(&amp;T)</translation>
     </message>
     <message>
         <location filename="../MainWindow.ui" line="1075"/>
         <source>DB Toolbar</source>
-        <translation type="unfinished"></translation>
+        <translation>DBツールバー</translation>
     </message>
     <message>
         <location filename="../MainWindow.ui" line="1094"/>
         <source>Edit Database &amp;Cell</source>
-        <translation type="unfinished"></translation>
+        <translation>データベースのセルを編集(&amp;C)</translation>
     </message>
     <message>
         <location filename="../MainWindow.ui" line="1106"/>
         <source>SQL &amp;Log</source>
-        <translation type="unfinished"></translation>
+        <translation>SQLログ(&amp;L)</translation>
     </message>
     <message>
         <location filename="../MainWindow.ui" line="1124"/>
         <source>Show S&amp;QL submitted by</source>
-        <translation type="unfinished"></translation>
+        <translation>表示するSQLの送信元は(&amp;Q)</translation>
     </message>
     <message>
         <location filename="../MainWindow.ui" line="1141"/>
         <source>User</source>
-        <translation type="unfinished"></translation>
+        <translation>ユーザー</translation>
     </message>
     <message>
         <location filename="../MainWindow.ui" line="1146"/>
         <source>Application</source>
-        <translation type="unfinished"></translation>
+        <translation>アプリケーション</translation>
     </message>
     <message>
         <location filename="../MainWindow.ui" line="1173"/>
         <source>This button clears the contents of the SQL logs</source>
-        <translation type="unfinished"></translation>
+        <translation>このボタンでSQLログの内容を消去します</translation>
     </message>
     <message>
         <location filename="../MainWindow.ui" line="1176"/>
         <source>&amp;Clear</source>
-        <translation type="unfinished"></translation>
+        <translation>消去(&amp;C)</translation>
     </message>
     <message>
         <location filename="../MainWindow.ui" line="1185"/>
         <source>This panel lets you examine a log of all SQL commands issued by the application or by yourself</source>
-        <translation type="unfinished"></translation>
+        <translation>このパネルでアプリケーションやあなたが発行した全てのSQLコマンドのログを調査できます</translation>
     </message>
     <message>
         <location filename="../MainWindow.ui" line="1222"/>
         <source>&amp;Plot</source>
-        <translation type="unfinished"></translation>
+        <translation>プロット(&amp;P)</translation>
     </message>
     <message>
         <location filename="../MainWindow.ui" line="1233"/>
         <source>DB Sche&amp;ma</source>
-        <translation type="unfinished"></translation>
+        <translation>DBスキーマ(&amp;M)</translation>
     </message>
     <message>
         <location filename="../MainWindow.ui" line="1246"/>
@@ -2471,57 +2479,60 @@ You can drag SQL statements from an object row and drop them into other applicat
 You can drag multiple object names from the Name column and drop them into the SQL editor and you can adjust the properties of the dropped names using the context menu. This would help you in composing SQL statements.
 You can drag SQL statements from the Schema column and drop them into the SQL editor or into other applications.
 </source>
-        <translation type="unfinished"></translation>
+        <translation>これは開いているデータベースの構造です。
+複数のオブジェクト名を名前カラムからドラッグしSQLエディターにドロップできます。ドロップした名前のプロパティはコンテキストメニューで調節できます。これはSQL文の作成に役立ちます。
+SQL文をスキーマカラムからSQLエディターや他のアプリケーションにドロップできます。
+</translation>
     </message>
     <message>
         <location filename="../MainWindow.ui" line="1279"/>
         <source>&amp;Remote</source>
-        <translation type="unfinished"></translation>
+        <translation>リモート(&amp;R)</translation>
     </message>
     <message>
         <location filename="../MainWindow.ui" line="1288"/>
         <location filename="../MainWindow.ui" line="2153"/>
         <source>Project Toolbar</source>
-        <translation type="unfinished"></translation>
+        <translation>プロジェクトツールバー</translation>
     </message>
     <message>
         <location filename="../MainWindow.ui" line="1307"/>
         <source>Extra DB toolbar</source>
-        <translation type="unfinished"></translation>
+        <translation>追加DBツールバー</translation>
     </message>
     <message>
         <location filename="../MainWindow.ui" line="1310"/>
         <location filename="../MainWindow.ui" line="1384"/>
         <location filename="../MainWindow.ui" line="1387"/>
         <source>Close the current database file</source>
-        <translation type="unfinished"></translation>
+        <translation>現在のデータベースファイルを閉じます</translation>
     </message>
     <message>
         <location filename="../MainWindow.ui" line="1330"/>
         <source>&amp;New Database...</source>
-        <translation type="unfinished"></translation>
+        <translation>新しいデータベース(&amp;N)...</translation>
     </message>
     <message>
         <location filename="../MainWindow.ui" line="1333"/>
         <location filename="../MainWindow.ui" line="1336"/>
         <source>Create a new database file</source>
-        <translation type="unfinished"></translation>
+        <translation>新しいデータベースファイルを作成します</translation>
     </message>
     <message>
         <location filename="../MainWindow.ui" line="1339"/>
         <source>This option is used to create a new database file.</source>
-        <translation type="unfinished"></translation>
+        <translation>このオプションは新しいデータベースファイルを作成するために使います。</translation>
     </message>
     <message>
         <location filename="../MainWindow.ui" line="1342"/>
         <source>Ctrl+N</source>
-        <translation type="unfinished"></translation>
+        <translation>Ctrl+N</translation>
     </message>
     <message>
         <location filename="../MainWindow.ui" line="1354"/>
         <location filename="../MainWindow.ui" line="2208"/>
         <source>&amp;Open Database...</source>
-        <translation type="unfinished"></translation>
+        <translation>データベースを開く(&amp;O)...</translation>
     </message>
     <message>
         <location filename="../MainWindow.ui" line="1357"/>
@@ -2530,1277 +2541,1293 @@ You can drag SQL statements from the Schema column and drop them into the SQL ed
         <location filename="../MainWindow.ui" line="2211"/>
         <location filename="../MainWindow.ui" line="2214"/>
         <source>Open an existing database file</source>
-        <translation type="unfinished"></translation>
+        <translation>既存のデータベースファイルを開きます</translation>
     </message>
     <message>
         <location filename="../MainWindow.ui" line="1363"/>
         <location filename="../MainWindow.ui" line="2041"/>
         <location filename="../MainWindow.ui" line="2217"/>
         <source>This option is used to open an existing database file.</source>
-        <translation type="unfinished"></translation>
+        <translation>このオプションは既存のデータベースファイルを開くために使います。</translation>
     </message>
     <message>
         <location filename="../MainWindow.ui" line="1366"/>
         <source>Ctrl+O</source>
-        <translation type="unfinished"></translation>
+        <translation>Ctrl+O</translation>
     </message>
     <message>
         <location filename="../MainWindow.ui" line="1381"/>
         <source>&amp;Close Database</source>
-        <translation type="unfinished"></translation>
+        <translation>データベースを閉じる(&amp;C)</translation>
     </message>
     <message>
         <location filename="../MainWindow.ui" line="1390"/>
         <source>This button closes the connection to the currently open database file</source>
-        <translation type="unfinished"></translation>
+        <translation>このボタンで現在開いているデータベースファイルとの接続を閉じます</translation>
     </message>
     <message>
         <location filename="../MainWindow.ui" line="1393"/>
         <source>Ctrl+W</source>
-        <translation type="unfinished"></translation>
+        <translation>Ctrl+W</translation>
     </message>
     <message>
         <location filename="../MainWindow.ui" line="1408"/>
         <source>&amp;Revert Changes</source>
-        <translation type="unfinished"></translation>
+        <translation>変更を取り消し(&amp;R)</translation>
     </message>
     <message>
         <location filename="../MainWindow.ui" line="1411"/>
         <location filename="../MainWindow.ui" line="1414"/>
         <source>Revert database to last saved state</source>
-        <translation type="unfinished"></translation>
+        <translation>最後に保存した状態へデータベースを戻します</translation>
     </message>
     <message>
         <location filename="../MainWindow.ui" line="1417"/>
         <source>This option is used to revert the current database file to its last saved state. All changes made since the last save operation are lost.</source>
-        <translation type="unfinished"></translation>
+        <translation>このオプションは現在のデータベースファイルを最後に保存した状態に戻すために使います。最後の保存の後に行われたすべての変更は失われます。</translation>
     </message>
     <message>
         <location filename="../MainWindow.ui" line="1432"/>
         <source>&amp;Write Changes</source>
-        <translation type="unfinished"></translation>
+        <translation>変更を書き込み(&amp;W)</translation>
     </message>
     <message>
         <location filename="../MainWindow.ui" line="1435"/>
         <location filename="../MainWindow.ui" line="1438"/>
         <source>Write changes to the database file</source>
-        <translation type="unfinished"></translation>
+        <translation>データベースファイルに変更を書き込みます</translation>
     </message>
     <message>
         <location filename="../MainWindow.ui" line="1441"/>
         <source>This option is used to save changes to the database file.</source>
-        <translation type="unfinished"></translation>
+        <translation>このオプションはデータベースファイルに変更を保存するために使います。</translation>
     </message>
     <message>
         <location filename="../MainWindow.ui" line="1444"/>
         <source>Ctrl+S</source>
-        <translation type="unfinished"></translation>
+        <translation>Ctrl+S</translation>
     </message>
     <message>
         <location filename="../MainWindow.ui" line="1455"/>
         <source>Compact &amp;Database...</source>
-        <translation type="unfinished"></translation>
+        <translation>データベースを圧縮(&amp;D)...</translation>
     </message>
     <message>
         <location filename="../MainWindow.ui" line="1458"/>
         <source>Compact the database file, removing space wasted by deleted records</source>
-        <translation type="unfinished"></translation>
+        <translation>削除されたレコードが残っているスペースを取り除き、データベースファイルを圧縮します</translation>
     </message>
     <message>
         <location filename="../MainWindow.ui" line="1461"/>
         <location filename="../MainWindow.ui" line="1464"/>
         <source>Compact the database file, removing space wasted by deleted records.</source>
-        <translation type="unfinished"></translation>
+        <translation>削除されたレコードが残っているスペースを取り除き、データベースファイルを圧縮します。</translation>
     </message>
     <message>
         <location filename="../MainWindow.ui" line="1472"/>
         <source>E&amp;xit</source>
-        <translation type="unfinished"></translation>
+        <translation>終了(&amp;X)</translation>
     </message>
     <message>
         <location filename="../MainWindow.ui" line="1475"/>
         <source>Ctrl+Q</source>
-        <translation type="unfinished"></translation>
+        <translation>Ctrl+Q</translation>
     </message>
     <message>
         <location filename="../MainWindow.ui" line="1483"/>
         <source>&amp;Database from SQL file...</source>
-        <translation type="unfinished"></translation>
+        <translation>SQLファイルからデータベースへ(&amp;D)...</translation>
     </message>
     <message>
         <location filename="../MainWindow.ui" line="1486"/>
         <source>Import data from an .sql dump text file into a new or existing database.</source>
-        <translation type="unfinished"></translation>
+        <translation>SQLダンプテキストファイルからデータを、新しいもしくは既存のデータベースにインポートします。</translation>
     </message>
     <message>
         <location filename="../MainWindow.ui" line="1489"/>
         <source>This option lets you import data from an .sql dump text file into a new or existing database. SQL dump files can be created on most database engines, including MySQL and PostgreSQL.</source>
-        <translation type="unfinished"></translation>
+        <translation>このオプションでSQLダンプテキストファイルからデータを、新しいもしくは既存のデータベースにインポートできます。SQLダンプファイルは、MySQLやPostgreSQLなど、ほとんどのデータベースエンジンで作成できます。</translation>
     </message>
     <message>
         <location filename="../MainWindow.ui" line="1497"/>
         <source>&amp;Table from CSV file...</source>
-        <translation type="unfinished"></translation>
+        <translation>CSVファイルからテーブルへ(&amp;T)...</translation>
     </message>
     <message>
         <location filename="../MainWindow.ui" line="1500"/>
         <source>Open a wizard that lets you import data from a comma separated text file into a database table.</source>
-        <translation type="unfinished"></translation>
+        <translation>カンマ区切りのテキストファイルのデータをデータベースのテーブルにインポートするウィザードを開きます。</translation>
     </message>
     <message>
         <location filename="../MainWindow.ui" line="1503"/>
         <source>Open a wizard that lets you import data from a comma separated text file into a database table. CSV files can be created on most database and spreadsheet applications.</source>
-        <translation type="unfinished"></translation>
+        <translation>カンマ区切りのテキストファイルのデータをデータベースのテーブルにインポートするウィザードを開きます。CSVファイルはほとんどのデータベースや表計算アプリケーションで作成できます。</translation>
     </message>
     <message>
         <location filename="../MainWindow.ui" line="1511"/>
         <source>&amp;Database to SQL file...</source>
-        <translation type="unfinished"></translation>
+        <translation>データベースをSQLファイルへ(&amp;D)...</translation>
     </message>
     <message>
         <location filename="../MainWindow.ui" line="1514"/>
         <source>Export a database to a .sql dump text file.</source>
-        <translation type="unfinished"></translation>
+        <translation>データベースを .sql ダンプテキストファイルにエクスポートします。</translation>
     </message>
     <message>
         <location filename="../MainWindow.ui" line="1517"/>
         <source>This option lets you export a database to a .sql dump text file. SQL dump files contain all data necessary to recreate the database on most database engines, including MySQL and PostgreSQL.</source>
-        <translation type="unfinished"></translation>
+        <translation>このオプションでデータベースを .sql ダンプテキストファイルにエクスポートできます。SQLダンプファイルはデータベースの再作成に必要なすべてのデータを含み、MySQLやPostgreSQLなど、ほとんどのデータベースエンジンで利用できます。</translation>
     </message>
     <message>
         <location filename="../MainWindow.ui" line="1525"/>
         <source>&amp;Table(s) as CSV file...</source>
-        <translation type="unfinished"></translation>
+        <translation>テーブルをCSVファイルへ(&amp;T)...</translation>
     </message>
     <message>
         <location filename="../MainWindow.ui" line="1528"/>
         <source>Export a database table as a comma separated text file.</source>
-        <translation type="unfinished"></translation>
+        <translation>データベースのテーブルをカンマ区切りのテキストファイルにエクスポートします。</translation>
     </message>
     <message>
         <location filename="../MainWindow.ui" line="1531"/>
         <source>Export a database table as a comma separated text file, ready to be imported into other database or spreadsheet applications.</source>
-        <translation type="unfinished"></translation>
+        <translation>データベースのテーブルをカンマ区切りのテキストファイルにエクスポートします。他のデータベースや表計算アプリケーションでインポートできます。</translation>
     </message>
     <message>
         <location filename="../MainWindow.ui" line="1546"/>
         <source>&amp;Create Table...</source>
-        <translation type="unfinished"></translation>
+        <translation>テーブルを作成(&amp;C)...</translation>
     </message>
     <message>
         <location filename="../MainWindow.ui" line="1549"/>
         <source>Open the Create Table wizard, where it is possible to define the name and fields for a new table in the database</source>
-        <translation type="unfinished"></translation>
+        <translation>データベースに新しいテーブルの名前とフィールドを定義できる、テーブル作成ウイザードを開きます</translation>
     </message>
     <message>
         <location filename="../MainWindow.ui" line="1564"/>
         <source>&amp;Delete Table...</source>
-        <translation type="unfinished"></translation>
+        <translation>テーブルを削除(&amp;D)...</translation>
     </message>
     <message>
         <location filename="../MainWindow.ui" line="1567"/>
         <location filename="../MainWindow.cpp" line="1783"/>
         <source>Delete Table</source>
-        <translation type="unfinished"></translation>
+        <translation>テーブルを削除</translation>
     </message>
     <message>
         <location filename="../MainWindow.ui" line="1570"/>
         <source>Open the Delete Table wizard, where you can select a database table to be dropped.</source>
-        <translation type="unfinished"></translation>
+        <translation>削除するデータベーステーブルを選択できる、テーブル削除ウィザードをひらきます。</translation>
     </message>
     <message>
         <location filename="../MainWindow.ui" line="1585"/>
         <source>&amp;Modify Table...</source>
-        <translation type="unfinished"></translation>
+        <translation>テーブルを変更(&amp;M)...</translation>
     </message>
     <message>
         <location filename="../MainWindow.ui" line="1588"/>
         <source>Open the Modify Table wizard, where it is possible to rename an existing table. It is also possible to add or delete fields form a table, as well as modify field names and types.</source>
-        <translation type="unfinished"></translation>
+        <translation>既存のテーブル名を変更できる、テーブル変更ウィザードを開きます。テーブルのフィールドを追加削除したり、フィールド名やデータ型の変更もできます。</translation>
     </message>
     <message>
         <location filename="../MainWindow.ui" line="1603"/>
         <source>Create &amp;Index...</source>
-        <translation type="unfinished"></translation>
+        <translation>インデックスの作成(&amp;I)...</translation>
     </message>
     <message>
         <location filename="../MainWindow.ui" line="1606"/>
         <source>Open the Create Index wizard, where it is possible to define a new index on an existing database table.</source>
-        <translation type="unfinished"></translation>
+        <translation>既存のデータベーステーブルに新しいインデックスを定義できる、インデックスウィザードを開きます。</translation>
     </message>
     <message>
         <location filename="../MainWindow.ui" line="1618"/>
         <source>&amp;Preferences...</source>
-        <translation type="unfinished"></translation>
+        <translation>設定(&amp;P)...</translation>
     </message>
     <message>
         <location filename="../MainWindow.ui" line="1621"/>
         <location filename="../MainWindow.ui" line="1624"/>
         <source>Open the preferences window.</source>
-        <translation type="unfinished"></translation>
+        <translation>設定ウィンドウを開きます。</translation>
     </message>
     <message>
         <location filename="../MainWindow.ui" line="1639"/>
         <source>&amp;DB Toolbar</source>
-        <translation type="unfinished"></translation>
+        <translation>DBツールバー(&amp;D)</translation>
     </message>
     <message>
         <location filename="../MainWindow.ui" line="1642"/>
         <source>Shows or hides the Database toolbar.</source>
-        <translation type="unfinished"></translation>
+        <translation>データベースツールバーを表示/非表示します。</translation>
     </message>
     <message>
         <location filename="../MainWindow.ui" line="1645"/>
         <location filename="../MainWindow.ui" line="1691"/>
         <source>Ctrl+T</source>
-        <translation type="unfinished"></translation>
+        <translation>Ctrl+T</translation>
     </message>
     <message>
         <location filename="../MainWindow.ui" line="1657"/>
         <source>W&amp;hat&apos;s This?</source>
-        <translation type="unfinished"></translation>
+        <translation>これは何(&amp;H)?</translation>
     </message>
     <message>
         <location filename="../MainWindow.ui" line="1660"/>
         <source>Shift+F1</source>
-        <translation type="unfinished"></translation>
+        <translation>Shift+F1</translation>
     </message>
     <message>
         <location filename="../MainWindow.ui" line="1668"/>
         <source>&amp;About</source>
-        <translation type="unfinished"></translation>
+        <translation>DB Browser for SQLite について(&amp;A)</translation>
     </message>
     <message>
         <location filename="../MainWindow.ui" line="1676"/>
         <source>&amp;Recently opened</source>
-        <translation type="unfinished"></translation>
+        <translation>最近開いたファイル(&amp;R)</translation>
     </message>
     <message>
         <location filename="../MainWindow.ui" line="1685"/>
         <source>Open &amp;tab</source>
-        <translation type="unfinished"></translation>
+        <translation>タブを開く(&amp;T)</translation>
     </message>
     <message>
         <location filename="../MainWindow.ui" line="1688"/>
         <source>This button opens a new tab for the SQL editor</source>
-        <translation type="unfinished"></translation>
+        <translation>このボタンでSQLエディターの新しいタブを開きます</translation>
     </message>
     <message>
         <location filename="../MainWindow.ui" line="1700"/>
         <source>&amp;Execute SQL</source>
-        <translation type="unfinished"></translation>
+        <translation>SQLを実行(&amp;E)</translation>
     </message>
     <message>
         <location filename="../MainWindow.ui" line="1703"/>
         <source>Execute all/selected SQL [F5, Ctrl+Return, Ctrl+R]</source>
-        <translation type="unfinished"></translation>
+        <translation>すべての/選択したSQLを実行 [F5, Ctrl+Return, Ctrl+R]</translation>
     </message>
     <message>
         <location filename="../MainWindow.ui" line="1706"/>
         <source>This button executes the currently selected SQL statements. If no text is selected, all SQL statements are executed.</source>
-        <translation type="unfinished"></translation>
+        <translation>このボタンで現在選択しているSQL文を実行します。テキストが選択されていない場合、すべてのSQL文が実行されます。</translation>
     </message>
     <message>
         <location filename="../MainWindow.ui" line="1715"/>
         <source>Open SQL file</source>
-        <translation type="unfinished"></translation>
+        <translation>SQLファイルを開く</translation>
     </message>
     <message>
         <location filename="../MainWindow.ui" line="1718"/>
         <source>This button opens a file containing SQL statements and loads it in a new editor tab</source>
-        <translation type="unfinished"></translation>
+        <translation>このボタンでSQL文を含むファイルを新しいエディタータブに開きます</translation>
     </message>
     <message>
         <location filename="../MainWindow.ui" line="1727"/>
         <location filename="../MainWindow.ui" line="1930"/>
         <location filename="../MainWindow.ui" line="1933"/>
         <source>Save SQL file</source>
-        <translation type="unfinished"></translation>
+        <translation>SQLファイルを保存</translation>
     </message>
     <message>
         <location filename="../MainWindow.ui" line="1739"/>
         <source>&amp;Load Extension...</source>
-        <translation type="unfinished"></translation>
+        <translation>拡張を読み込み(&amp;L)...</translation>
     </message>
     <message>
         <location filename="../MainWindow.ui" line="1751"/>
         <source>Execute current line</source>
-        <translation type="unfinished"></translation>
+        <translation>現在行を実行</translation>
     </message>
     <message>
         <location filename="../MainWindow.ui" line="1754"/>
         <source>Execute current line [Shift+F5]</source>
-        <translation type="unfinished"></translation>
+        <translation>現在行を実行 [Shift+F5]</translation>
     </message>
     <message>
         <location filename="../MainWindow.ui" line="1757"/>
         <source>This button executes the SQL statement present in the current editor line</source>
-        <translation type="unfinished"></translation>
+        <translation>このボタンは現在エディターの行にあるSQL文を実行します</translation>
     </message>
     <message>
         <location filename="../MainWindow.ui" line="1760"/>
         <source>Shift+F5</source>
-        <translation type="unfinished"></translation>
+        <translation>Shift+F5</translation>
     </message>
     <message>
         <location filename="../MainWindow.ui" line="1768"/>
         <source>Export as CSV file</source>
-        <translation type="unfinished"></translation>
+        <translation>CSVファイルにエクスポート</translation>
     </message>
     <message>
         <location filename="../MainWindow.ui" line="1771"/>
         <source>Export table as comma separated values file</source>
-        <translation type="unfinished"></translation>
+        <translation>テーブルをカンマ区切りのファイルにエクスポートします</translation>
     </message>
     <message>
         <location filename="../MainWindow.ui" line="1780"/>
         <source>&amp;Wiki</source>
-        <translation type="unfinished"></translation>
+        <translation>ウィキ(&amp;W)</translation>
     </message>
     <message>
         <location filename="../MainWindow.ui" line="1792"/>
         <source>Bug &amp;Report...</source>
-        <translation type="unfinished"></translation>
+        <translation>バグレポート(&amp;R)...</translation>
     </message>
     <message>
         <location filename="../MainWindow.ui" line="1804"/>
         <source>Feature Re&amp;quest...</source>
-        <translation type="unfinished"></translation>
+        <translation>機能を要求(&amp;Q)...</translation>
     </message>
     <message>
         <location filename="../MainWindow.ui" line="1816"/>
         <source>Web&amp;site</source>
-        <translation type="unfinished"></translation>
+        <translation>ウェブサイト(&amp;S)</translation>
     </message>
     <message>
         <location filename="../MainWindow.ui" line="1828"/>
         <source>&amp;Donate on Patreon...</source>
-        <translation type="unfinished"></translation>
+        <translation>Patreonで寄付(&amp;D)...</translation>
     </message>
     <message>
         <location filename="../MainWindow.ui" line="1840"/>
         <source>Sa&amp;ve Project...</source>
-        <translation type="unfinished"></translation>
+        <translation>プロジェクトを保存(&amp;V)...</translation>
     </message>
     <message>
         <location filename="../MainWindow.ui" line="1843"/>
         <location filename="../MainWindow.ui" line="1846"/>
         <source>Save the current session to a file</source>
-        <translation type="unfinished"></translation>
+        <translation>現在のセッションをファイルに保存します</translation>
     </message>
     <message>
         <location filename="../MainWindow.ui" line="1849"/>
         <source>This button lets you save all the settings associated to the open DB to a DB4S project file</source>
-        <translation type="unfinished"></translation>
+        <translation>このボタンで開いているDBに関連付けられる全ての設定をDB4Sプロジェクトファイルに保存します</translation>
     </message>
     <message>
         <location filename="../MainWindow.ui" line="1861"/>
         <source>Open &amp;Project...</source>
-        <translation type="unfinished"></translation>
+        <translation>プロジェクトを開く(&amp;P)...</translation>
     </message>
     <message>
         <location filename="../MainWindow.ui" line="1864"/>
         <location filename="../MainWindow.ui" line="1867"/>
         <source>Load a working session from a file</source>
-        <translation type="unfinished"></translation>
+        <translation>作業中のセッションをファイルから読み込みます</translation>
     </message>
     <message>
         <location filename="../MainWindow.ui" line="1870"/>
         <source>This button lets you open a DB4S project file</source>
-        <translation type="unfinished"></translation>
+        <translation>このボタンでDB4Sプロジェクトファイルを開きます</translation>
     </message>
     <message>
         <location filename="../MainWindow.ui" line="1885"/>
         <source>&amp;Attach Database...</source>
-        <translation type="unfinished"></translation>
+        <translation>データベースに接続(&amp;A)...</translation>
     </message>
     <message>
         <location filename="../MainWindow.ui" line="1888"/>
         <location filename="../MainWindow.ui" line="1891"/>
         <source>Add another database file to the current database connection</source>
-        <translation type="unfinished"></translation>
+        <translation>他のデータベースファイルを現在のデータベース接続に加えます</translation>
     </message>
     <message>
         <location filename="../MainWindow.ui" line="1894"/>
         <source>This button lets you add another database file to the current database connection</source>
-        <translation type="unfinished"></translation>
+        <translation>このボタンで他のデータベースファイルを現在のデータベース接続に加えます</translation>
     </message>
     <message>
         <location filename="../MainWindow.ui" line="1906"/>
         <source>&amp;Set Encryption...</source>
-        <translation type="unfinished"></translation>
+        <translation>暗号化を設定(&amp;S)...</translation>
     </message>
     <message>
         <location filename="../MainWindow.ui" line="1918"/>
         <location filename="../MainWindow.ui" line="1921"/>
         <source>Save SQL file as</source>
-        <translation type="unfinished"></translation>
+        <translation>名前を付けてSQLファイルを保存</translation>
     </message>
     <message>
         <location filename="../MainWindow.ui" line="1936"/>
         <source>This button saves the content of the current SQL editor tab to a file</source>
-        <translation type="unfinished"></translation>
+        <translation>このボタンは現在のSQLエディタータブの内容をファイルに保存します</translation>
     </message>
     <message>
         <location filename="../MainWindow.ui" line="1945"/>
         <source>&amp;Browse Table</source>
-        <translation type="unfinished"></translation>
+        <translation>テーブルを閲覧(&amp;B)</translation>
     </message>
     <message>
         <location filename="../MainWindow.ui" line="1954"/>
         <source>Copy Create statement</source>
-        <translation type="unfinished"></translation>
+        <translation>CREATE文をコピー</translation>
     </message>
     <message>
         <location filename="../MainWindow.ui" line="1957"/>
         <source>Copy the CREATE statement of the item to the clipboard</source>
-        <translation type="unfinished"></translation>
+        <translation>このアイテムのCREATE文をクリップボードにコピーします</translation>
     </message>
     <message>
         <location filename="../MainWindow.ui" line="1962"/>
         <source>Edit display format</source>
-        <translation type="unfinished"></translation>
+        <translation>表示書式を編集</translation>
     </message>
     <message>
         <location filename="../MainWindow.ui" line="1965"/>
         <source>Edit the display format of the data in this column</source>
-        <translation type="unfinished"></translation>
+        <translation>このカラムのデータの表示書式を編集します</translation>
     </message>
     <message>
         <location filename="../MainWindow.ui" line="1973"/>
         <source>Show rowid column</source>
-        <translation type="unfinished"></translation>
+        <translation>rowidカラムを表示</translation>
     </message>
     <message>
         <location filename="../MainWindow.ui" line="1976"/>
         <source>Toggle the visibility of the rowid column</source>
-        <translation type="unfinished"></translation>
+        <translation>rowidカラムの表示を切り替えます</translation>
     </message>
     <message>
         <location filename="../MainWindow.ui" line="1981"/>
         <location filename="../MainWindow.cpp" line="3203"/>
         <source>Set encoding</source>
-        <translation type="unfinished"></translation>
+        <translation>エンコードの設定</translation>
     </message>
     <message>
         <location filename="../MainWindow.ui" line="1984"/>
         <source>Change the encoding of the text in the table cells</source>
-        <translation type="unfinished"></translation>
+        <translation>テーブルのセルにあるテキストのエンコードを変更します</translation>
     </message>
     <message>
         <location filename="../MainWindow.ui" line="1989"/>
         <source>Set encoding for all tables</source>
-        <translation type="unfinished"></translation>
+        <translation>すべてのテーブルのエンコードの設定</translation>
     </message>
     <message>
         <location filename="../MainWindow.ui" line="1992"/>
         <source>Change the default encoding assumed for all tables in the database</source>
-        <translation type="unfinished"></translation>
+        <translation>データベース内のすべてのテーブルのデフォルトエンコードを変更します</translation>
     </message>
     <message>
         <location filename="../MainWindow.ui" line="2001"/>
         <source>SQLCipher &amp;FAQ</source>
-        <translation type="unfinished"></translation>
+        <translation>SQLCipher FAQ(&amp;F)</translation>
     </message>
     <message>
         <location filename="../MainWindow.ui" line="2004"/>
         <source>Opens the SQLCipher FAQ in a browser window</source>
-        <translation type="unfinished"></translation>
+        <translation>SQLCipher の FAQ をブラウザで開きます</translation>
     </message>
     <message>
         <location filename="../MainWindow.ui" line="2009"/>
         <source>Table(&amp;s) to JSON...</source>
-        <translation type="unfinished"></translation>
+        <translation>テーブルをJSONへ(&amp;S)...</translation>
     </message>
     <message>
         <location filename="../MainWindow.ui" line="2012"/>
         <source>Export one or more table(s) to a JSON file</source>
-        <translation type="unfinished"></translation>
+        <translation>1つ以上のテーブルをJSONファイルにエクスポートします</translation>
     </message>
     <message>
         <location filename="../MainWindow.ui" line="2020"/>
         <source>Refresh</source>
-        <translation type="unfinished"></translation>
+        <translation>更新</translation>
     </message>
     <message>
         <location filename="../MainWindow.ui" line="2023"/>
         <source>F5</source>
-        <translation type="unfinished"></translation>
+        <translation>F5</translation>
     </message>
     <message>
         <location filename="../MainWindow.ui" line="2032"/>
         <source>Open Data&amp;base Read Only...</source>
-        <translation type="unfinished"></translation>
+        <translation>データベースを読み取り専用で開く(&amp;B)...</translation>
     </message>
     <message>
         <location filename="../MainWindow.ui" line="2035"/>
         <source>Open an existing database file in read only mode</source>
-        <translation type="unfinished"></translation>
+        <translation>既存のデータベースファイルを読み取り専用モードで開きます</translation>
     </message>
     <message>
         <location filename="../MainWindow.ui" line="2052"/>
         <source>Unlock view editing</source>
-        <translation type="unfinished"></translation>
+        <translation>ビューの編集を開放</translation>
     </message>
     <message>
         <location filename="../MainWindow.ui" line="2055"/>
         <source>This unlocks the current view for editing. However, you will need appropriate triggers for editing.</source>
-        <translation type="unfinished"></translation>
+        <translation>これは現在のビューで編集できるようにします。しかし、編集時のトリガーに対応する必要があります。</translation>
     </message>
     <message>
         <location filename="../MainWindow.ui" line="2064"/>
         <source>Save results</source>
-        <translation type="unfinished"></translation>
+        <translation>結果を保存</translation>
     </message>
     <message>
         <location filename="../MainWindow.ui" line="2067"/>
         <source>Save the results view</source>
-        <translation type="unfinished"></translation>
+        <translation>結果のビューを保存</translation>
     </message>
     <message>
         <location filename="../MainWindow.ui" line="2070"/>
         <source>This button lets you save the results of the last executed query</source>
-        <translation type="unfinished"></translation>
+        <translation>このボタンで最後に実行したクエリーの結果を保存します</translation>
     </message>
     <message>
         <location filename="../MainWindow.ui" line="2082"/>
         <source>Find text in SQL editor</source>
-        <translation type="unfinished"></translation>
+        <translation>SQLエディターの文字列を検索</translation>
     </message>
     <message>
         <location filename="../MainWindow.ui" line="2085"/>
         <source>Find text in SQL editor [Ctrl+F]</source>
-        <translation type="unfinished"></translation>
+        <translation>SQLエディターの文字列を検索 [Ctrl+F]</translation>
     </message>
     <message>
         <location filename="../MainWindow.ui" line="2088"/>
         <source>This button opens the search bar of the editor</source>
-        <translation type="unfinished"></translation>
+        <translation>このボタンはエディターの検索バーを開きます</translation>
     </message>
     <message>
         <location filename="../MainWindow.ui" line="2091"/>
         <source>Ctrl+F</source>
-        <translation type="unfinished"></translation>
+        <translation>Ctrl+F</translation>
     </message>
     <message>
         <location filename="../MainWindow.ui" line="2103"/>
         <source>Find or replace text in SQL editor</source>
-        <translation type="unfinished"></translation>
+        <translation>SQLエディターの文字列を検索/置換します</translation>
     </message>
     <message>
         <location filename="../MainWindow.ui" line="2106"/>
         <source>Find or replace text in SQL editor [Ctrl+H]</source>
-        <translation type="unfinished"></translation>
+        <translation>SQLエディターの文字列を検索/置換します [Ctrl+H]</translation>
     </message>
     <message>
         <location filename="../MainWindow.ui" line="2109"/>
         <source>This button opens the find/replace dialog for the current editor tab</source>
-        <translation type="unfinished"></translation>
+        <translation>このボタンは現在のエディタータブの検索/置換ダイアログを開きます</translation>
     </message>
     <message>
         <location filename="../MainWindow.ui" line="2114"/>
         <location filename="../MainWindow.ui" line="2176"/>
         <source>Export to &amp;CSV</source>
-        <translation type="unfinished"></translation>
+        <translation>CSVにエクスポート(&amp;C)</translation>
     </message>
     <message>
         <location filename="../MainWindow.ui" line="2119"/>
         <location filename="../MainWindow.ui" line="2190"/>
         <source>Save as &amp;view</source>
-        <translation type="unfinished"></translation>
+        <translation>ビューとして保存(&amp;V)</translation>
     </message>
     <message>
         <location filename="../MainWindow.ui" line="2122"/>
         <source>Save as view</source>
-        <translation type="unfinished"></translation>
+        <translation>ビューとして保存</translation>
     </message>
     <message>
         <location filename="../MainWindow.ui" line="2127"/>
         <source>Hide column(s)</source>
-        <translation type="unfinished"></translation>
+        <translation>カラムを隠す</translation>
     </message>
     <message>
         <location filename="../MainWindow.ui" line="2130"/>
         <source>Hide selected column(s)</source>
-        <translation type="unfinished"></translation>
+        <translation>選択したカラムを隠す</translation>
     </message>
     <message>
         <location filename="../MainWindow.ui" line="2135"/>
         <source>Show all columns</source>
-        <translation type="unfinished"></translation>
+        <translation>すべてのカラムを表示</translation>
     </message>
     <message>
         <location filename="../MainWindow.ui" line="2138"/>
         <source>Show all columns that were hidden</source>
-        <translation type="unfinished"></translation>
+        <translation>隠されたすべてのカラムを表示</translation>
     </message>
     <message>
         <location filename="../MainWindow.ui" line="2156"/>
         <source>Shows or hides the Project toolbar.</source>
-        <translation type="unfinished"></translation>
+        <translation>プロジェクトツールバーを表示/非表示します。</translation>
     </message>
     <message>
         <location filename="../MainWindow.ui" line="2171"/>
         <source>Extra DB Toolbar</source>
-        <translation type="unfinished"></translation>
+        <translation>追加DBツールバー</translation>
     </message>
     <message>
         <location filename="../MainWindow.ui" line="2179"/>
         <location filename="../MainWindow.ui" line="2182"/>
         <source>Export the filtered data to CSV</source>
-        <translation type="unfinished"></translation>
+        <translation>フィルターされたデータをCSVにエクスポート</translation>
     </message>
     <message>
         <location filename="../MainWindow.ui" line="2185"/>
         <source>This button exports the data of the browsed table as currently displayed (after filters, display formats and order column) as a CSV file.</source>
-        <translation type="unfinished"></translation>
+        <translation>このボタンは閲覧中のテーブルのデータを現在の表示通り(フィルター、表示形式、カラム順番)にCSVファイルにエクスポートします。</translation>
     </message>
     <message>
         <location filename="../MainWindow.ui" line="2193"/>
         <location filename="../MainWindow.ui" line="2196"/>
         <source>Save the current filter, sort column and display formats as a view</source>
-        <translation type="unfinished"></translation>
+        <translation>現在のフィルター、カラム順番、表示形式をビューに保存</translation>
     </message>
     <message>
         <location filename="../MainWindow.ui" line="2199"/>
         <source>This button saves the current setting of the browsed table (filters, display formats and order column) as an SQL view that you can later browse or use in SQL statements.</source>
-        <translation type="unfinished"></translation>
+        <translation>このボタンは閲覧中のテーブルの現在の表示設定(フィルター、表示形式、カラム順番)をSQLビューとして保存し、あとで閲覧やSQL文として使用できるようにします。</translation>
     </message>
     <message>
         <location filename="../MainWindow.ui" line="2225"/>
         <source>Insert Values...</source>
-        <translation type="unfinished"></translation>
+        <translation>値を挿入...</translation>
     </message>
     <message>
         <location filename="../MainWindow.ui" line="2228"/>
         <location filename="../MainWindow.ui" line="2231"/>
         <source>Open a dialog for inserting values in a new record</source>
-        <translation type="unfinished"></translation>
+        <translation>新しいレコードに値を挿入するダイアログを開きます</translation>
     </message>
     <message>
         <location filename="../MainWindow.ui" line="2239"/>
         <location filename="../MainWindow.ui" line="2242"/>
         <source>Insert new record using default values in browsed table</source>
-        <translation type="unfinished"></translation>
+        <translation>閲覧中のテーブルのデフォルト値を使い新しいレコードを挿入します</translation>
     </message>
     <message>
         <location filename="../MainWindow.ui" line="2247"/>
         <source>New In-&amp;Memory Database</source>
-        <translation type="unfinished"></translation>
+        <translation>新しいインメモリーデータベース(&amp;M)</translation>
     </message>
     <message>
         <location filename="../MainWindow.ui" line="2255"/>
         <source>Drag &amp;&amp; Drop Qualified Names</source>
-        <translation type="unfinished"></translation>
+        <translation>正規化名前をドラッグ&amp;&amp;ドロップ</translation>
     </message>
     <message>
         <location filename="../MainWindow.ui" line="2258"/>
         <location filename="../MainWindow.ui" line="2261"/>
         <source>Use qualified names (e.g. &quot;Table&quot;.&quot;Field&quot;) when dragging the objects and dropping them into the editor </source>
-        <translation type="unfinished"></translation>
+        <translation>オブジェクトをドラッグしエディターにドロップしたときに、正規化名称(例 &quot;Table&quot;.&quot;Field&quot;)を使います </translation>
     </message>
     <message>
         <location filename="../MainWindow.ui" line="2269"/>
         <source>Drag &amp;&amp; Drop Enquoted Names</source>
-        <translation type="unfinished"></translation>
+        <translation>クォートされた名前をドラッグ&amp;&amp;ドロップ</translation>
     </message>
     <message>
         <location filename="../MainWindow.ui" line="2272"/>
         <location filename="../MainWindow.ui" line="2275"/>
         <source>Use escaped identifiers (e.g. &quot;Table1&quot;) when dragging the objects and dropping them into the editor </source>
-        <translation type="unfinished"></translation>
+        <translation>オブジェクトをドラッグしエディターにドロップしたときに、エスケープされた名前(例 &quot;Table1&quot;)を使います </translation>
     </message>
     <message>
         <location filename="../MainWindow.ui" line="2280"/>
         <source>&amp;Integrity Check</source>
-        <translation type="unfinished"></translation>
+        <translation>整合性検査(&amp;I)</translation>
     </message>
     <message>
         <location filename="../MainWindow.ui" line="2283"/>
         <source>Runs the integrity_check pragma over the opened database and returns the results in the Execute SQL tab. This pragma does an integrity check of the entire database.</source>
-        <translation type="unfinished"></translation>
+        <translation>開いているデータベースの整合性検査プラグマを実行し、結果をSQL実行タブに出力します。このプラグマはすべてのデータベースの整合性検査を行います。</translation>
     </message>
     <message>
         <location filename="../MainWindow.ui" line="2288"/>
         <source>&amp;Foreign-Key Check</source>
-        <translation type="unfinished"></translation>
+        <translation>外部キー検査(&amp;F)</translation>
     </message>
     <message>
         <location filename="../MainWindow.ui" line="2291"/>
         <source>Runs the foreign_key_check pragma over the opened database and returns the results in the Execute SQL tab</source>
-        <translation type="unfinished"></translation>
+        <translation>開いているデータベースの外部キー検査プラグマを実行し、結果をSQL実行タブに出力します</translation>
     </message>
     <message>
         <location filename="../MainWindow.ui" line="2296"/>
         <source>&amp;Quick Integrity Check</source>
-        <translation type="unfinished"></translation>
+        <translation>即時整合性検査(&amp;Q)</translation>
     </message>
     <message>
         <location filename="../MainWindow.ui" line="2299"/>
         <source>Run a quick integrity check over the open DB</source>
-        <translation type="unfinished"></translation>
+        <translation>開いているDBの高速整合性検査を実行します</translation>
     </message>
     <message>
         <location filename="../MainWindow.ui" line="2302"/>
         <source>Runs the quick_check pragma over the opened database and returns the results in the Execute SQL tab. This command does most of the checking of PRAGMA integrity_check but runs much faster.</source>
-        <translation type="unfinished"></translation>
+        <translation>開いているデータベースの高速整合性検査プラグマを実行し、結果をSQL実行タブに出力します。このコマンドは(通常の)整合性検査PRAGMAの大部分を行いますが、より高速に動作します。</translation>
     </message>
     <message>
         <location filename="../MainWindow.ui" line="2307"/>
         <source>&amp;Optimize</source>
-        <translation type="unfinished"></translation>
+        <translation>最適化(&amp;O)</translation>
     </message>
     <message>
         <location filename="../MainWindow.ui" line="2310"/>
         <source>Attempt to optimize the database</source>
-        <translation type="unfinished"></translation>
+        <translation>データベースの最適化を試みます</translation>
     </message>
     <message>
         <location filename="../MainWindow.ui" line="2313"/>
         <source>Runs the optimize pragma over the opened database. This pragma might perform optimizations that will improve the performance of future queries.</source>
-        <translation type="unfinished"></translation>
+        <translation>開いているデータベースの最適化プラグマを実行します。このプラグマは将来のクエリーの性能を改善させます。</translation>
     </message>
     <message>
         <location filename="../MainWindow.ui" line="2322"/>
         <location filename="../MainWindow.ui" line="2346"/>
         <source>Print</source>
-        <translation type="unfinished"></translation>
+        <translation>印刷</translation>
     </message>
     <message>
         <location filename="../MainWindow.ui" line="2325"/>
         <source>Print text from current SQL editor tab [Ctrl+P]</source>
-        <translation type="unfinished"></translation>
+        <translation>現在のSQLエディタータブの文字列を印刷します [Ctrl+P]</translation>
     </message>
     <message>
         <location filename="../MainWindow.ui" line="2331"/>
         <source>Open a dialog for printing the text in the current SQL editor tab</source>
-        <translation type="unfinished"></translation>
+        <translation>現在のSQLエディタータブの文字列を印刷するダイアログを開きます</translation>
     </message>
     <message>
         <location filename="../MainWindow.ui" line="2349"/>
         <source>Print the structure of the opened database [Ctrl+P]</source>
-        <translation type="unfinished"></translation>
+        <translation>開いているデータベースの構造を印刷します [Ctrl+P]</translation>
     </message>
     <message>
         <location filename="../MainWindow.ui" line="2355"/>
         <source>Open a dialog for printing the structure of the opened database</source>
-        <translation type="unfinished"></translation>
+        <translation>開いているデータベースの構造を印刷するダイアログを開きます</translation>
     </message>
     <message>
         <location filename="../MainWindow.ui" line="2358"/>
         <source>Ctrl+P</source>
-        <translation type="unfinished"></translation>
+        <translation>Ctrl+P</translation>
     </message>
     <message>
         <location filename="../MainWindow.cpp" line="194"/>
         <source>Ctrl+Return</source>
-        <translation type="unfinished"></translation>
+        <translation>Ctrl+Return</translation>
     </message>
     <message>
         <location filename="../MainWindow.cpp" line="275"/>
         <source>Ctrl+L</source>
-        <translation type="unfinished"></translation>
+        <translation>Ctrl+L</translation>
     </message>
     <message>
         <location filename="../MainWindow.cpp" line="280"/>
         <source>Ctrl+D</source>
-        <translation type="unfinished"></translation>
+        <translation>Ctrl+D</translation>
     </message>
     <message>
         <location filename="../MainWindow.cpp" line="285"/>
         <source>Ctrl+I</source>
-        <translation type="unfinished"></translation>
+        <translation>Ctrl+I</translation>
     </message>
     <message>
         <location filename="../MainWindow.cpp" line="290"/>
         <source>Ctrl+E</source>
-        <translation type="unfinished"></translation>
+        <translation>Ctrl+E</translation>
     </message>
     <message>
         <location filename="../MainWindow.cpp" line="314"/>
         <source>Encrypted</source>
-        <translation type="unfinished"></translation>
+        <translation>暗号化</translation>
     </message>
     <message>
         <location filename="../MainWindow.cpp" line="315"/>
         <source>Database is encrypted using SQLCipher</source>
-        <translation type="unfinished"></translation>
+        <translation>データベースはSQLCipherで暗号化されています</translation>
     </message>
     <message>
         <location filename="../MainWindow.cpp" line="321"/>
         <source>Read only</source>
-        <translation type="unfinished"></translation>
+        <translation>読み取り専用</translation>
     </message>
     <message>
         <location filename="../MainWindow.cpp" line="322"/>
         <source>Database file is read only. Editing the database is disabled.</source>
-        <translation type="unfinished"></translation>
+        <translation>データベースは読み取り専用です。データベースの編集はできません。</translation>
     </message>
     <message>
         <location filename="../MainWindow.cpp" line="328"/>
         <source>Database encoding</source>
-        <translation type="unfinished"></translation>
+        <translation>データベースのエンコード</translation>
     </message>
     <message>
         <location filename="../MainWindow.cpp" line="427"/>
         <location filename="../MainWindow.cpp" line="2905"/>
         <source>Choose a database file</source>
-        <translation type="unfinished"></translation>
+        <translation>データベースファイルを選択</translation>
     </message>
     <message>
         <location filename="../MainWindow.cpp" line="468"/>
         <source>Could not open database file.
 Reason: %1</source>
-        <translation type="unfinished"></translation>
+        <translation>データベースファイルを開けません。
+理由: %1</translation>
     </message>
     <message>
         <location filename="../MainWindow.cpp" line="480"/>
         <location filename="../MainWindow.cpp" line="1680"/>
         <location filename="../MainWindow.cpp" line="2789"/>
         <source>Choose a filename to save under</source>
-        <translation type="unfinished"></translation>
+        <translation>セーブするファイル名を下から選択</translation>
     </message>
     <message>
         <location filename="../MainWindow.cpp" line="501"/>
         <source>In-Memory database</source>
-        <translation type="unfinished"></translation>
+        <translation>インメモリーデータベース</translation>
     </message>
     <message>
         <location filename="../MainWindow.cpp" line="832"/>
         <source>Error deleting record:
 %1</source>
-        <translation type="unfinished"></translation>
+        <translation>レコードの削除でエラー:
+%1</translation>
     </message>
     <message>
         <location filename="../MainWindow.cpp" line="841"/>
         <source>Please select a record first</source>
-        <translation type="unfinished"></translation>
+        <translation>最初にレコードを選択してください</translation>
     </message>
     <message>
         <location filename="../MainWindow.cpp" line="929"/>
         <source>determining row count...</source>
-        <translation type="unfinished"></translation>
+        <translation>行数を計算中...</translation>
     </message>
     <message>
         <location filename="../MainWindow.cpp" line="932"/>
         <source>%1 - %2 of &gt;= %3</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 - %2 of &gt;= %3</translation>
     </message>
     <message>
         <location filename="../MainWindow.cpp" line="936"/>
         <source>%1 - %2 of %3</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 - %2 of %3</translation>
     </message>
     <message>
         <location filename="../MainWindow.cpp" line="973"/>
         <location filename="../MainWindow.cpp" line="987"/>
         <source>There is no database opened. Please open or create a new database file.</source>
-        <translation type="unfinished"></translation>
+        <translation>開いているデータベースがありません。新しいデータベースファイルを開くか作成してください。</translation>
     </message>
     <message>
         <location filename="../MainWindow.cpp" line="1012"/>
         <source>Are you sure you want to delete the table &apos;%1&apos;?
 All data associated with the table will be lost.</source>
-        <translation type="unfinished"></translation>
+        <translation>本当にテーブル &apos;%1&apos; を削除しますか?
+テーブルに関連するすべてのデータは失われます。</translation>
     </message>
     <message>
         <location filename="../MainWindow.cpp" line="1014"/>
         <source>Are you sure you want to delete the view &apos;%1&apos;?</source>
-        <translation type="unfinished"></translation>
+        <translation>本当にビュー &apos;%1&apos; を削除しますか?</translation>
     </message>
     <message>
         <location filename="../MainWindow.cpp" line="1016"/>
         <source>Are you sure you want to delete the trigger &apos;%1&apos;?</source>
-        <translation type="unfinished"></translation>
+        <translation>本当にトリガー &apos;%1&apos; を削除しますか?</translation>
     </message>
     <message>
         <location filename="../MainWindow.cpp" line="1018"/>
         <source>Are you sure you want to delete the index &apos;%1&apos;?</source>
-        <translation type="unfinished"></translation>
+        <translation>本当にインデックス &apos;%1&apos; を削除しますか?</translation>
     </message>
     <message>
         <location filename="../MainWindow.cpp" line="1029"/>
         <source>Error: could not delete the table.</source>
-        <translation type="unfinished"></translation>
+        <translation>エラー: テーブルを削除できませんでした。</translation>
     </message>
     <message>
         <location filename="../MainWindow.cpp" line="1031"/>
         <source>Error: could not delete the view.</source>
-        <translation type="unfinished"></translation>
+        <translation>エラー: ビューを削除できませんでした。</translation>
     </message>
     <message>
         <location filename="../MainWindow.cpp" line="1033"/>
         <source>Error: could not delete the trigger.</source>
-        <translation type="unfinished"></translation>
+        <translation>エラー: トリガーを削除できませんでした。</translation>
     </message>
     <message>
         <location filename="../MainWindow.cpp" line="1035"/>
         <source>Error: could not delete the index.</source>
-        <translation type="unfinished"></translation>
+        <translation>エラー: インデックスを削除できませんでした。</translation>
     </message>
     <message>
         <location filename="../MainWindow.cpp" line="1037"/>
         <source>Message from database engine:
 %1</source>
-        <translation type="unfinished"></translation>
+        <translation>データベースエンジンからのメッセージ。
+%1</translation>
     </message>
     <message>
         <location filename="../MainWindow.cpp" line="1066"/>
         <source>Editing the table requires to save all pending changes now.
 Are you sure you want to save the database?</source>
-        <translation type="unfinished"></translation>
+        <translation>テーブルの編集には保留中のすべての変更を今保存する必要があります。
+本当にデータベースを保存しますか?</translation>
     </message>
     <message>
         <location filename="../MainWindow.cpp" line="1085"/>
         <source>Error checking foreign keys after table modification. The changes will be reverted.</source>
-        <translation type="unfinished"></translation>
+        <translation>デーブル変更後の外部キー検査でエラー。変更は元に戻ります。</translation>
     </message>
     <message>
         <location filename="../MainWindow.cpp" line="1088"/>
         <source>This table did not pass a foreign-key check.&lt;br/&gt;You should run &apos;Tools | Foreign-Key Check&apos; and fix the reported issues.</source>
-        <translation type="unfinished"></translation>
+        <translation>このテーブルは外部キー検査に合格しませんでした。&lt;br/&gt;&apos;ツール | 外部キー検査&apos; を実行し、報告された問題を解決します。</translation>
     </message>
     <message>
         <location filename="../MainWindow.cpp" line="1253"/>
         <source>-- EXECUTING SELECTION IN &apos;%1&apos;
 --</source>
-        <translation type="unfinished"></translation>
+        <translation>-- &apos;%1 内の選択部分を実行中&apos;
+--</translation>
     </message>
     <message>
         <location filename="../MainWindow.cpp" line="1276"/>
         <source>-- EXECUTING LINE IN &apos;%1&apos;
 --</source>
-        <translation type="unfinished"></translation>
+        <translation>-- &apos;%1 内の行を実行中&apos;
+--</translation>
     </message>
     <message>
         <location filename="../MainWindow.cpp" line="1284"/>
         <source>-- EXECUTING ALL IN &apos;%1&apos;
 --</source>
-        <translation type="unfinished"></translation>
+        <translation>-- &apos;%1 内をすべて実行中&apos;
+--</translation>
     </message>
     <message>
         <location filename="../MainWindow.cpp" line="1348"/>
         <source>Setting PRAGMA values or vacuuming will commit your current transaction.
 Are you sure?</source>
-        <translation type="unfinished"></translation>
+        <translation>PRAGMA 値の設定やバキュームは現在のトランザクションをコミットします。
+本当に行いますか?</translation>
     </message>
     <message>
         <location filename="../MainWindow.cpp" line="1356"/>
         <source>Execution aborted by user</source>
-        <translation type="unfinished"></translation>
+        <translation>実行はユーザーにより中止されました</translation>
     </message>
     <message>
         <location filename="../MainWindow.cpp" line="1376"/>
         <source>executing query</source>
-        <translation type="unfinished"></translation>
+        <translation>実行クエリー</translation>
     </message>
     <message>
         <location filename="../MainWindow.cpp" line="1413"/>
         <source>%1 rows returned in %2ms</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 行が %2ms で返されました</translation>
     </message>
     <message>
         <location filename="../MainWindow.cpp" line="1431"/>
         <source>, %1 rows affected</source>
-        <translation type="unfinished"></translation>
+        <translation>, %1 行に影響を与えました</translation>
     </message>
     <message>
         <location filename="../MainWindow.cpp" line="1437"/>
         <source>query executed successfully. Took %1ms%2</source>
-        <translation type="unfinished"></translation>
+        <translation>クエリーの実行に成功しました。 %1ms%2 かかりました</translation>
     </message>
     <message>
         <location filename="../MainWindow.cpp" line="1476"/>
         <location filename="../MainWindow.cpp" line="1478"/>
         <source>At line %1:</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 行目:</translation>
     </message>
     <message>
         <location filename="../MainWindow.cpp" line="1476"/>
         <location filename="../MainWindow.cpp" line="1478"/>
         <source>Result: %2</source>
-        <translation type="unfinished"></translation>
+        <translation>結果: %2</translation>
     </message>
     <message>
         <location filename="../MainWindow.cpp" line="1555"/>
         <source>Choose text files</source>
-        <translation type="unfinished"></translation>
+        <translation>テキストファイルを選択</translation>
     </message>
     <message>
         <location filename="../MainWindow.cpp" line="1556"/>
         <source>Text files(*.csv *.txt);;All files(*)</source>
-        <translation type="unfinished"></translation>
+        <translation>テキストファイル(*.csv *.txt);;すべてのファイル(*)</translation>
     </message>
     <message>
         <location filename="../MainWindow.cpp" line="1630"/>
         <source>Error while saving the database file. This means that not all changes to the database were saved. You need to resolve the following error first.
 
 %1</source>
-        <translation type="unfinished"></translation>
+        <translation>データベースの保存中にエラー。これは全ての変更がデータベースに保存されていなかったためです。まず、以下のエラーを解決してください。
+
+%1</translation>
     </message>
     <message>
         <location filename="../MainWindow.cpp" line="1639"/>
         <source>Are you sure you want to undo all changes made to the database file &apos;%1&apos; since the last save?</source>
-        <translation type="unfinished"></translation>
+        <translation>本当にデータベースファイル &apos;%1&apos; への最後の保存後に行われたすべての変更を元に戻しますか?</translation>
     </message>
     <message>
         <location filename="../MainWindow.cpp" line="1663"/>
         <source>Choose a file to import</source>
-        <translation type="unfinished"></translation>
+        <translation>インポートするファイルを選択</translation>
     </message>
     <message>
         <location filename="../MainWindow.cpp" line="1664"/>
         <location filename="../MainWindow.cpp" line="2147"/>
         <location filename="../MainWindow.cpp" line="2207"/>
         <source>Text files(*.sql *.txt);;All files(*)</source>
-        <translation type="unfinished"></translation>
+        <translation>テキストファイル(*.sql *.txt);;すべてのファイル(*)</translation>
     </message>
     <message>
         <location filename="../MainWindow.cpp" line="1674"/>
         <source>Do you want to create a new database file to hold the imported data?
 If you answer no we will attempt to import the data in the SQL file to the current database.</source>
-        <translation type="unfinished"></translation>
+        <translation>インポートしたデータを保持する新しいデータベースを作成しますか
+いいえを選択すると、SQLファイルからのデータを現在のデータベースにインポートしようとします。</translation>
     </message>
     <message>
         <location filename="../MainWindow.cpp" line="1684"/>
         <source>File %1 already exists. Please choose a different name.</source>
-        <translation type="unfinished"></translation>
+        <translation>ファイル %1 は既に存在しています。違う名前を選んでください。</translation>
     </message>
     <message>
         <location filename="../MainWindow.cpp" line="1706"/>
         <source>Error importing data: %1</source>
-        <translation type="unfinished"></translation>
+        <translation>データのインポートでエラー: %1</translation>
     </message>
     <message>
         <location filename="../MainWindow.cpp" line="1708"/>
         <source>Import completed. Some foreign key constraints are violated. Please fix them before saving.</source>
-        <translation type="unfinished"></translation>
+        <translation>インポートが終了しました。いくつかの外部キー制約に違反があります。保存前に修正してください。</translation>
     </message>
     <message>
         <location filename="../MainWindow.cpp" line="1710"/>
         <source>Import completed.</source>
-        <translation type="unfinished"></translation>
+        <translation>インポート完了。</translation>
     </message>
     <message>
         <location filename="../MainWindow.cpp" line="1774"/>
         <source>Delete View</source>
-        <translation type="unfinished"></translation>
+        <translation>ビューを削除</translation>
     </message>
     <message>
         <location filename="../MainWindow.cpp" line="1775"/>
         <source>Modify View</source>
-        <translation type="unfinished"></translation>
+        <translation>ビューを変更</translation>
     </message>
     <message>
         <location filename="../MainWindow.cpp" line="1777"/>
         <source>Delete Trigger</source>
-        <translation type="unfinished"></translation>
+        <translation>トリガーを削除</translation>
     </message>
     <message>
         <location filename="../MainWindow.cpp" line="1778"/>
         <source>Modify Trigger</source>
-        <translation type="unfinished"></translation>
+        <translation>トリガーを変更</translation>
     </message>
     <message>
         <location filename="../MainWindow.cpp" line="1780"/>
         <source>Delete Index</source>
-        <translation type="unfinished"></translation>
+        <translation>インデックスを削除</translation>
     </message>
     <message>
         <location filename="../MainWindow.cpp" line="1781"/>
         <source>Modify Index</source>
-        <translation type="unfinished"></translation>
+        <translation>インデックスを変更</translation>
     </message>
     <message>
         <location filename="../MainWindow.cpp" line="1784"/>
         <source>Modify Table</source>
-        <translation type="unfinished"></translation>
+        <translation>テーブルを変更</translation>
     </message>
     <message>
         <location filename="../MainWindow.cpp" line="1839"/>
         <source>&amp;%1 %2</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;%1 %2</translation>
     </message>
     <message>
         <location filename="../MainWindow.cpp" line="2065"/>
         <source>Setting PRAGMA values will commit your current transaction.
 Are you sure?</source>
-        <translation type="unfinished"></translation>
+        <translation>PRAGMA 値の設定は現在のトランザクションをコミットします。
+本当に行いますか?</translation>
     </message>
     <message>
         <location filename="../MainWindow.cpp" line="2146"/>
         <source>Select SQL file to open</source>
-        <translation type="unfinished"></translation>
+        <translation>開くSQLファイルを選択</translation>
     </message>
     <message>
         <location filename="../MainWindow.cpp" line="2155"/>
         <source>Couldn&apos;t read file: %1.</source>
-        <translation type="unfinished"></translation>
+        <translation>ファイルを読めません: %1.</translation>
     </message>
     <message>
         <location filename="../MainWindow.cpp" line="2193"/>
         <source>Couldn&apos;t save file: %1.</source>
-        <translation type="unfinished"></translation>
+        <translation>ファイルを保存できません: %1.</translation>
     </message>
     <message>
         <location filename="../MainWindow.cpp" line="2206"/>
         <source>Select file name</source>
-        <translation type="unfinished"></translation>
+        <translation>ファイル名を選択</translation>
     </message>
     <message>
         <location filename="../MainWindow.cpp" line="2231"/>
         <source>Select extension file</source>
-        <translation type="unfinished"></translation>
+        <translation>拡張ファイルを選択</translation>
     </message>
     <message>
         <location filename="../MainWindow.cpp" line="2232"/>
         <source>Extensions(*.so *.dylib *.dll);;All files(*)</source>
-        <translation type="unfinished"></translation>
+        <translation>拡張(*.so *.dylib *.dll);;すべてのファイル(*)</translation>
     </message>
     <message>
         <location filename="../MainWindow.cpp" line="2238"/>
         <source>Extension successfully loaded.</source>
-        <translation type="unfinished"></translation>
+        <translation>拡張の読み込みに成功しました。</translation>
     </message>
     <message>
         <location filename="../MainWindow.cpp" line="2240"/>
         <source>Error loading extension: %1</source>
-        <translation type="unfinished"></translation>
+        <translation>拡張の読み込みでエラー: %1</translation>
     </message>
     <message>
         <location filename="../MainWindow.cpp" line="2325"/>
         <location filename="../MainWindow.cpp" line="2628"/>
         <source>Don&apos;t show again</source>
-        <translation type="unfinished"></translation>
+        <translation>二度と表示しない</translation>
     </message>
     <message>
         <location filename="../MainWindow.cpp" line="2328"/>
         <source>New version available.</source>
-        <translation type="unfinished"></translation>
+        <translation>新しいバージョンがあります。</translation>
     </message>
     <message>
         <location filename="../MainWindow.cpp" line="2329"/>
         <source>A new DB Browser for SQLite version is available (%1.%2.%3).&lt;br/&gt;&lt;br/&gt;Please download at &lt;a href=&apos;%4&apos;&gt;%4&lt;/a&gt;.</source>
-        <translation type="unfinished"></translation>
+        <translation>新しいバージョンの DB Browser for SQLite (%1.%2.%3)があります。&lt;br/&gt;&lt;br/&gt;&lt;a href=&apos;%4&apos;&gt;%4&lt;/a&gt;からダウンロードしてください。</translation>
     </message>
     <message>
         <location filename="../MainWindow.cpp" line="2523"/>
         <source>Choose a project file to open</source>
-        <translation type="unfinished"></translation>
+        <translation>開くプロジェクトファイルを選択</translation>
     </message>
     <message>
         <location filename="../MainWindow.cpp" line="2524"/>
         <location filename="../MainWindow.cpp" line="2790"/>
         <source>DB Browser for SQLite project file (*.sqbpro)</source>
-        <translation type="unfinished"></translation>
+        <translation>DB Browser for SQLite プロジェクトファイル (*.sqbpro)</translation>
     </message>
     <message>
         <location filename="../MainWindow.cpp" line="2632"/>
         <source>This project file is using an old file format because it was created using DB Browser for SQLite version 3.10 or lower. Loading this file format is still fully supported but we advice you to convert all your project files to the new file format because support for older formats might be dropped at some point in the future. You can convert your files by simply opening and re-saving them.</source>
-        <translation type="unfinished"></translation>
+        <translation>このプロジェクトファイルは DB Browser for SQLite version 3.10 以下のバージョンで使われた、古いファイルフォーマットを使用しています。このファイルフォーマットの読み込みはいまだ完全にサポートされていますが、将来古いフォーマットのサポートはなくなるため、すべてのプロジェクトファイルを新しいフォーマットに変換することをおすすめします。ファイルを変換するには単純にファイルを開き再保存します。</translation>
     </message>
     <message>
         <location filename="../MainWindow.cpp" line="3097"/>
         <source>Duplicate records</source>
-        <translation type="unfinished"></translation>
+        <translation>レコードを複製</translation>
     </message>
     <message>
         <location filename="../MainWindow.cpp" line="3097"/>
         <source>Duplicate record</source>
-        <translation type="unfinished"></translation>
+        <translation>レコードを複製</translation>
     </message>
     <message>
         <location filename="../MainWindow.cpp" line="3102"/>
         <source>Ctrl+&quot;</source>
-        <translation type="unfinished"></translation>
+        <translation>Ctrl+&quot;</translation>
     </message>
     <message>
         <location filename="../MainWindow.cpp" line="3199"/>
         <source>Please choose a new encoding for all tables.</source>
-        <translation type="unfinished"></translation>
+        <translation>すべてのテーブルの新しいエンコードを選択してください。</translation>
     </message>
     <message>
         <location filename="../MainWindow.cpp" line="3201"/>
         <source>Please choose a new encoding for this table.</source>
-        <translation type="unfinished"></translation>
+        <translation>すべてのテーブルの新しいエンコードを選択してください。</translation>
     </message>
     <message>
         <location filename="../MainWindow.cpp" line="3204"/>
         <source>%1
 Leave the field empty for using the database encoding.</source>
-        <translation type="unfinished"></translation>
+        <translation>%1
+データベースのエンコードを使うため、フィールドを空にします。</translation>
     </message>
     <message>
         <location filename="../MainWindow.cpp" line="3216"/>
         <source>This encoding is either not valid or not supported.</source>
-        <translation type="unfinished"></translation>
+        <translation>このエンコードは不正かサポートされていません。</translation>
     </message>
     <message>
         <location filename="../MainWindow.cpp" line="3272"/>
         <source>Please enter a pseudo-primary key in order to enable editing on this view. This should be the name of a unique column in the view.</source>
-        <translation type="unfinished"></translation>
+        <translation>このビューでの編集を有効にするため、疑似主キーを入力してください。ビューに一意なカラムの名前が必要です。</translation>
     </message>
     <message>
         <location filename="../MainWindow.cpp" line="3377"/>
         <source>Collation needed! Proceed?</source>
-        <translation type="unfinished"></translation>
+        <translation>照合順序が必要です!続行しますか?</translation>
     </message>
     <message>
         <location filename="../MainWindow.cpp" line="3378"/>
         <source>A table in this database requires a special collation function &apos;%1&apos; that this application can&apos;t provide without further knowledge.
 If you choose to proceed, be aware bad things can happen to your database.
 Create a backup!</source>
-        <translation type="unfinished"></translation>
+        <translation>このデータベースにあるテーブルは特別な照合順序関数 &apos;%1&apos; が必要ですが、このアプリケーションは更なる知識なしでは提供できません。
+続行すると、データベースに何か悪いことがあるかもしれません。
+バックアップを作成してください!</translation>
     </message>
     <message>
         <location filename="../MainWindow.cpp" line="3383"/>
         <source>creating collation</source>
-        <translation type="unfinished"></translation>
+        <translation>照合順序の作成中</translation>
     </message>
     <message>
         <location filename="../MainWindow.cpp" line="3392"/>
         <source>Set a new name for the SQL tab. Use the &apos;&amp;&amp;&apos; character to allow using the following character as a keyboard shortcut.</source>
-        <translation type="unfinished"></translation>
+        <translation>SQLタブに新しい名前を設定してください。&apos;&amp;&amp;&apos;の文字を使うと、その次の文字をキーボードショートカットにできます。</translation>
     </message>
     <message>
         <location filename="../MainWindow.cpp" line="3435"/>
         <source>Please specify the view name</source>
-        <translation type="unfinished"></translation>
+        <translation>ビューの名前を指定してください</translation>
     </message>
     <message>
         <location filename="../MainWindow.cpp" line="3439"/>
         <source>There is already an object with that name. Please choose a different name.</source>
-        <translation type="unfinished"></translation>
+        <translation>その名前のオブジェクトは既に存在します。別の名前を選んでください。</translation>
     </message>
     <message>
         <location filename="../MainWindow.cpp" line="3446"/>
         <source>View successfully created.</source>
-        <translation type="unfinished"></translation>
+        <translation>ビューの作成に成功しました。</translation>
     </message>
     <message>
         <location filename="../MainWindow.cpp" line="3448"/>
         <source>Error creating view: %1</source>
-        <translation type="unfinished"></translation>
+        <translation>ビューの作成でエラー: %1</translation>
     </message>
     <message>
         <location filename="../MainWindow.cpp" line="3463"/>
         <source>There is no filter set for this table. View will not be created.</source>
-        <translation type="unfinished"></translation>
+        <translation>このテーブルにフィルターの設定はありません。ビューは作成されません。</translation>
     </message>
     <message>
         <location filename="../MainWindow.cpp" line="3501"/>
         <source>Delete Records</source>
-        <translation type="unfinished"></translation>
+        <translation>レコードを削除</translation>
     </message>
     <message>
         <location filename="../MainWindow.cpp" line="3508"/>
         <source>This action will open a new SQL tab for running:</source>
-        <translation type="unfinished"></translation>
+        <translation>この操作は実行のため新しいSQLタブを開きます:</translation>
     </message>
     <message>
         <location filename="../MainWindow.cpp" line="3510"/>
         <source>Press Help for opening the corresponding SQLite reference page.</source>
-        <translation type="unfinished"></translation>
+        <translation>ヘルプを押すと、対応する SQLite のリファレンスページを開きます。</translation>
     </message>
 </context>
 <context>
@@ -3808,12 +3835,12 @@ Create a backup!</source>
     <message>
         <location filename="../AddRecordDialog.cpp" line="40"/>
         <source>Set to NULL</source>
-        <translation type="unfinished"></translation>
+        <translation>NULL に設定</translation>
     </message>
     <message>
         <location filename="../AddRecordDialog.cpp" line="44"/>
         <source>Alt+Del</source>
-        <translation type="unfinished"></translation>
+        <translation>Alt+Del</translation>
     </message>
 </context>
 <context>
@@ -3821,32 +3848,32 @@ Create a backup!</source>
     <message>
         <location filename="../PlotDock.ui" line="14"/>
         <source>Plot</source>
-        <translation type="unfinished"></translation>
+        <translation>プロット</translation>
     </message>
     <message>
         <location filename="../PlotDock.ui" line="30"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;This pane shows the list of columns of the currently browsed table or the just executed query. You can select the columns that you want to be used as X or Y axis for the plot pane below. The table shows detected axis type that will affect the resulting plot. For the Y axis you can only select numeric columns, but for the X axis you will be able to select:&lt;/p&gt;&lt;ul style=&quot;margin-top: 0px; margin-bottom: 0px; margin-left: 0px; margin-right: 0px; -qt-list-indent: 1;&quot;&gt;&lt;li style=&quot; margin-top:12px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;Date/Time&lt;/span&gt;: strings with format &amp;quot;yyyy-MM-dd hh:mm:ss&amp;quot; or &amp;quot;yyyy-MM-ddThh:mm:ss&amp;quot;&lt;/li&gt;&lt;li style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;Date&lt;/span&gt;: strings with format &amp;quot;yyyy-MM-dd&amp;quot;&lt;/li&gt;&lt;li style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;Time&lt;/span&gt;: strings with format &amp;quot;hh:mm:ss&amp;quot;&lt;/li&gt;&lt;li style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;Label&lt;/span&gt;: other string formats. Selecting this column as X axis will produce a Bars plot with the column values as labels for the bars&lt;/li&gt;&lt;li style=&quot; margin-top:0px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;Numeric&lt;/span&gt;: integer or real values&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Double-clicking the Y cells you can change the used color for that graph.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;このペインは現在閲覧中のテーブルか直前に実行したクエリーのカラムの一覧を表示します。下のプロットペインでXもしくはY軸として使用されるカラムを選択できます。表は結果のプロットに使用できる軸の種類を表示します。Y軸には数値のカラムのみ選択できますが、X軸にはこれらが選択できます:&lt;/p&gt;&lt;ul style=&quot;margin-top: 0px; margin-bottom: 0px; margin-left: 0px; margin-right: 0px; -qt-list-indent: 1;&quot;&gt;&lt;li style=&quot; margin-top:12px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;日時&lt;/span&gt;: &amp;quot;yyyy-MM-dd hh:mm:ss&amp;quot; もしくは &amp;quot;yyyy-MM-ddThh:mm:ss&amp;quot; 形式の文字列&lt;/li&gt;&lt;li style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;日付&lt;/span&gt;: &amp;quot;yyyy-MM-dd&amp;quot; 形式の文字列&lt;/li&gt;&lt;li style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;時刻&lt;/span&gt;: &amp;quot;hh:mm:ss&amp;quot; 形式の文字列&lt;/li&gt;&lt;li style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;ラベル&lt;/span&gt;: その他の形式の文字列。これをX軸に選択すると、カラムの値を棒グラフのラベルとして表示します&lt;/li&gt;&lt;li style=&quot; margin-top:0px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;Numeric&lt;/span&gt;: integer or real values&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Yのセルをダブルクリックすると、グラフに使用する色を変更できます。&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
         <location filename="../PlotDock.ui" line="46"/>
         <source>Columns</source>
-        <translation type="unfinished"></translation>
+        <translation>カラム</translation>
     </message>
     <message>
         <location filename="../PlotDock.ui" line="51"/>
         <source>X</source>
-        <translation type="unfinished"></translation>
+        <translation>X</translation>
     </message>
     <message>
         <location filename="../PlotDock.ui" line="56"/>
         <source>Y</source>
-        <translation type="unfinished"></translation>
+        <translation>Y</translation>
     </message>
     <message>
         <location filename="../PlotDock.ui" line="61"/>
         <source>Axis Type</source>
-        <translation type="unfinished"></translation>
+        <translation>軸のデータ型</translation>
     </message>
     <message>
         <location filename="../PlotDock.ui" line="73"/>
@@ -3857,218 +3884,225 @@ Click on points to select them in the plot and in the table. Ctrl+Click for sele
 Use mouse-wheel for zooming and mouse drag for changing the axis range.
 
 Select the axes or axes labels to drag and zoom only in that orientation.</source>
-        <translation type="unfinished"></translation>
+        <translation>上でXとY軸を選択すると、ここにグラフが描画されます。
+
+点をクリックすると、点と該当するテーブルの値が選択できます。Ctrl+クリックで点を範囲選択できます。
+
+マウスホイールでズーム、ドラッグで軸の範囲を変更できます。
+
+軸か軸のラベルを選択すると、ズームやドラッグの方向を限定できます。</translation>
     </message>
     <message>
         <location filename="../PlotDock.ui" line="89"/>
         <source>Line type:</source>
-        <translation type="unfinished"></translation>
+        <translation>線の種類:</translation>
     </message>
     <message>
         <location filename="../PlotDock.ui" line="118"/>
         <location filename="../PlotDock.ui" line="165"/>
         <source>None</source>
-        <translation type="unfinished"></translation>
+        <translation>なし</translation>
     </message>
     <message>
         <location filename="../PlotDock.ui" line="123"/>
         <source>Line</source>
-        <translation type="unfinished"></translation>
+        <translation>直線</translation>
     </message>
     <message>
         <location filename="../PlotDock.ui" line="128"/>
         <source>StepLeft</source>
-        <translation type="unfinished"></translation>
+        <translation>階段(左値)</translation>
     </message>
     <message>
         <location filename="../PlotDock.ui" line="133"/>
         <source>StepRight</source>
-        <translation type="unfinished"></translation>
+        <translation>階段(右値)</translation>
     </message>
     <message>
         <location filename="../PlotDock.ui" line="138"/>
         <source>StepCenter</source>
-        <translation type="unfinished"></translation>
+        <translation>階段(最近値)</translation>
     </message>
     <message>
         <location filename="../PlotDock.ui" line="143"/>
         <source>Impulse</source>
-        <translation type="unfinished"></translation>
+        <translation>インパルス</translation>
     </message>
     <message>
         <location filename="../PlotDock.ui" line="151"/>
         <source>Point shape:</source>
-        <translation type="unfinished"></translation>
+        <translation>点の形状:</translation>
     </message>
     <message>
         <location filename="../PlotDock.ui" line="170"/>
         <source>Cross</source>
-        <translation type="unfinished"></translation>
+        <translation>×</translation>
     </message>
     <message>
         <location filename="../PlotDock.ui" line="175"/>
         <source>Plus</source>
-        <translation type="unfinished"></translation>
+        <translation>＋</translation>
     </message>
     <message>
         <location filename="../PlotDock.ui" line="180"/>
         <source>Circle</source>
-        <translation type="unfinished"></translation>
+        <translation>○</translation>
     </message>
     <message>
         <location filename="../PlotDock.ui" line="185"/>
         <source>Disc</source>
-        <translation type="unfinished"></translation>
+        <translation>●</translation>
     </message>
     <message>
         <location filename="../PlotDock.ui" line="190"/>
         <source>Square</source>
-        <translation type="unfinished"></translation>
+        <translation>□</translation>
     </message>
     <message>
         <location filename="../PlotDock.ui" line="195"/>
         <source>Diamond</source>
-        <translation type="unfinished"></translation>
+        <translation>◇</translation>
     </message>
     <message>
         <location filename="../PlotDock.ui" line="200"/>
         <source>Star</source>
-        <translation type="unfinished"></translation>
+        <translation>＊</translation>
     </message>
     <message>
         <location filename="../PlotDock.ui" line="205"/>
         <source>Triangle</source>
-        <translation type="unfinished"></translation>
+        <translation>△</translation>
     </message>
     <message>
         <location filename="../PlotDock.ui" line="210"/>
         <source>TriangleInverted</source>
-        <translation type="unfinished"></translation>
+        <translation>▽</translation>
     </message>
     <message>
         <location filename="../PlotDock.ui" line="215"/>
         <source>CrossSquare</source>
-        <translation type="unfinished"></translation>
+        <translation>×+□</translation>
     </message>
     <message>
         <location filename="../PlotDock.ui" line="220"/>
         <source>PlusSquare</source>
-        <translation type="unfinished"></translation>
+        <translation>＋+□</translation>
     </message>
     <message>
         <location filename="../PlotDock.ui" line="225"/>
         <source>CrossCircle</source>
-        <translation type="unfinished"></translation>
+        <translation>×+○</translation>
     </message>
     <message>
         <location filename="../PlotDock.ui" line="230"/>
         <source>PlusCircle</source>
-        <translation type="unfinished"></translation>
+        <translation>＋+○</translation>
     </message>
     <message>
         <location filename="../PlotDock.ui" line="235"/>
         <source>Peace</source>
-        <translation type="unfinished"></translation>
+        <translation>静謐</translation>
     </message>
     <message>
         <location filename="../PlotDock.ui" line="256"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Save current plot...&lt;/p&gt;&lt;p&gt;File format chosen by extension (png, jpg, pdf, bmp)&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;現在のプロットを保存...&lt;/p&gt;&lt;p&gt;ファイルフォーマットは拡張子 (png, jpg, pdf, bmp) から選択されます&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
         <location filename="../PlotDock.ui" line="259"/>
         <source>Save current plot...</source>
-        <translation type="unfinished"></translation>
+        <translation>現在のプロットを保存...</translation>
     </message>
     <message>
         <location filename="../PlotDock.ui" line="285"/>
         <location filename="../PlotDock.cpp" line="448"/>
         <source>Load all data and redraw plot</source>
-        <translation type="unfinished"></translation>
+        <translation>すべてのデータを読み込み再描画</translation>
     </message>
     <message>
         <location filename="../PlotDock.cpp" line="54"/>
         <source>Copy</source>
-        <translation type="unfinished"></translation>
+        <translation>コピー</translation>
     </message>
     <message>
         <location filename="../PlotDock.cpp" line="61"/>
         <source>Print...</source>
-        <translation type="unfinished"></translation>
+        <translation>印刷...</translation>
     </message>
     <message>
         <location filename="../PlotDock.cpp" line="68"/>
         <source>Show legend</source>
-        <translation type="unfinished"></translation>
+        <translation>凡例を表示</translation>
     </message>
     <message>
         <location filename="../PlotDock.cpp" line="74"/>
         <source>Stacked bars</source>
-        <translation type="unfinished"></translation>
+        <translation>値を積み重ねる</translation>
     </message>
     <message>
         <location filename="../PlotDock.cpp" line="153"/>
         <source>Date/Time</source>
-        <translation type="unfinished"></translation>
+        <translation>日時</translation>
     </message>
     <message>
         <location filename="../PlotDock.cpp" line="156"/>
         <source>Date</source>
-        <translation type="unfinished"></translation>
+        <translation>日付</translation>
     </message>
     <message>
         <location filename="../PlotDock.cpp" line="159"/>
         <source>Time</source>
-        <translation type="unfinished"></translation>
+        <translation>時刻</translation>
     </message>
     <message>
         <location filename="../PlotDock.cpp" line="162"/>
         <location filename="../PlotDock.cpp" line="206"/>
         <source>Numeric</source>
-        <translation type="unfinished"></translation>
+        <translation>数値</translation>
     </message>
     <message>
         <location filename="../PlotDock.cpp" line="165"/>
         <source>Label</source>
-        <translation type="unfinished"></translation>
+        <translation>ラベル</translation>
     </message>
     <message>
         <location filename="../PlotDock.cpp" line="169"/>
         <source>Invalid</source>
-        <translation type="unfinished"></translation>
+        <translation>不正</translation>
     </message>
     <message>
         <location filename="../PlotDock.cpp" line="204"/>
         <location filename="../PlotDock.cpp" line="417"/>
         <location filename="../PlotDock.cpp" line="430"/>
         <source>Row #</source>
-        <translation type="unfinished"></translation>
+        <translation>行 #</translation>
     </message>
     <message>
         <location filename="../PlotDock.cpp" line="443"/>
         <source>Load all data and redraw plot.
 Warning: not all data has been fetched from the table yet due to the partial fetch mechanism.</source>
-        <translation type="unfinished"></translation>
+        <translation>すべてのデータを読み込み再描画します。
+警告: 部分的なフェッチ機構により、まだテーブルからすべてのデータがフェッチされているわけではありません。</translation>
     </message>
     <message>
         <location filename="../PlotDock.cpp" line="578"/>
         <source>Choose an axis color</source>
-        <translation type="unfinished"></translation>
+        <translation>軸の色を選択</translation>
     </message>
     <message>
         <location filename="../PlotDock.cpp" line="610"/>
         <source>Choose a filename to save under</source>
-        <translation type="unfinished"></translation>
+        <translation>以下を保存するファイル名を選択</translation>
     </message>
     <message>
         <location filename="../PlotDock.cpp" line="611"/>
         <source>PNG(*.png);;JPG(*.jpg);;PDF(*.pdf);;BMP(*.bmp);;All Files(*)</source>
-        <translation type="unfinished"></translation>
+        <translation>PNG(*.png);;JPG(*.jpg);;PDF(*.pdf);;BMP(*.bmp);;すべてのファイル(*)</translation>
     </message>
     <message>
         <location filename="../PlotDock.cpp" line="648"/>
         <source>There are curves in this plot and the selected line style can only be applied to graphs sorted by X. Either sort the table or query by X to remove curves or select one of the styles supported by curves: None or Line.</source>
-        <translation type="unfinished"></translation>
+        <translation>このプロットには未ソートなデータがあります。選択した線の種類はX軸でソートされたデータのみに適用できます。テーブルやクエリーをX軸でソートするか、未ソートのデータでも使用できる、 なし や 直線 形式を選択してください。</translation>
     </message>
 </context>
 <context>
