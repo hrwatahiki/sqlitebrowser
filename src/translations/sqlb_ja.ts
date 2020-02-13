@@ -4110,79 +4110,79 @@ Warning: not all data has been fetched from the table yet due to the partial fet
     <message>
         <location filename="../PreferencesDialog.ui" line="14"/>
         <source>Preferences</source>
-        <translation type="unfinished"></translation>
+        <translation>設定</translation>
     </message>
     <message>
         <location filename="../PreferencesDialog.ui" line="27"/>
         <source>&amp;General</source>
-        <translation type="unfinished"></translation>
+        <translation>全般(&amp;G)</translation>
     </message>
     <message>
         <location filename="../PreferencesDialog.ui" line="33"/>
         <source>Default &amp;location</source>
-        <translation type="unfinished"></translation>
+        <translation>デフォルトのフォルダー(&amp;L)</translation>
     </message>
     <message>
         <location filename="../PreferencesDialog.ui" line="46"/>
         <source>Remember last location</source>
-        <translation type="unfinished"></translation>
+        <translation>最後に使用したディレクトリーを記憶</translation>
     </message>
     <message>
         <location filename="../PreferencesDialog.ui" line="51"/>
         <source>Always use this location</source>
-        <translation type="unfinished"></translation>
+        <translation>常にこのディレクトリーを使用</translation>
     </message>
     <message>
         <location filename="../PreferencesDialog.ui" line="56"/>
         <source>Remember last location for session only</source>
-        <translation type="unfinished"></translation>
+        <translation>セッションだけで最後に使用したディレクトリーを記憶</translation>
     </message>
     <message>
         <location filename="../PreferencesDialog.ui" line="85"/>
         <location filename="../PreferencesDialog.ui" line="1428"/>
         <location filename="../PreferencesDialog.ui" line="1484"/>
         <source>...</source>
-        <translation type="unfinished"></translation>
+        <translation>...</translation>
     </message>
     <message>
         <location filename="../PreferencesDialog.ui" line="96"/>
         <source>Lan&amp;guage</source>
-        <translation type="unfinished"></translation>
+        <translation>言語(&amp;L)</translation>
     </message>
     <message>
         <location filename="../PreferencesDialog.ui" line="128"/>
         <source>Toolbar style</source>
-        <translation type="unfinished"></translation>
+        <translation>ツールバー形式</translation>
     </message>
     <message>
         <location filename="../PreferencesDialog.ui" line="160"/>
         <source>Only display the icon</source>
-        <translation type="unfinished"></translation>
+        <translation>アイコンのみ表示</translation>
     </message>
     <message>
         <location filename="../PreferencesDialog.ui" line="165"/>
         <source>Only display the text</source>
-        <translation type="unfinished"></translation>
+        <translation>文字のみ表示</translation>
     </message>
     <message>
         <location filename="../PreferencesDialog.ui" line="170"/>
         <source>The text appears beside the icon</source>
-        <translation type="unfinished"></translation>
+        <translation>アイコンの横に文字を表示</translation>
     </message>
     <message>
         <location filename="../PreferencesDialog.ui" line="175"/>
         <source>The text appears under the icon</source>
-        <translation type="unfinished"></translation>
+        <translation>アイコンの下に文字を表示</translation>
     </message>
     <message>
         <location filename="../PreferencesDialog.ui" line="180"/>
         <source>Follow the style</source>
-        <translation type="unfinished"></translation>
+        <translation>スタイルに従う</translation>
     </message>
     <message>
         <location filename="../PreferencesDialog.ui" line="188"/>
         <source>Show remote options</source>
-        <translation type="unfinished"></translation>
+        <translation>リモートオプションを表示する</translation>
     </message>
     <message>
         <location filename="../PreferencesDialog.ui" line="198"/>
@@ -4194,520 +4194,521 @@ Warning: not all data has been fetched from the table yet due to the partial fet
         <location filename="../PreferencesDialog.ui" line="1168"/>
         <location filename="../PreferencesDialog.ui" line="1188"/>
         <source>enabled</source>
-        <translation type="unfinished"></translation>
+        <translation>有効</translation>
     </message>
     <message>
         <location filename="../PreferencesDialog.ui" line="208"/>
         <source>Automatic &amp;updates</source>
-        <translation type="unfinished"></translation>
+        <translation>自動アップデート(&amp;U)</translation>
     </message>
     <message>
         <location filename="../PreferencesDialog.ui" line="225"/>
         <source>DB file extensions</source>
-        <translation type="unfinished"></translation>
+        <translation>DBファイル拡張子</translation>
     </message>
     <message>
         <location filename="../PreferencesDialog.ui" line="235"/>
         <source>Manage</source>
-        <translation type="unfinished"></translation>
+        <translation>管理</translation>
     </message>
     <message>
         <location filename="../PreferencesDialog.ui" line="243"/>
         <source>&amp;Database</source>
-        <translation type="unfinished"></translation>
+        <translation>データベース(&amp;D)</translation>
     </message>
     <message>
         <location filename="../PreferencesDialog.ui" line="252"/>
         <source>Database &amp;encoding</source>
-        <translation type="unfinished"></translation>
+        <translation>データベースのエンコード(&amp;E)</translation>
     </message>
     <message>
         <location filename="../PreferencesDialog.ui" line="276"/>
         <source>Open databases with foreign keys enabled.</source>
-        <translation type="unfinished"></translation>
+        <translation>外部キーを有効にしてデータベースを開く。</translation>
     </message>
     <message>
         <location filename="../PreferencesDialog.ui" line="279"/>
         <source>&amp;Foreign keys</source>
-        <translation type="unfinished"></translation>
+        <translation>外部キー(&amp;F)</translation>
     </message>
     <message>
         <location filename="../PreferencesDialog.ui" line="296"/>
         <source>Remove line breaks in schema &amp;view</source>
-        <translation type="unfinished"></translation>
+        <translation>スキーマビューから改行を取り除く(&amp;V)</translation>
     </message>
     <message>
         <location filename="../PreferencesDialog.ui" line="306"/>
         <source>When enabled, the line breaks in the Schema column of the DB Structure tab, dock and printed output are removed.</source>
-        <translation type="unfinished"></translation>
+        <translation>有効にすると、DB構造タブのカラムスキーマ、ドックや印刷された出力にある改行が取り除かれます。</translation>
     </message>
     <message>
         <location filename="../PreferencesDialog.ui" line="316"/>
         <source>Prefetch block si&amp;ze</source>
-        <translation type="unfinished"></translation>
+        <translation>先読みブロックサイズ(&amp;Z)</translation>
     </message>
     <message>
         <location filename="../PreferencesDialog.ui" line="336"/>
         <source>Advanced</source>
-        <translation type="unfinished"></translation>
+        <translation>高度な設定</translation>
     </message>
     <message>
         <location filename="../PreferencesDialog.ui" line="366"/>
         <source>SQ&amp;L to execute after opening database</source>
-        <translation type="unfinished"></translation>
+        <translation>データベースを開いた後に実行するSQL(&amp;L)</translation>
     </message>
     <message>
         <location filename="../PreferencesDialog.ui" line="392"/>
         <source>Default field type</source>
-        <translation type="unfinished"></translation>
+        <translation>デフォルトのフィールドデータ形式</translation>
     </message>
     <message>
         <location filename="../PreferencesDialog.ui" line="403"/>
         <source>Data &amp;Browser</source>
-        <translation type="unfinished"></translation>
+        <translation>データ閲覧(&amp;B)</translation>
     </message>
     <message>
         <location filename="../PreferencesDialog.ui" line="411"/>
         <source>Font</source>
-        <translation type="unfinished"></translation>
+        <translation>フォント</translation>
     </message>
     <message>
         <location filename="../PreferencesDialog.ui" line="417"/>
         <source>&amp;Font</source>
-        <translation type="unfinished"></translation>
+        <translation>フォント(&amp;F)</translation>
     </message>
     <message>
         <location filename="../PreferencesDialog.ui" line="430"/>
         <source>Font si&amp;ze</source>
-        <translation type="unfinished"></translation>
+        <translation>フォントサイズ(&amp;Z)</translation>
     </message>
     <message>
         <location filename="../PreferencesDialog.ui" line="446"/>
         <source>Content</source>
-        <translation type="unfinished"></translation>
+        <translation>内容</translation>
     </message>
     <message>
         <location filename="../PreferencesDialog.ui" line="452"/>
         <source>Symbol limit in cell</source>
-        <translation type="unfinished"></translation>
+        <translation>セル内のシンボル上限</translation>
     </message>
     <message>
         <location filename="../PreferencesDialog.ui" line="484"/>
         <location filename="../PreferencesDialog.ui" line="488"/>
         <source>This is the maximum number of rows in a table for enabling the value completion based on current values in the column.
 Can be set to 0 for disabling completion.</source>
-        <translation type="unfinished"></translation>
+        <translation>これは現在の値を基にしたカラムの値補完を有効にしたときのテーブル内の行数の最大値です。</translation>
     </message>
     <message>
         <location filename="../PreferencesDialog.ui" line="502"/>
         <source>Row count threshold for completion</source>
-        <translation type="unfinished"></translation>
+        <translation>補完の行数閾値</translation>
     </message>
     <message>
         <location filename="../PreferencesDialog.ui" line="515"/>
         <source>Field display</source>
-        <translation type="unfinished"></translation>
+        <translation>フィールド表示</translation>
     </message>
     <message>
         <location filename="../PreferencesDialog.ui" line="521"/>
         <source>Displayed &amp;text</source>
-        <translation type="unfinished"></translation>
+        <translation>表示されたテキスト(&amp;T)</translation>
     </message>
     <message>
         <location filename="../PreferencesDialog.ui" line="534"/>
         <source>Binary</source>
-        <translation type="unfinished"></translation>
+        <translation>バイナリー</translation>
     </message>
     <message>
         <location filename="../PreferencesDialog.ui" line="544"/>
         <source>NULL</source>
-        <translation type="unfinished"></translation>
+        <translation>NULL</translation>
     </message>
     <message>
         <location filename="../PreferencesDialog.ui" line="554"/>
         <source>Regular</source>
-        <translation type="unfinished"></translation>
+        <translation>通常</translation>
     </message>
     <message>
         <location filename="../PreferencesDialog.ui" line="580"/>
         <source>Text color</source>
-        <translation type="unfinished"></translation>
+        <translation>文字色</translation>
     </message>
     <message>
         <location filename="../PreferencesDialog.ui" line="606"/>
         <source>Background color</source>
-        <translation type="unfinished"></translation>
+        <translation>背景色</translation>
     </message>
     <message>
         <location filename="../PreferencesDialog.ui" line="709"/>
         <source>Preview only (N/A)</source>
-        <translation type="unfinished"></translation>
+        <translation>閲覧のみ(設定不可)</translation>
     </message>
     <message>
         <location filename="../PreferencesDialog.ui" line="743"/>
         <source>Filters</source>
-        <translation type="unfinished"></translation>
+        <translation>フィルター</translation>
     </message>
     <message>
         <location filename="../PreferencesDialog.ui" line="756"/>
         <source>Escape character</source>
-        <translation type="unfinished"></translation>
+        <translation>エスケープ文字</translation>
     </message>
     <message>
         <location filename="../PreferencesDialog.ui" line="766"/>
         <source>Delay time (&amp;ms)</source>
-        <translation type="unfinished"></translation>
+        <translation>遅延時間 (ms) (&amp;M)</translation>
     </message>
     <message>
         <location filename="../PreferencesDialog.ui" line="776"/>
         <source>Set the waiting time before a new filter value is applied. Can be set to 0 for disabling waiting.</source>
-        <translation type="unfinished"></translation>
+        <translation>新しいフィルターの値が適用される前の待機時間を設定します。0にすると待機しません。</translation>
     </message>
     <message>
         <location filename="../PreferencesDialog.ui" line="792"/>
         <source>&amp;SQL</source>
-        <translation type="unfinished"></translation>
+        <translation>SQL(&amp;S)</translation>
     </message>
     <message>
         <location filename="../PreferencesDialog.ui" line="805"/>
         <source>Settings name</source>
-        <translation type="unfinished"></translation>
+        <translation>設定名</translation>
     </message>
     <message>
         <location filename="../PreferencesDialog.ui" line="810"/>
         <source>Context</source>
-        <translation type="unfinished"></translation>
+        <translation>内容</translation>
     </message>
     <message>
         <location filename="../PreferencesDialog.ui" line="815"/>
         <source>Colour</source>
-        <translation type="unfinished"></translation>
+        <translation>色</translation>
     </message>
     <message>
         <location filename="../PreferencesDialog.ui" line="820"/>
         <source>Bold</source>
-        <translation type="unfinished"></translation>
+        <translation>太字</translation>
     </message>
     <message>
         <location filename="../PreferencesDialog.ui" line="825"/>
         <source>Italic</source>
-        <translation type="unfinished"></translation>
+        <translation>イタリック</translation>
     </message>
     <message>
         <location filename="../PreferencesDialog.ui" line="830"/>
         <source>Underline</source>
-        <translation type="unfinished"></translation>
+        <translation>下線</translation>
     </message>
     <message>
         <location filename="../PreferencesDialog.ui" line="838"/>
         <source>Keyword</source>
-        <translation type="unfinished"></translation>
+        <translation>キーワード</translation>
     </message>
     <message>
         <location filename="../PreferencesDialog.ui" line="858"/>
         <source>Function</source>
-        <translation type="unfinished"></translation>
+        <translation>関数</translation>
     </message>
     <message>
         <location filename="../PreferencesDialog.ui" line="866"/>
         <source>Table</source>
-        <translation type="unfinished"></translation>
+        <translation>テーブル</translation>
     </message>
     <message>
         <location filename="../PreferencesDialog.ui" line="886"/>
         <source>Comment</source>
-        <translation type="unfinished"></translation>
+        <translation>コメント</translation>
     </message>
     <message>
         <location filename="../PreferencesDialog.ui" line="906"/>
         <source>Identifier</source>
-        <translation type="unfinished"></translation>
+        <translation>識別子</translation>
     </message>
     <message>
         <location filename="../PreferencesDialog.ui" line="926"/>
         <source>String</source>
-        <translation type="unfinished"></translation>
+        <translation>文字列</translation>
     </message>
     <message>
         <location filename="../PreferencesDialog.ui" line="946"/>
         <source>Current line</source>
-        <translation type="unfinished"></translation>
+        <translation>現在行</translation>
     </message>
     <message>
         <location filename="../PreferencesDialog.ui" line="954"/>
         <source>Background</source>
-        <translation type="unfinished"></translation>
+        <translation>背景</translation>
     </message>
     <message>
         <location filename="../PreferencesDialog.ui" line="962"/>
         <source>Foreground</source>
-        <translation type="unfinished"></translation>
+        <translation>前景</translation>
     </message>
     <message>
         <location filename="../PreferencesDialog.ui" line="972"/>
         <source>SQL editor &amp;font</source>
-        <translation type="unfinished"></translation>
+        <translation>SQLエディターフォント(&amp;F)</translation>
     </message>
     <message>
         <location filename="../PreferencesDialog.ui" line="987"/>
         <source>SQL &amp;editor font size</source>
-        <translation type="unfinished"></translation>
+        <translation>SQLエディターフォントサイズ(&amp;E)</translation>
     </message>
     <message>
         <location filename="../PreferencesDialog.ui" line="1009"/>
         <source>SQL &amp;results font size</source>
-        <translation type="unfinished"></translation>
+        <translation>SQL結果フォントサイズ(&amp;R)</translation>
     </message>
     <message>
         <location filename="../PreferencesDialog.ui" line="1026"/>
         <source>Tab size</source>
-        <translation type="unfinished"></translation>
+        <translation>タブサイズ</translation>
     </message>
     <message>
         <location filename="../PreferencesDialog.ui" line="1049"/>
         <source>&amp;Wrap lines</source>
-        <translation type="unfinished"></translation>
+        <translation>ワードラップ(&amp;W)</translation>
     </message>
     <message>
         <location filename="../PreferencesDialog.ui" line="1060"/>
         <source>Never</source>
-        <translation type="unfinished"></translation>
+        <translation>しない</translation>
     </message>
     <message>
         <location filename="../PreferencesDialog.ui" line="1065"/>
         <source>At word boundaries</source>
-        <translation type="unfinished"></translation>
+        <translation>単語で</translation>
     </message>
     <message>
         <location filename="../PreferencesDialog.ui" line="1070"/>
         <source>At character boundaries</source>
-        <translation type="unfinished"></translation>
+        <translation>文字で</translation>
     </message>
     <message>
         <location filename="../PreferencesDialog.ui" line="1075"/>
         <source>At whitespace boundaries</source>
-        <translation type="unfinished"></translation>
+        <translation>空白で</translation>
     </message>
     <message>
         <location filename="../PreferencesDialog.ui" line="1083"/>
         <source>&amp;Quotes for identifiers</source>
-        <translation type="unfinished"></translation>
+        <translation>識別子のクォート(&amp;Q)</translation>
     </message>
     <message>
         <location filename="../PreferencesDialog.ui" line="1093"/>
         <source>Choose the quoting mechanism used by the application for identifiers in SQL code.</source>
-        <translation type="unfinished"></translation>
+        <translation>アプリケーションがSQLコード内で識別子をクォートする仕組みを選択します。</translation>
     </message>
     <message>
         <location filename="../PreferencesDialog.ui" line="1100"/>
         <source>&quot;Double quotes&quot; - Standard SQL (recommended)</source>
-        <translation type="unfinished"></translation>
+        <translation>&quot;ダブルクォート&quot; - 一般的な SQL (推奨)</translation>
     </message>
     <message>
         <location filename="../PreferencesDialog.ui" line="1105"/>
         <source>`Grave accents` - Traditional MySQL quotes</source>
-        <translation type="unfinished"></translation>
+        <translation>`グレイヴアクセント` - 伝統的な MySQL のクォート</translation>
     </message>
     <message>
         <location filename="../PreferencesDialog.ui" line="1110"/>
         <source>[Square brackets] - Traditional MS SQL Server quotes</source>
-        <translation type="unfinished"></translation>
+        <translation>[角括弧] - 伝統的な MS SQL Server のクォート</translation>
     </message>
     <message>
         <location filename="../PreferencesDialog.ui" line="1118"/>
         <source>Code co&amp;mpletion</source>
-        <translation type="unfinished"></translation>
+        <translation>コード補完(&amp;M)</translation>
     </message>
     <message>
         <location filename="../PreferencesDialog.ui" line="1135"/>
         <source>Keywords in &amp;UPPER CASE</source>
-        <translation type="unfinished"></translation>
+        <translation>キーワードを大文字に(&amp;U)</translation>
     </message>
     <message>
         <location filename="../PreferencesDialog.ui" line="1145"/>
         <source>When set, the SQL keywords are completed in UPPER CASE letters.</source>
-        <translation type="unfinished"></translation>
+        <translation>設定すると、SQLキーワードを大文字に補完します。</translation>
     </message>
     <message>
         <location filename="../PreferencesDialog.ui" line="1155"/>
         <source>Error indicators</source>
-        <translation type="unfinished"></translation>
+        <translation>エラー指摘</translation>
     </message>
     <message>
         <location filename="../PreferencesDialog.ui" line="1165"/>
         <source>When set, the SQL code lines that caused errors during the last execution are highlighted and the results frame indicates the error in the background</source>
-        <translation type="unfinished"></translation>
+        <translation>設定すると、最後の実行でエラーが起きたSQLコードの行が強調され、結果フレームがバックグラウンドでエラーを指摘します</translation>
     </message>
     <message>
         <location filename="../PreferencesDialog.ui" line="1175"/>
         <source>Hori&amp;zontal tiling</source>
-        <translation type="unfinished"></translation>
+        <translation>横に並べる(&amp;Z)</translation>
     </message>
     <message>
         <location filename="../PreferencesDialog.ui" line="1185"/>
         <source>If enabled the SQL code editor and the result table view are shown side by side instead of one over the other.</source>
-        <translation type="unfinished"></translation>
+        <translation>有効にすると、重ねる代わりに、SQLコードエディターと結果タブビューが並んで表示されます。</translation>
     </message>
     <message>
         <location filename="../PreferencesDialog.ui" line="1198"/>
         <source>&amp;Extensions</source>
-        <translation type="unfinished"></translation>
+        <translation>拡張(&amp;E)</translation>
     </message>
     <message>
         <location filename="../PreferencesDialog.ui" line="1204"/>
         <source>Select extensions to load for every database:</source>
-        <translation type="unfinished"></translation>
+        <translation>すべてのデータベースで読み込む拡張を選択:</translation>
     </message>
     <message>
         <location filename="../PreferencesDialog.ui" line="1225"/>
         <source>Add extension</source>
-        <translation type="unfinished"></translation>
+        <translation>拡張を追加</translation>
     </message>
     <message>
         <location filename="../PreferencesDialog.ui" line="1236"/>
         <source>Remove extension</source>
-        <translation type="unfinished"></translation>
+        <translation>拡張を削除</translation>
     </message>
     <message>
         <location filename="../PreferencesDialog.ui" line="1264"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;While supporting the REGEXP operator SQLite doesn&apos;t implement any regular expression&lt;br/&gt;algorithm but calls back the running application. DB Browser for SQLite implements this&lt;br/&gt;algorithm for you to let you use REGEXP out of the box. However, as there are multiple possible&lt;br/&gt;implementations of this and you might want to use another one, you&apos;re free to disable the&lt;br/&gt;application&apos;s implementation and load your own by using an extension. Requires restart of the application.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;REGEXP演算子がサポートされている間、SQLite は正規表現を実装しませんが、実行中のアプリケーションをコールバックします。DB Browser for SQLite はこれを実装しているので、REGEXP をすぐに使えます。しかし、これには複数の実装があり、アプリケーションの実装を無効にし拡張を使って他の実装を読み込むことが自由にできます。アプリケーションの再起動が必要です。&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
         <location filename="../PreferencesDialog.ui" line="1267"/>
         <source>Disable Regular Expression extension</source>
-        <translation type="unfinished"></translation>
+        <translation>正規表現拡張を無効</translation>
     </message>
     <message>
         <location filename="../PreferencesDialog.ui" line="1274"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;SQLite provides an SQL function for loading extensions from a shared library file. Activate this if you want to use the &lt;span style=&quot; font-style:italic;&quot;&gt;load_extension()&lt;/span&gt; function from SQL code.&lt;/p&gt;&lt;p&gt;For security reasons, extension loading is turned off by default and must be enabled through this setting. You can always load extensions through the GUI, even though this option is disabled.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;SQLite は共有ライブラリファイルから拡張を読み込むSQL関数を提供します。SQLコードから&lt;span style=&quot; font-style:italic;&quot;&gt;load_extension()&lt;/span&gt;関数を使いたいならば、.これを有効にします。&lt;/p&gt;&lt;p&gt;セキュリティー上の理由から、拡張の読み込みはデフォルトで無効になっており、使用するにはこの設定を有効にする必要があります。このオプションが無効でも、GUIを通じて拡張を読み込むことは常にできます。&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
         <location filename="../PreferencesDialog.ui" line="1277"/>
         <source>Allow loading extensions from SQL code</source>
-        <translation type="unfinished"></translation>
+        <translation>SQLコードで拡張の読み込みを許可する</translation>
     </message>
     <message>
         <location filename="../PreferencesDialog.ui" line="1285"/>
         <source>Remote</source>
-        <translation type="unfinished"></translation>
+        <translation>リモート</translation>
     </message>
     <message>
         <location filename="../PreferencesDialog.ui" line="1291"/>
         <source>CA certificates</source>
-        <translation type="unfinished"></translation>
+        <translation>認証局証明書</translation>
     </message>
     <message>
         <location filename="../PreferencesDialog.ui" line="1317"/>
         <location filename="../PreferencesDialog.ui" line="1384"/>
         <source>Subject CN</source>
-        <translation type="unfinished"></translation>
+        <translation>対象CN</translation>
     </message>
     <message>
         <location filename="../PreferencesDialog.ui" line="1320"/>
         <source>Common Name</source>
-        <translation type="unfinished"></translation>
+        <translation>Common Name</translation>
     </message>
     <message>
         <location filename="../PreferencesDialog.ui" line="1325"/>
         <source>Subject O</source>
-        <translation type="unfinished"></translation>
+        <translation>対象O</translation>
     </message>
     <message>
         <location filename="../PreferencesDialog.ui" line="1328"/>
         <source>Organization</source>
-        <translation type="unfinished"></translation>
+        <translation>Organization</translation>
     </message>
     <message>
         <location filename="../PreferencesDialog.ui" line="1333"/>
         <location filename="../PreferencesDialog.ui" line="1400"/>
         <source>Valid from</source>
-        <translation type="unfinished"></translation>
+        <translation>証明開始</translation>
     </message>
     <message>
         <location filename="../PreferencesDialog.ui" line="1338"/>
         <location filename="../PreferencesDialog.ui" line="1405"/>
         <source>Valid to</source>
-        <translation type="unfinished"></translation>
+        <translation>証明終了</translation>
     </message>
     <message>
         <location filename="../PreferencesDialog.ui" line="1343"/>
         <location filename="../PreferencesDialog.ui" line="1410"/>
         <source>Serial number</source>
-        <translation type="unfinished"></translation>
+        <translation>シリアル番号</translation>
     </message>
     <message>
         <location filename="../PreferencesDialog.ui" line="1351"/>
         <source>Your certificates</source>
-        <translation type="unfinished"></translation>
+        <translation>あなたの証明書</translation>
     </message>
     <message>
         <location filename="../PreferencesDialog.ui" line="1379"/>
         <source>File</source>
-        <translation type="unfinished"></translation>
+        <translation>ファイル</translation>
     </message>
     <message>
         <location filename="../PreferencesDialog.ui" line="1387"/>
         <source>Subject Common Name</source>
-        <translation type="unfinished"></translation>
+        <translation>対象Common Name</translation>
     </message>
     <message>
         <location filename="../PreferencesDialog.ui" line="1392"/>
         <source>Issuer CN</source>
-        <translation type="unfinished"></translation>
+        <translation>発行者CN</translation>
     </message>
     <message>
         <location filename="../PreferencesDialog.ui" line="1395"/>
         <source>Issuer Common Name</source>
-        <translation type="unfinished"></translation>
+        <translation>発行者Common Name</translation>
     </message>
     <message>
         <location filename="../PreferencesDialog.ui" line="1456"/>
         <source>Clone databases into</source>
-        <translation type="unfinished"></translation>
+        <translation>ここにデータベースを複製</translation>
     </message>
     <message>
         <location filename="../PreferencesDialog.cpp" line="60"/>
         <location filename="../PreferencesDialog.cpp" line="579"/>
         <source>Choose a directory</source>
-        <translation type="unfinished"></translation>
+        <translation>ディレクトリーを選択</translation>
     </message>
     <message>
         <location filename="../PreferencesDialog.cpp" line="305"/>
         <source>The language will change after you restart the application.</source>
-        <translation type="unfinished"></translation>
+        <translation>アプリケーションを再起動すると、言語が変更されます。</translation>
     </message>
     <message>
         <location filename="../PreferencesDialog.cpp" line="372"/>
         <source>Select extension file</source>
-        <translation type="unfinished"></translation>
+        <translation>拡張ファイルを選択</translation>
     </message>
     <message>
         <location filename="../PreferencesDialog.cpp" line="373"/>
         <source>Extensions(*.so *.dylib *.dll);;All files(*)</source>
-        <translation type="unfinished"></translation>
+        <translation>拡張(*.so *.dylib *.dll);;すべてのファイル(*)</translation>
     </message>
     <message>
         <location filename="../PreferencesDialog.cpp" line="506"/>
         <source>Import certificate file</source>
-        <translation type="unfinished"></translation>
+        <translation>証明書ファイルをインポート</translation>
     </message>
     <message>
         <location filename="../PreferencesDialog.cpp" line="514"/>
         <source>No certificates found in this file.</source>
-        <translation type="unfinished"></translation>
+        <translation>このファイルに証明書が見つかりません。</translation>
     </message>
     <message>
         <location filename="../PreferencesDialog.cpp" line="531"/>
         <source>Are you sure you want do remove this certificate? All certificate data will be deleted from the application settings!</source>
-        <translation type="unfinished"></translation>
+        <translation>本当にこの証明書を削除しますか? すべての証明書データはこのアプリケーション設定から削除されます!</translation>
     </message>
     <message>
         <location filename="../PreferencesDialog.cpp" line="615"/>
         <source>Are you sure you want to clear all the saved settings?
 All your preferences will be lost and default values will be used.</source>
-        <translation type="unfinished"></translation>
+        <translation>本当に保存された設定を削除しますか?
+すべての設定は失われ、デフォルト値が使用されます。</translation>
     </message>
 </context>
 <context>
@@ -4715,38 +4716,39 @@ All your preferences will be lost and default values will be used.</source>
     <message>
         <location filename="../FileDialog.cpp" line="76"/>
         <source>All files (*)</source>
-        <translation type="unfinished"></translation>
+        <translation>すべてのファイル (*)</translation>
     </message>
     <message>
         <location filename="../ImportCsvDialog.cpp" line="115"/>
         <source>Error importing data</source>
-        <translation type="unfinished"></translation>
+        <translation>データのインポートでエラー</translation>
     </message>
     <message>
         <location filename="../ImportCsvDialog.cpp" line="117"/>
         <source> from record number %1</source>
-        <translation type="unfinished"></translation>
+        <translation> レコード番号 %1 で</translation>
     </message>
     <message>
         <location filename="../ImportCsvDialog.cpp" line="118"/>
         <source>.
 %1</source>
-        <translation type="unfinished"></translation>
+        <translation>.
+%1</translation>
     </message>
     <message>
         <location filename="../ImportCsvDialog.cpp" line="132"/>
         <source>Importing CSV file...</source>
-        <translation type="unfinished"></translation>
+        <translation>CSVファイルをインポート中...</translation>
     </message>
     <message>
         <location filename="../ImportCsvDialog.cpp" line="133"/>
         <source>Cancel</source>
-        <translation type="unfinished"></translation>
+        <translation>キャンセル</translation>
     </message>
     <message>
         <location filename="../Settings.cpp" line="157"/>
         <source>SQLite database files (*.db *.sqlite *.sqlite3 *.db3)</source>
-        <translation type="unfinished"></translation>
+        <translation>SQLite データベースファイル (*.db *.sqlite *.sqlite3 *.db3)</translation>
     </message>
 </context>
 <context>
@@ -4755,68 +4757,74 @@ All your preferences will be lost and default values will be used.</source>
         <location filename="../RemoteDatabase.cpp" line="120"/>
         <source>Error when connecting to %1.
 %2</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 への接続でエラー。
+%2</translation>
     </message>
     <message>
         <location filename="../RemoteDatabase.cpp" line="281"/>
         <source>Error opening remote file at %1.
 %2</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 のリモートファイルを開くときにエラー.
+%2</translation>
     </message>
     <message>
         <location filename="../RemoteDatabase.cpp" line="354"/>
         <source>Error: Invalid client certificate specified.</source>
-        <translation type="unfinished"></translation>
+        <translation>エラー: 不正なクライアント証明書が指定されました。</translation>
     </message>
     <message>
         <location filename="../RemoteDatabase.cpp" line="366"/>
         <source>Please enter the passphrase for this client certificate in order to authenticate.</source>
-        <translation type="unfinished"></translation>
+        <translation>このクライアント証明書を確認するためパスフレーズを入力してください。</translation>
     </message>
     <message>
         <location filename="../RemoteDatabase.cpp" line="390"/>
         <source>Cancel</source>
-        <translation type="unfinished"></translation>
+        <translation>キャンセル</translation>
     </message>
     <message>
         <location filename="../RemoteDatabase.cpp" line="394"/>
         <source>Uploading remote database to
 %1</source>
-        <translation type="unfinished"></translation>
+        <translation>リモートデータベースをここにアップロード中
+%1</translation>
     </message>
     <message>
         <location filename="../RemoteDatabase.cpp" line="396"/>
         <source>Downloading remote database from
 %1</source>
-        <translation type="unfinished"></translation>
+        <translation>リモートデータベースをここからダウンロード中
+%1</translation>
     </message>
     <message>
         <location filename="../RemoteDatabase.cpp" line="413"/>
         <location filename="../RemoteDatabase.cpp" line="466"/>
         <source>Error: The network is not accessible.</source>
-        <translation type="unfinished"></translation>
+        <translation>エラー: ネットワークにアクセスできません。</translation>
     </message>
     <message>
         <location filename="../RemoteDatabase.cpp" line="475"/>
         <source>Error: Cannot open the file for sending.</source>
-        <translation type="unfinished"></translation>
+        <translation>エラー: 送信するファイルを開けません。</translation>
     </message>
     <message>
         <location filename="../RemoteDatabase.cpp" line="567"/>
         <source>Error opening local databases list.
 %1</source>
-        <translation type="unfinished"></translation>
+        <translation>ローカルデータベースの一覧を開くときにエラー。
+%1</translation>
     </message>
     <message>
         <location filename="../RemoteDatabase.cpp" line="585"/>
         <source>Error creating local databases list.
 %1</source>
-        <translation type="unfinished"></translation>
+        <translation>ローカルデータベースの一覧の作成でエラー。
+%1</translation>
     </message>
     <message>
         <location filename="../RemoteDatabase.cpp" line="773"/>
         <source>The remote database has been updated since the last checkout. Do you want to update the local database to the newest version? Note that this discards any changes you have made locally! If you don&apos;t want to lose local changes, click No to open the local version.</source>
-        <translation type="unfinished"></translation>
+        <translation>リモートデータベースが最後のチェックアウトから更新されました。ローカルのデータベースを最新バージョンに更新しますか? 注意:これはローカルで行った変更がすべて破棄されます! もし変更を失いたくなければ、いいえをクリックしてローカルのファイルを開いてください。</translation>
     </message>
 </context>
 <context>
@@ -4824,32 +4832,33 @@ All your preferences will be lost and default values will be used.</source>
     <message>
         <location filename="../RemoteDock.ui" line="14"/>
         <source>Remote</source>
-        <translation type="unfinished"></translation>
+        <translation>リモート</translation>
     </message>
     <message>
         <location filename="../RemoteDock.ui" line="22"/>
         <source>Identity</source>
-        <translation type="unfinished"></translation>
+        <translation>アイデンティティー</translation>
     </message>
     <message>
         <location filename="../RemoteDock.ui" line="39"/>
         <source>Connect to the remote server using the currently selected identity. The correct server is taken from the identity as well.</source>
-        <translation type="unfinished"></translation>
+        <translation>現在選択されたアイデンティティーを使ってリモートサーバーに接続します。正しいサーバーもアイデンティティーから取得されます。</translation>
     </message>
     <message>
         <location filename="../RemoteDock.ui" line="42"/>
         <source>Go</source>
-        <translation type="unfinished"></translation>
+        <translation>実行</translation>
     </message>
     <message>
         <location filename="../RemoteDock.ui" line="66"/>
         <source>Push currently opened database to server</source>
-        <translation type="unfinished"></translation>
+        <translation>現在開いているデータベースをサーバーにプッシュします</translation>
     </message>
     <message>
         <location filename="../RemoteDock.ui" line="79"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;In this pane, remote databases from dbhub.io website can be added to DB4S. First you need an identity:&lt;/p&gt;&lt;ol style=&quot;margin-top: 0px; margin-bottom: 0px; margin-left: 0px; margin-right: 0px; -qt-list-indent: 1;&quot;&gt;&lt;li style=&quot; margin-top:12px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Login to the dbhub.io website (use your GitHub credentials or whatever you want)&lt;/li&gt;&lt;li style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Click the button to create a DB4S certificate (that&apos;s your identity). That&apos;ll give you a certificate file (save it to your local disk).&lt;/li&gt;&lt;li style=&quot; margin-top:0px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Go to the Remote tab in DB4S Preferences. Click the button to add a new certificate to DB4S and choose the just downloaded certificate file.&lt;/li&gt;&lt;/ol&gt;&lt;p&gt;Now the Remote panel shows your identity and you can add remote databases.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;このペインでは、dbhub.io ウェブサイトのリモートデータベースをDB4Sに追加します。最初にアイデンティティーが必要です。:&lt;/p&gt;&lt;ol style=&quot;margin-top: 0px; margin-bottom: 0px; margin-left: 0px; margin-right: 0px; -qt-list-indent: 1;&quot;&gt;&lt;li style=&quot; margin-top:12px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;dbhub.io ウェブサイトにログインします。(GitHubかあなたが望む認証情報を使います)&lt;/li&gt;&lt;li style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;ボタンをクリックしDB4S証明書を作成します(これがあなたのアイデンティティです)。 証明書ファイルが与えられます(貴方のローカルディスクに保存します)。&lt;/li&gt;&lt;li style=&quot; margin-top:0px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;
+DB4S設定のリモートタブに行き、新しい証明書をDB4Sに追加するボタンをクリックし、ダウンロードした証明書ファイルを選択します。&lt;/li&gt;&lt;/ol&gt;&lt;p&gt;これで、リモートパネルにあなたのアイデンティティが表示され、リモートデータベースが追加できます。&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
 </context>
 <context>
@@ -4857,27 +4866,27 @@ All your preferences will be lost and default values will be used.</source>
     <message>
         <location filename="../RemoteModel.cpp" line="100"/>
         <source>Name</source>
-        <translation type="unfinished"></translation>
+        <translation>名前</translation>
     </message>
     <message>
         <location filename="../RemoteModel.cpp" line="100"/>
         <source>Commit</source>
-        <translation type="unfinished"></translation>
+        <translation>コミット</translation>
     </message>
     <message>
         <location filename="../RemoteModel.cpp" line="100"/>
         <source>Last modified</source>
-        <translation type="unfinished"></translation>
+        <translation>最終変更</translation>
     </message>
     <message>
         <location filename="../RemoteModel.cpp" line="100"/>
         <source>Size</source>
-        <translation type="unfinished"></translation>
+        <translation>サイズ</translation>
     </message>
     <message>
         <location filename="../RemoteModel.cpp" line="240"/>
         <source>bytes</source>
-        <translation type="unfinished"></translation>
+        <translation>バイト</translation>
     </message>
 </context>
 <context>
@@ -4885,17 +4894,17 @@ All your preferences will be lost and default values will be used.</source>
     <message>
         <location filename="../RemotePushDialog.ui" line="14"/>
         <source>Push database</source>
-        <translation type="unfinished"></translation>
+        <translation>データベースをプッシュ</translation>
     </message>
     <message>
         <location filename="../RemotePushDialog.ui" line="22"/>
         <source>Database na&amp;me to push to</source>
-        <translation type="unfinished"></translation>
+        <translation>プッシュするデータベースの名前(&amp;M)</translation>
     </message>
     <message>
         <location filename="../RemotePushDialog.ui" line="39"/>
         <source>Commit message</source>
-        <translation type="unfinished"></translation>
+        <translation>コミットメッセージ</translation>
     </message>
     <message>
         <location filename="../RemotePushDialog.ui" line="49"/>
@@ -4904,47 +4913,51 @@ All your preferences will be lost and default values will be used.</source>
 p, li { white-space: pre-wrap; }
 &lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;Oxygen-Sans&apos;; font-size:10pt; font-weight:400; font-style:normal;&quot;&gt;
 &lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;br /&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;Oxygen-Sans&apos;; font-size:10pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;br /&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
         <location filename="../RemotePushDialog.ui" line="63"/>
         <source>Database licence</source>
-        <translation type="unfinished"></translation>
+        <translation>データベースライセンス</translation>
     </message>
     <message>
         <location filename="../RemotePushDialog.ui" line="83"/>
         <source>Public</source>
-        <translation type="unfinished"></translation>
+        <translation>公開</translation>
     </message>
     <message>
         <location filename="../RemotePushDialog.ui" line="96"/>
         <source>Branch</source>
-        <translation type="unfinished"></translation>
+        <translation>ブランチ</translation>
     </message>
     <message>
         <location filename="../RemotePushDialog.ui" line="116"/>
         <source>Force push</source>
-        <translation type="unfinished"></translation>
+        <translation>強制プッシュ</translation>
     </message>
     <message>
         <location filename="../RemotePushDialog.cpp" line="47"/>
         <source>Database will be public. Everyone has read access to it.</source>
-        <translation type="unfinished"></translation>
+        <translation>データベースを公開にします。すべての人がアクセスできます。</translation>
     </message>
     <message>
         <location filename="../RemotePushDialog.cpp" line="49"/>
         <source>Database will be private. Only you have access to it.</source>
-        <translation type="unfinished"></translation>
+        <translation>データベースを非公開にします。あなただけがアクセスできます。</translation>
     </message>
     <message>
         <location filename="../RemotePushDialog.cpp" line="53"/>
         <source>Use with care. This can cause remote commits to be deleted.</source>
-        <translation type="unfinished"></translation>
+        <translation>注意して使用してください。これはリモートコミットが削除される可能性があります。</translation>
     </message>
     <message>
         <location filename="../RemotePushDialog.cpp" line="111"/>
         <source>Unspecified</source>
-        <translation type="unfinished"></translation>
+        <translation>指定なし</translation>
     </message>
 </context>
 <context>
@@ -4952,103 +4965,103 @@ p, li { white-space: pre-wrap; }
     <message>
         <location filename="../SqlExecutionArea.ui" line="14"/>
         <source>Form</source>
-        <translation type="unfinished"></translation>
+        <translation>フォーム</translation>
     </message>
     <message>
         <location filename="../SqlExecutionArea.ui" line="66"/>
         <source>Find previous match [Shift+F3]</source>
-        <translation type="unfinished"></translation>
+        <translation>前を検索 [Shift+F3]</translation>
     </message>
     <message>
         <location filename="../SqlExecutionArea.ui" line="69"/>
         <source>Find previous match with mapping</source>
-        <translation type="unfinished"></translation>
+        <translation>マッピングで前を検索</translation>
     </message>
     <message>
         <location filename="../SqlExecutionArea.ui" line="76"/>
         <source>Shift+F3</source>
-        <translation type="unfinished"></translation>
+        <translation>Shift+F3</translation>
     </message>
     <message>
         <location filename="../SqlExecutionArea.ui" line="90"/>
         <source>The found pattern must be a whole word</source>
-        <translation type="unfinished"></translation>
+        <translation>単語単位で検索します</translation>
     </message>
     <message>
         <location filename="../SqlExecutionArea.ui" line="93"/>
         <source>Whole Words</source>
-        <translation type="unfinished"></translation>
+        <translation>単語単位</translation>
     </message>
     <message>
         <location filename="../SqlExecutionArea.ui" line="103"/>
         <source>Text pattern to find considering the checks in this frame</source>
-        <translation type="unfinished"></translation>
+        <translation>このフレームでのチェックボックスを考慮した検索文字列</translation>
     </message>
     <message>
         <location filename="../SqlExecutionArea.ui" line="106"/>
         <source>Find in editor</source>
-        <translation type="unfinished"></translation>
+        <translation>エディター内を検索</translation>
     </message>
     <message>
         <location filename="../SqlExecutionArea.ui" line="116"/>
         <source>The found pattern must match in letter case</source>
-        <translation type="unfinished"></translation>
+        <translation>大/小文字を区別します</translation>
     </message>
     <message>
         <location filename="../SqlExecutionArea.ui" line="119"/>
         <source>Case Sensitive</source>
-        <translation type="unfinished"></translation>
+        <translation>大/小文字を区別</translation>
     </message>
     <message>
         <location filename="../SqlExecutionArea.ui" line="126"/>
         <source>Find next match [Enter, F3]</source>
-        <translation type="unfinished"></translation>
+        <translation>次を検索 [Enter, F3]</translation>
     </message>
     <message>
         <location filename="../SqlExecutionArea.ui" line="129"/>
         <source>Find next match with wrapping</source>
-        <translation type="unfinished"></translation>
+        <translation>マッピングで次を検索</translation>
     </message>
     <message>
         <location filename="../SqlExecutionArea.ui" line="136"/>
         <source>F3</source>
-        <translation type="unfinished"></translation>
+        <translation>F3</translation>
     </message>
     <message>
         <location filename="../SqlExecutionArea.ui" line="143"/>
         <source>Interpret search pattern as a regular expression</source>
-        <translation type="unfinished"></translation>
+        <translation>正規表現で検索</translation>
     </message>
     <message>
         <location filename="../SqlExecutionArea.ui" line="146"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;When checked, the pattern to find is interpreted as a UNIX regular expression. See &lt;a href=&quot;https://en.wikibooks.org/wiki/Regular_Expressions&quot;&gt;Regular Expression in Wikibooks&lt;/a&gt;.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;設定すると、検索条件はUNIX正規表現と解釈されます。以下を参照 &lt;a href=&quot;https://ja.wikibooks.org/wiki/%E6%AD%A3%E8%A6%8F%E8%A1%A8%E7%8F%BE&quot;&gt;Wikibooksの正規表現&lt;/a&gt;。&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
         <location filename="../SqlExecutionArea.ui" line="149"/>
         <source>Regular Expression</source>
-        <translation type="unfinished"></translation>
+        <translation>正規表現</translation>
     </message>
     <message>
         <location filename="../SqlExecutionArea.ui" line="169"/>
         <location filename="../SqlExecutionArea.ui" line="172"/>
         <source>Close Find Bar</source>
-        <translation type="unfinished"></translation>
+        <translation>検索バーを閉じる</translation>
     </message>
     <message>
         <location filename="../SqlExecutionArea.ui" line="217"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Results of the last executed statements.&lt;/p&gt;&lt;p&gt;You may want to collapse this panel and use the &lt;span style=&quot; font-style:italic;&quot;&gt;SQL Log&lt;/span&gt; dock with &lt;span style=&quot; font-style:italic;&quot;&gt;User&lt;/span&gt; selection instead.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;最後に実行した文の結果。&lt;/p&gt;&lt;p&gt;このパネルを折りたたんで、&lt;span style=&quot; font-style:italic;&quot;&gt;SQL Log&lt;/span&gt;ドックで&lt;span style=&quot; font-style:italic;&quot;&gt;ユーザー&lt;/span&gt;を選択して表示させることもできます。&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
         <location filename="../SqlExecutionArea.ui" line="220"/>
         <source>This field shows the results and status codes of the last executed statements.</source>
-        <translation type="unfinished"></translation>
+        <translation>このフィールドには最後に実行した文の結果とステータスコードが表示されます。</translation>
     </message>
     <message>
         <location filename="../SqlExecutionArea.ui" line="238"/>
         <source>Results of the last executed statements</source>
-        <translation type="unfinished"></translation>
+        <translation>最後に実行した文の結果</translation>
     </message>
 </context>
 <context>
@@ -5376,39 +5389,41 @@ Use of this function must be authorized from Preferences.</source>
     <message>
         <location filename="../sqlitetablemodel.cpp" line="27"/>
         <source>reading rows</source>
-        <translation type="unfinished"></translation>
+        <translation>行を読み込み中</translation>
     </message>
     <message>
         <location filename="../sqlitetablemodel.cpp" line="265"/>
         <source>loading...</source>
-        <translation type="unfinished"></translation>
+        <translation>読み込み中...</translation>
     </message>
     <message>
         <location filename="../sqlitetablemodel.cpp" line="307"/>
         <source>References %1(%2)
 Hold %3Shift and click to jump there</source>
-        <translation type="unfinished"></translation>
+        <translation>これを参照 %1(%2)
+%3Shift を保持しクリックでジャンプ</translation>
     </message>
     <message>
         <location filename="../sqlitetablemodel.cpp" line="407"/>
         <source>Error changing data:
 %1</source>
-        <translation type="unfinished"></translation>
+        <translation>データの変更でエラー:
+%1</translation>
     </message>
     <message>
         <location filename="../sqlitetablemodel.cpp" line="699"/>
         <source>retrieving list of columns</source>
-        <translation type="unfinished"></translation>
+        <translation>カラムの一覧を取得中</translation>
     </message>
     <message>
         <location filename="../sqlitetablemodel.cpp" line="962"/>
         <source>Fetching data...</source>
-        <translation type="unfinished"></translation>
+        <translation>データを取得中...</translation>
     </message>
     <message>
         <location filename="../sqlitetablemodel.cpp" line="963"/>
         <source>Cancel</source>
-        <translation type="unfinished"></translation>
+        <translation>キャンセル</translation>
     </message>
 </context>
 <context>
@@ -5416,17 +5431,17 @@ Hold %3Shift and click to jump there</source>
     <message>
         <location filename="../VacuumDialog.ui" line="14"/>
         <source>Compact Database</source>
-        <translation type="unfinished"></translation>
+        <translation>データベースを圧縮</translation>
     </message>
     <message>
         <location filename="../VacuumDialog.ui" line="26"/>
         <source>Warning: Compacting the database will commit all of your changes.</source>
-        <translation type="unfinished"></translation>
+        <translation>警告: データベースの圧縮はあなたの変更をすべてコミットします。</translation>
     </message>
     <message>
         <location filename="../VacuumDialog.ui" line="39"/>
         <source>Please select the databases to co&amp;mpact:</source>
-        <translation type="unfinished"></translation>
+        <translation>圧縮するデータベースを選択してください(&amp;M):</translation>
     </message>
 </context>
 </TS>
