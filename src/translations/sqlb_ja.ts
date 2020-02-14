@@ -5069,199 +5069,201 @@ p, li { white-space: pre-wrap; }
     <message>
         <location filename="../SqlUiLexer.cpp" line="67"/>
         <source>(X) The abs(X) function returns the absolute value of the numeric argument X.</source>
-        <translation type="unfinished"></translation>
+        <translation>(X) abs(X) 関数は、数値である引数 X の絶対値を返します。</translation>
     </message>
     <message>
         <location filename="../SqlUiLexer.cpp" line="68"/>
         <source>() The changes() function returns the number of database rows that were changed or inserted or deleted by the most recently completed INSERT, DELETE, or UPDATE statement.</source>
-        <translation type="unfinished"></translation>
+        <translation>() changes() 関数は、最後に成功した INSERT, DELETE, UPDATE 文で、変更、挿入、削除されたデータベースの行数を返します。</translation>
     </message>
     <message>
         <location filename="../SqlUiLexer.cpp" line="69"/>
         <source>(X1,X2,...) The char(X1,X2,...,XN) function returns a string composed of characters having the unicode code point values of integers X1 through XN, respectively. </source>
-        <translation type="unfinished"></translation>
+        <translation>(X1,X2,...) char(X1,X2,...,XN) 関数は、それぞれの文字が Unicode 符号位置で整数値 X1 から XN を持つ文字列を返します。 </translation>
     </message>
     <message>
         <location filename="../SqlUiLexer.cpp" line="70"/>
         <source>(X,Y,...) The coalesce() function returns a copy of its first non-NULL argument, or NULL if all arguments are NULL</source>
-        <translation type="unfinished"></translation>
+        <translation>(X,Y,...) coalesce() 関数は NULL でない引数のうち、最も左の引数のコピーを返します。すべての引数が NULL ならば、NULL を返します</translation>
     </message>
     <message>
         <location filename="../SqlUiLexer.cpp" line="71"/>
         <source>(X,Y) The glob(X,Y) function is equivalent to the expression &quot;Y GLOB X&quot;.</source>
-        <translation type="unfinished"></translation>
+        <translation>(X,Y) glob(X,Y) 関数は次の式と同値です。 &quot;Y GLOB X&quot;.</translation>
     </message>
     <message>
         <location filename="../SqlUiLexer.cpp" line="72"/>
         <source>(X,Y) The ifnull() function returns a copy of its first non-NULL argument, or NULL if both arguments are NULL.</source>
-        <translation type="unfinished"></translation>
+        <translation>(X,Y) ifnull() 関数は NULL でない引数のうち、最も左の引数のコピーを返します。両方の引数が NULL ならば、NULL を返します。</translation>
     </message>
     <message>
         <location filename="../SqlUiLexer.cpp" line="73"/>
         <source>(X,Y) The instr(X,Y) function finds the first occurrence of string Y within string X and returns the number of prior characters plus 1, or 0 if Y is nowhere found within X.</source>
-        <translation type="unfinished"></translation>
+        <translation>(X,Y) instr(X,Y) 関数は文字列 X 内にある最初の文字列 Y を検索し、その前の文字数に1を加えた値を返します。X に Y がない場合は0を返します。</translation>
     </message>
     <message>
         <location filename="../SqlUiLexer.cpp" line="74"/>
         <source>(X) The hex() function interprets its argument as a BLOB and returns a string which is the upper-case hexadecimal rendering of the content of that blob.</source>
-        <translation type="unfinished"></translation>
+        <translation>(X) hex() 関数は引数を BLOB と解釈し、その中身を大文字の十六進数の文字列として返します。</translation>
     </message>
     <message>
         <location filename="../SqlUiLexer.cpp" line="75"/>
         <source>() The last_insert_rowid() function returns the ROWID of the last row insert from the database connection which invoked the function.</source>
-        <translation type="unfinished"></translation>
+        <translation>() last_insert_rowid() 関数は、この関数を呼び出したデータベース接続が最後に INSERT した行の ROWID を返します。of the last row insert from the database connection which invoked the function.</translation>
     </message>
     <message>
         <location filename="../SqlUiLexer.cpp" line="76"/>
         <source>(X) For a string value X, the length(X) function returns the number of characters (not bytes) in X prior to the first NUL character.</source>
-        <translation type="unfinished"></translation>
+        <translation>(X) 文字列 X に対し、length(X) 関数は、最初の NULL 文字の前にある文字数(バイト数でなく)を返します。</translation>
     </message>
     <message>
         <location filename="../SqlUiLexer.cpp" line="77"/>
         <source>(X,Y) The like() function is used to implement the &quot;Y LIKE X&quot; expression.</source>
-        <translation type="unfinished"></translation>
+        <translation>(X,Y) like() 関数は &quot;Y LIKE X&quot; 式と同値です。</translation>
     </message>
     <message>
         <location filename="../SqlUiLexer.cpp" line="78"/>
         <source>(X,Y,Z) The like() function is used to implement the &quot;Y LIKE X ESCAPE Z&quot; expression.</source>
-        <translation type="unfinished"></translation>
+        <translation>(X,Y,Z) like() 関数は &quot;Y LIKE X ESCAPE Z&quot; 式と同値です。</translation>
     </message>
     <message>
         <location filename="../SqlUiLexer.cpp" line="79"/>
         <source>(X) The load_extension(X) function loads SQLite extensions out of the shared library file named X.
 Use of this function must be authorized from Preferences.</source>
-        <translation type="unfinished"></translation>
+        <translation>(X) load_extension(X) 関数は、名前が X の共有ライブラリからすぐに SQLite 拡張を読み込みます。.
+この関数の使用には、設定ダイアログからの認証が必要です。</translation>
     </message>
     <message>
         <location filename="../SqlUiLexer.cpp" line="80"/>
         <source>(X,Y) The load_extension(X) function loads SQLite extensions out of the shared library file named X using the entry point Y.
 Use of this function must be authorized from Preferences.</source>
-        <translation type="unfinished"></translation>
+        <translation>(X) load_extension(X,Y) 関数は、名前が X の共有ライブラリのエントリーポイント Y からすぐに SQLite 拡張を読み込みます。.
+この関数の使用には、設定ダイアログからの認証が必要です。</translation>
     </message>
     <message>
         <location filename="../SqlUiLexer.cpp" line="81"/>
         <source>(X) The lower(X) function returns a copy of string X with all ASCII characters converted to lower case.</source>
-        <translation type="unfinished"></translation>
+        <translation>(X) lower(X) 関数は、すべて ASCII 文字である文字列 X を、すべて小文字に変換した文字列を返します。</translation>
     </message>
     <message>
         <location filename="../SqlUiLexer.cpp" line="82"/>
         <source>(X) ltrim(X) removes spaces from the left side of X.</source>
-        <translation type="unfinished"></translation>
+        <translation>(X) ltrim(X) 関数は、X の左端にある空白を取り除きます。</translation>
     </message>
     <message>
         <location filename="../SqlUiLexer.cpp" line="83"/>
         <source>(X,Y) The ltrim(X,Y) function returns a string formed by removing any and all characters that appear in Y from the left side of X.</source>
-        <translation type="unfinished"></translation>
+        <translation>(X,Y) ltrim(X,Y)関数は、X の左端から、 Y に含まれる文字をすべて取り除いた文字列を返します。</translation>
     </message>
     <message>
         <location filename="../SqlUiLexer.cpp" line="84"/>
         <source>(X,Y,...) The multi-argument max() function returns the argument with the maximum value, or return NULL if any argument is NULL.</source>
-        <translation type="unfinished"></translation>
+        <translation>(X,Y,...) 複数の引数を持つ max() 関数は引数の最大値を返します。引数に NULL が含まれている場合は NULL を返します。</translation>
     </message>
     <message>
         <location filename="../SqlUiLexer.cpp" line="85"/>
         <source>(X,Y,...) The multi-argument min() function returns the argument with the minimum value.</source>
-        <translation type="unfinished"></translation>
+        <translation>(X,Y,...) 複数の引数を持つ min() 関数は引数の最小値を返します。引数に NULL が含まれている場合は NULL を返します。</translation>
     </message>
     <message>
         <location filename="../SqlUiLexer.cpp" line="86"/>
         <source>(X,Y) The nullif(X,Y) function returns its first argument if the arguments are different and NULL if the arguments are the same.</source>
-        <translation type="unfinished"></translation>
+        <translation>(X,Y) nullif(X,Y) 関数は、二つの引数が違う場合第一引数を、同じ場合は NULL を返します。</translation>
     </message>
     <message>
         <location filename="../SqlUiLexer.cpp" line="87"/>
         <source>(FORMAT,...) The printf(FORMAT,...) SQL function works like the sqlite3_mprintf() C-language function and the printf() function from the standard C library.</source>
-        <translation type="unfinished"></translation>
+        <translation>(FORMAT,...) printf(FORMAT,...) SQL 関数は、C言語の sqlite3_mprintf() 関数や、標準Cライブラリーの printf() 関数のように動作します。</translation>
     </message>
     <message>
         <location filename="../SqlUiLexer.cpp" line="88"/>
         <source>(X) The quote(X) function returns the text of an SQL literal which is the value of its argument suitable for inclusion into an SQL statement.</source>
-        <translation type="unfinished"></translation>
+        <translation>(X) quote(X) 関数は、引数をSQL文に含めるのに適したSQLリテラルの文字にして返します。</translation>
     </message>
     <message>
         <location filename="../SqlUiLexer.cpp" line="89"/>
         <source>() The random() function returns a pseudo-random integer between -9223372036854775808 and +9223372036854775807.</source>
-        <translation type="unfinished"></translation>
+        <translation>() random() 関数は、範囲が -9223372036854775808 から +9223372036854775807 の整数である疑似乱数を返します。</translation>
     </message>
     <message>
         <location filename="../SqlUiLexer.cpp" line="90"/>
         <source>(N) The randomblob(N) function return an N-byte blob containing pseudo-random bytes.</source>
-        <translation type="unfinished"></translation>
+        <translation>(N) randomblob(N) 関数は、疑似乱数で構成された N バイトの BLOB を返します。function return an N-byte blob containing pseudo-random bytes.</translation>
     </message>
     <message>
         <location filename="../SqlUiLexer.cpp" line="91"/>
         <source>(X,Y,Z) The replace(X,Y,Z) function returns a string formed by substituting string Z for every occurrence of string Y in string X.</source>
-        <translation type="unfinished"></translation>
+        <translation>(X,Y,Z) replace(X,Y,Z) 関数は、文字列 X に含まれる文字列 Y をすべて文字列 Z に置き換えて返します。</translation>
     </message>
     <message>
         <location filename="../SqlUiLexer.cpp" line="92"/>
         <source>(X) The round(X) function returns a floating-point value X rounded to zero digits to the right of the decimal point.</source>
-        <translation type="unfinished"></translation>
+        <translation>(X)  round(X) 関数は、浮動小数点数 X の小数点以下を四捨五入して返します。</translation>
     </message>
     <message>
         <location filename="../SqlUiLexer.cpp" line="93"/>
         <source>(X,Y) The round(X,Y) function returns a floating-point value X rounded to Y digits to the right of the decimal point.</source>
-        <translation type="unfinished"></translation>
+        <translation>(X,Y) round(X,Y) 関数は、浮動小数点数 X を小数点第 Y 位までになるように四捨五入して返します。</translation>
     </message>
     <message>
         <location filename="../SqlUiLexer.cpp" line="94"/>
         <source>(X) rtrim(X) removes spaces from the right side of X.</source>
-        <translation type="unfinished"></translation>
+        <translation>(X) rtrim(X) 関数は、X の右端にある空白を取り除きます。</translation>
     </message>
     <message>
         <location filename="../SqlUiLexer.cpp" line="95"/>
         <source>(X,Y) The rtrim(X,Y) function returns a string formed by removing any and all characters that appear in Y from the right side of X.</source>
-        <translation type="unfinished"></translation>
+        <translation>(X,Y) rtrim(X,Y) 関数は、X の右端から、 Y に含まれる文字をすべて取り除いた文字列を返します。</translation>
     </message>
     <message>
         <location filename="../SqlUiLexer.cpp" line="96"/>
         <source>(X) The soundex(X) function returns a string that is the soundex encoding of the string X.</source>
-        <translation type="unfinished"></translation>
+        <translation>(X) soundex(X) 関数は、文字列 X を soundex にエンコードした文字列を返します。</translation>
     </message>
     <message>
         <location filename="../SqlUiLexer.cpp" line="97"/>
         <source>(X,Y) substr(X,Y) returns all characters through the end of the string X beginning with the Y-th.</source>
-        <translation type="unfinished"></translation>
+        <translation>(X,Y) substr(X,Y) 関数は、文字列 Xの、先頭から Y 番目から末尾までの文字列を返します。</translation>
     </message>
     <message>
         <location filename="../SqlUiLexer.cpp" line="98"/>
         <source>(X,Y,Z) The substr(X,Y,Z) function returns a substring of input string X that begins with the Y-th character and which is Z characters long.</source>
-        <translation type="unfinished"></translation>
+        <translation>(X,Y,Z) substr(X,Y,Z) 関数は、文字列 X の、先頭から Y 番目から Z 文字の文字列を返します。</translation>
     </message>
     <message>
         <location filename="../SqlUiLexer.cpp" line="99"/>
         <source>() The total_changes() function returns the number of row changes caused by INSERT, UPDATE or DELETE statements since the current database connection was opened.</source>
-        <translation type="unfinished"></translation>
+        <translation>() total_changes() 関数は、現在開かれた接続のあるデータベースにおいて、INSERT、UPDATE、DELETEで変更された行数を返します。 returns the number of row changes caused by INSERT, UPDATE or DELETE statements since the current database connection was opened.</translation>
     </message>
     <message>
         <location filename="../SqlUiLexer.cpp" line="100"/>
         <source>(X) trim(X) removes spaces from both ends of X.</source>
-        <translation type="unfinished"></translation>
+        <translation>(X) trim(X) 関数は、X の両端にある空白を取り除きます。</translation>
     </message>
     <message>
         <location filename="../SqlUiLexer.cpp" line="101"/>
         <source>(X,Y) The trim(X,Y) function returns a string formed by removing any and all characters that appear in Y from both ends of X.</source>
-        <translation type="unfinished"></translation>
+        <translation>(X,Y) trim(X,Y) 関数は、X の両端から、 Y に含まれる文字をすべて取り除いた文字列を返します。</translation>
     </message>
     <message>
         <location filename="../SqlUiLexer.cpp" line="102"/>
         <source>(X) The typeof(X) function returns a string that indicates the datatype of the expression X.</source>
-        <translation type="unfinished"></translation>
+        <translation>(X) typeof(X) 関数は、式 X のデータ型を示す文字列を返します。</translation>
     </message>
     <message>
         <location filename="../SqlUiLexer.cpp" line="103"/>
         <source>(X) The unicode(X) function returns the numeric unicode code point corresponding to the first character of the string X.</source>
-        <translation type="unfinished"></translation>
+        <translation>(X) unicode(X) 関数は、文字列 X の最初の文字に対応する Unicode 符号位置を返します。</translation>
     </message>
     <message>
         <location filename="../SqlUiLexer.cpp" line="104"/>
         <source>(X) The upper(X) function returns a copy of input string X in which all lower-case ASCII characters are converted to their upper-case equivalent.</source>
-        <translation type="unfinished"></translation>
+        <translation>(X) upper(X) 関数は、すべて ASCII 文字である文字列 X を、すべて大文字に変換した文字列を返します。</translation>
     </message>
     <message>
         <location filename="../SqlUiLexer.cpp" line="105"/>
         <source>(N) The zeroblob(N) function returns a BLOB consisting of N bytes of 0x00.</source>
-        <translation type="unfinished"></translation>
+        <translation>(N) zeroblob(N) 関数は、すべて 0x00 で埋められた、N バイトの BLOB を返します。</translation>
     </message>
     <message>
         <location filename="../SqlUiLexer.cpp" line="107"/>
@@ -5269,119 +5271,119 @@ Use of this function must be authorized from Preferences.</source>
         <location filename="../SqlUiLexer.cpp" line="109"/>
         <location filename="../SqlUiLexer.cpp" line="110"/>
         <source>(timestring,modifier,modifier,...)</source>
-        <translation type="unfinished"></translation>
+        <translation>(時刻文字列, 修飾子, 修飾子,...)</translation>
     </message>
     <message>
         <location filename="../SqlUiLexer.cpp" line="111"/>
         <source>(format,timestring,modifier,modifier,...)</source>
-        <translation type="unfinished"></translation>
+        <translation>(フォーマット, 時刻文字列, 修飾子, 修飾子,...)</translation>
     </message>
     <message>
         <location filename="../SqlUiLexer.cpp" line="113"/>
         <source>(X) The avg() function returns the average value of all non-NULL X within a group.</source>
-        <translation type="unfinished"></translation>
+        <translation>(X) avg() 関数は、グループ内の非NULLな値の平均を返します。</translation>
     </message>
     <message>
         <location filename="../SqlUiLexer.cpp" line="114"/>
         <source>(X) The count(X) function returns a count of the number of times that X is not NULL in a group.</source>
-        <translation type="unfinished"></translation>
+        <translation>(X) count(X) 関数はグループ内にある、NULLでない X の件数を返します。</translation>
     </message>
     <message>
         <location filename="../SqlUiLexer.cpp" line="115"/>
         <source>(X) The group_concat() function returns a string which is the concatenation of all non-NULL values of X.</source>
-        <translation type="unfinished"></translation>
+        <translation>(X) group_concat() 関数は、非NULLなすべての X を連結した文字列を返します。</translation>
     </message>
     <message>
         <location filename="../SqlUiLexer.cpp" line="116"/>
         <source>(X,Y) The group_concat() function returns a string which is the concatenation of all non-NULL values of X. If parameter Y is present then it is used as the separator between instances of X.</source>
-        <translation type="unfinished"></translation>
+        <translation>(X,Y) group_concat() 関数は、非NULLなすべての X を連結した文字列を返します。もし、引数 Y が存在するならば、X を連結するときの区切り文字として使用します。</translation>
     </message>
     <message>
         <location filename="../SqlUiLexer.cpp" line="117"/>
         <source>(X) The max() aggregate function returns the maximum value of all values in the group.</source>
-        <translation type="unfinished"></translation>
+        <translation>(X) max() 集計関数は、グループ内の(非NULLである)最大値を返します。</translation>
     </message>
     <message>
         <location filename="../SqlUiLexer.cpp" line="118"/>
         <source>(X) The min() aggregate function returns the minimum non-NULL value of all values in the group.</source>
-        <translation type="unfinished"></translation>
+        <translation>(X) min() 集計関数は、グループ内の(非NULLである)最小値を返します。</translation>
     </message>
     <message>
         <location filename="../SqlUiLexer.cpp" line="119"/>
         <location filename="../SqlUiLexer.cpp" line="120"/>
         <source>(X) The sum() and total() aggregate functions return sum of all non-NULL values in the group.</source>
-        <translation type="unfinished"></translation>
+        <translation>(X) sum() と total() 集計関数は、グループ内の非NULLな値の合計を返します。</translation>
     </message>
     <message>
         <location filename="../SqlUiLexer.cpp" line="122"/>
         <source>() The number of the row within the current partition. Rows are numbered starting from 1 in the order defined by the ORDER BY clause in the window definition, or in arbitrary order otherwise.</source>
-        <translation type="unfinished"></translation>
+        <translation>() 現在の分割内の行番号。行は、ウィンドウ定義の ORDER BY 句やそれ以外の任意の順序に従い、1 から順に番号付けされます。</translation>
     </message>
     <message>
         <location filename="../SqlUiLexer.cpp" line="123"/>
         <source>() The row_number() of the first peer in each group - the rank of the current row with gaps. If there is no ORDER BY clause, then all rows are considered peers and this function always returns 1.</source>
-        <translation type="unfinished"></translation>
+        <translation>() 各グループの順位 - 同値は同順位で、次の値は重複分だけ順位がずれます。もし、ORDER BY 句がなければ、すべての行を同順位とみなし、常に 1 を返します。</translation>
     </message>
     <message>
         <location filename="../SqlUiLexer.cpp" line="124"/>
         <source>() The number of the current row&apos;s peer group within its partition - the rank of the current row without gaps. Partitions are numbered starting from 1 in the order defined by the ORDER BY clause in the window definition. If there is no ORDER BY clause, then all rows are considered peers and this function always returns 1. </source>
-        <translation type="unfinished"></translation>
+        <translation>() 各グループの順位 - 同値は同順位で、次の値は重複に関わらず前の順位+1になります。パーティションはウィンドウ定義の ORDER BY 句やそれ以外の任意の順序に従い、1 から順に番号付けされます。もし、ORDER BY 句がなければ、すべての行を同順位とみなし、常に 1 を返します。 </translation>
     </message>
     <message>
         <location filename="../SqlUiLexer.cpp" line="125"/>
         <source>() Despite the name, this function always returns a value between 0.0 and 1.0 equal to (rank - 1)/(partition-rows - 1), where rank is the value returned by built-in window function rank() and partition-rows is the total number of rows in the partition. If the partition contains only one row, this function returns 0.0. </source>
-        <translation type="unfinished"></translation>
+        <translation>() その名前にも関わらず、この関数は常に 0.0 から 1.0 の値を返します。この値は、(rank - 1)/(パーティション行数 - 1) です。ここで、rank は組み込みウィンドウ関数の rank()、パーティション行数はパーティション内の行の数です。もし、パーティションに1行しか含まれていなければ、この関数は 0.0 を返します。 </translation>
     </message>
     <message>
         <location filename="../SqlUiLexer.cpp" line="126"/>
         <source>() The cumulative distribution. Calculated as row-number/partition-rows, where row-number is the value returned by row_number() for the last peer in the group and partition-rows the number of rows in the partition.</source>
-        <translation type="unfinished"></translation>
+        <translation>() 累積分布。(行番号)/(パーティション行数) で計算されます。ここで行番号はグループ内で row_number() で返された値、パーティション行数はパーティション内の行の数です。</translation>
     </message>
     <message>
         <location filename="../SqlUiLexer.cpp" line="127"/>
         <source>(N) Argument N is handled as an integer. This function divides the partition into N groups as evenly as possible and assigns an integer between 1 and N to each group, in the order defined by the ORDER BY clause, or in arbitrary order otherwise. If necessary, larger groups occur first. This function returns the integer value assigned to the group that the current row is a part of.</source>
-        <translation type="unfinished"></translation>
+        <translation>(N) 引数 N はINTEGERとして扱われます。この関数はパーティションを ORDER BY 句やそれ以外の任意の順序に従い N 個のグループに可能な限り等分し、それぞれのグループに 1 から N のINTEGERをつけます。必要があれば、先頭のほうにあるグループの件数を多くするように割り当てられます。この関数は現在の行が含まれるグループに割り当てられたINTEGERを返します。</translation>
     </message>
     <message>
         <location filename="../SqlUiLexer.cpp" line="128"/>
         <source>(expr) Returns the result of evaluating expression expr against the previous row in the partition. Or, if there is no previous row (because the current row is the first), NULL.</source>
-        <translation type="unfinished"></translation>
+        <translation>(expr) パーティション内の前の行に対して式 expr を評価した結果を返します。(先頭行のため)前の行がなければ、NULLを返します。</translation>
     </message>
     <message>
         <location filename="../SqlUiLexer.cpp" line="129"/>
         <source>(expr,offset) If the offset argument is provided, then it must be a non-negative integer. In this case the value returned is the result of evaluating expr against the row offset rows before the current row within the partition. If offset is 0, then expr is evaluated against the current row. If there is no row offset rows before the current row, NULL is returned.</source>
-        <translation type="unfinished"></translation>
+        <translation>(expr,offset) 引数 offset が与えられる場合、非負のINTEGERである必要があります。この場合、パーティション内の offset だけ前の行に対して式 expr を評価した結果を返します。offset が 0 ならば、現在行に対して評価します。.前の行がなければ、NULLを返します。</translation>
     </message>
     <message>
         <location filename="../SqlUiLexer.cpp" line="130"/>
         <location filename="../SqlUiLexer.cpp" line="133"/>
         <source>(expr,offset,default) If default is also provided, then it is returned instead of NULL if the row identified by offset does not exist.</source>
-        <translation type="unfinished"></translation>
+        <translation>(expr,offset,default) default が与えられる場合、前の行がなければ、NULL の代わりに defaul.t を返します。</translation>
     </message>
     <message>
         <location filename="../SqlUiLexer.cpp" line="131"/>
         <source>(expr) Returns the result of evaluating expression expr against the next row in the partition. Or, if there is no next row (because the current row is the last), NULL.</source>
-        <translation type="unfinished"></translation>
+        <translation>(expr) パーティション内の次の行に対して式 expr を評価した結果を返します。(最終行のため)次の行がなければ、NULLを返します。</translation>
     </message>
     <message>
         <location filename="../SqlUiLexer.cpp" line="132"/>
         <source>(expr,offset) If the offset argument is provided, then it must be a non-negative integer. In this case the value returned is the result of evaluating expr against the row offset rows after the current row within the partition. If offset is 0, then expr is evaluated against the current row. If there is no row offset rows after the current row, NULL is returned.</source>
-        <translation type="unfinished"></translation>
+        <translation>(expr,offset) 引数 offset が与えられる場合、非負のINTEGERである必要があります。この場合、パーティション内の offset だけ次の行に対して式 expr を評価した結果を返します。offset が 0 ならば、現在行に対して評価します。.次の行がなければ、NULLを返します。</translation>
     </message>
     <message>
         <location filename="../SqlUiLexer.cpp" line="134"/>
         <source>(expr) This built-in window function calculates the window frame for each row in the same way as an aggregate window function. It returns the value of expr evaluated against the first row in the window frame for each row.</source>
-        <translation type="unfinished"></translation>
+        <translation>(expr) この組み込みウィンドウ関数は、同じ集計ウィンドウ関数を使ってそれぞれの行のウィンドウフレームを計算します。各行のウィンドウフレームの最初の行に対して評価される expr の値を返します。</translation>
     </message>
     <message>
         <location filename="../SqlUiLexer.cpp" line="135"/>
         <source>(expr) This built-in window function calculates the window frame for each row in the same way as an aggregate window function. It returns the value of expr evaluated against the last row in the window frame for each row.</source>
-        <translation type="unfinished"></translation>
+        <translation>(expr) この組み込みウィンドウ関数は、同じ集計ウィンドウ関数を使ってそれぞれの行のウィンドウフレームを計算します。各行のウィンドウフレームの最後の行に対して評価される expr の値を返します。</translation>
     </message>
     <message>
         <location filename="../SqlUiLexer.cpp" line="136"/>
         <source>(expr,N) This built-in window function calculates the window frame for each row in the same way as an aggregate window function. It returns the value of expr evaluated against the row N of the window frame. Rows are numbered within the window frame starting from 1 in the order defined by the ORDER BY clause if one is present, or in arbitrary order otherwise. If there is no Nth row in the partition, then NULL is returned.</source>
-        <translation type="unfinished"></translation>
+        <translation>(expr,N) この組み込みウィンドウ関数は、同じ集計ウィンドウ関数を使ってそれぞれの行のウィンドウフレームを計算します。各行のウィンドウフレームの N 番目の行に対して評価される expr の値を返します。行は、ウィンドウ定義の ORDER BY 句やそれ以外の任意の順序に従い、1 から順に番号付けされます。 N 番目の行がパーティションにない場合、NULL が返されます。</translation>
     </message>
 </context>
 <context>
