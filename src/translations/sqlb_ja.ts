@@ -5358,7 +5358,7 @@ Use of this function must be authorized from Preferences.</source>
         <location filename="../SqlUiLexer.cpp" line="130"/>
         <location filename="../SqlUiLexer.cpp" line="133"/>
         <source>(expr,offset,default) If default is also provided, then it is returned instead of NULL if the row identified by offset does not exist.</source>
-        <translation type="unfinished">(expr,offset,default) default が与えられる場合、該当の行がなければ、NULL の代わりに defaul 値を返します。</translation>
+        <translation>(expr,offset,default) default が与えられる場合、該当の行がなければ、NULL の代わりに defaul 値を返します。</translation>
     </message>
     <message>
         <location filename="../SqlUiLexer.cpp" line="131"/>
