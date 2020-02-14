@@ -5352,7 +5352,7 @@ Use of this function must be authorized from Preferences.</source>
     <message>
         <location filename="../SqlUiLexer.cpp" line="129"/>
         <source>(expr,offset) If the offset argument is provided, then it must be a non-negative integer. In this case the value returned is the result of evaluating expr against the row offset rows before the current row within the partition. If offset is 0, then expr is evaluated against the current row. If there is no row offset rows before the current row, NULL is returned.</source>
-        <translation>(expr,offset) 引数 offset が与えられる場合、非負のINTEGERである必要があります。この場合、パーティション内の offset だけ前の行に対して式 expr を評価した結果を返します。offset が 0 ならば、現在行に対して評価します。.前の行がなければ、NULLを返します。</translation>
+        <translation>(expr,offset) 引数 offset が与えられる場合、非負のINTEGERである必要があります。この場合、パーティション内の offset だけ前の行に対して式 expr を評価した結果を返します。offset が 0 ならば、現在行に対して評価します。前の行がなければ、NULLを返します。</translation>
     </message>
     <message>
         <location filename="../SqlUiLexer.cpp" line="130"/>
@@ -5368,7 +5368,7 @@ Use of this function must be authorized from Preferences.</source>
     <message>
         <location filename="../SqlUiLexer.cpp" line="132"/>
         <source>(expr,offset) If the offset argument is provided, then it must be a non-negative integer. In this case the value returned is the result of evaluating expr against the row offset rows after the current row within the partition. If offset is 0, then expr is evaluated against the current row. If there is no row offset rows after the current row, NULL is returned.</source>
-        <translation>(expr,offset) 引数 offset が与えられる場合、非負のINTEGERである必要があります。この場合、パーティション内の offset だけ次の行に対して式 expr を評価した結果を返します。offset が 0 ならば、現在行に対して評価します。.次の行がなければ、NULLを返します。</translation>
+        <translation type="unfinished">(expr,offset) 引数 offset が与えられる場合、非負のINTEGERである必要があります。この場合、パーティション内の offset だけ次の行に対して式 expr を評価した結果を返します。offset が 0 ならば、現在行に対して評価します。次の行がなければ、NULLを返します。</translation>
     </message>
     <message>
         <location filename="../SqlUiLexer.cpp" line="134"/>
