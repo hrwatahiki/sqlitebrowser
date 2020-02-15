@@ -1301,8 +1301,12 @@ Errors are indicated with a red squiggle underline.</source>
     </message>
     <message>
         <location filename="../EditDialog.cpp" line="1239"/>
-        <source>The data has been saved to a temporary file and has been opened with the default application.You can edit now the file and when your are ready, you can apply the saved new data to the cell editor or cancel any changes.</source>
+        <source>The data has been saved to a temporary file and has been opened with the default application. You can now edit the file and, when you are ready, apply the saved new data to the cell editor or cancel any changes.</source>
         <translation>データは一時ファイルに保存され、デフォルトのアプリケーションで開かれました。すぐにファイルを編集でき、準備ができたら、保存した新しいデータをセルエディターに適用するか、変更をキャンセルできます。</translation>
+    </message>
+    <message>
+        <source>The data has been saved to a temporary file and has been opened with the default application.You can edit now the file and when your are ready, you can apply the saved new data to the cell editor or cancel any changes.</source>
+        <translation type="vanished">データは一時ファイルに保存され、デフォルトのアプリケーションで開かれました。すぐにファイルを編集でき、準備ができたら、保存した新しいデータをセルエディターに適用するか、変更をキャンセルできます。</translation>
     </message>
 </context>
 <context>
@@ -3979,6 +3983,16 @@ Reason: %1</source>
         <translation>インメモリーデータベース</translation>
     </message>
     <message>
+        <location filename="../MainWindow.cpp" line="653"/>
+        <source>You are still executing SQL statements. Closing the database now will stop their execution, possibly leaving the database in an inconsistent state. Are you sure you want to close the database?</source>
+        <translation>まだSQL文を実行中です。今、データベースを閉じると、実行が中止され、データベースに一貫性がない状態を残すかもしれません。本当にデータベースを閉じますか?</translation>
+    </message>
+    <message>
+        <location filename="../MainWindow.cpp" line="2069"/>
+        <source>Could not find resource file: %1</source>
+        <translation>リソースファイルが見つかりません: %1</translation>
+    </message>
+    <message>
         <location filename="../MainWindow.cpp" line="2747"/>
         <source>Could not open project file for writing.
 Reason: %1</source>
@@ -4280,9 +4294,8 @@ If you answer no we will attempt to import the data in the SQL file to the curre
 いいえを選択すると、SQLファイルからのデータを現在のデータベースにインポートしようとします。</translation>
     </message>
     <message>
-        <location filename="../MainWindow.cpp" line="653"/>
         <source>You are still executing SQL statements. When closing the database now the execution will be stopped. maybe leaving the database in an incosistent state. Are you sure you want to close the database?</source>
-        <translation>まだSQL文を実行中です。今、データベースを閉じると、実行が中止され、こデータベースに一貫性がない状態を残すかもしれません。本当にデータベースを閉じますか?</translation>
+        <translation type="vanished">まだSQL文を実行中です。今、データベースを閉じると、実行が中止され、こデータベースに一貫性がない状態を残すかもしれません。本当にデータベースを閉じますか?</translation>
     </message>
     <message>
         <location filename="../MainWindow.cpp" line="727"/>
@@ -4403,9 +4416,8 @@ Are you sure?</source>
         <translation>拡張の読み込みでエラー: %1</translation>
     </message>
     <message>
-        <location filename="../MainWindow.cpp" line="2069"/>
         <source>Could not open find resource file: %1</source>
-        <translation>検索リソースファイルが開けません: %1</translation>
+        <translation type="vanished">検索リソースファイルが開けません: %1</translation>
     </message>
     <message>
         <location filename="../MainWindow.cpp" line="2158"/>
@@ -6010,9 +6022,13 @@ p, li { white-space: pre-wrap; }
         <translation>前を検索 [Shift+F3]</translation>
     </message>
     <message>
-        <location filename="../SqlExecutionArea.ui" line="84"/>
         <source>Find previous match with mapping</source>
-        <translation>マッピングで前を検索</translation>
+        <translation type="vanished">マッピングで前を検索</translation>
+    </message>
+    <message>
+        <location filename="../SqlExecutionArea.ui" line="84"/>
+        <source>Find previous match with wrapping</source>
+        <translation>ワードラップ込みで前を検索</translation>
     </message>
     <message>
         <location filename="../SqlExecutionArea.ui" line="91"/>
@@ -6549,9 +6565,13 @@ Hold %3Shift and click to jump there</source>
         <translation>前を検索 [Shift+F3]</translation>
     </message>
     <message>
-        <location filename="../TableBrowser.ui" line="269"/>
         <source>Find previous match with mapping</source>
-        <translation>マッピングで前を検索</translation>
+        <translation type="vanished">マッピングで前を検索</translation>
+    </message>
+    <message>
+        <location filename="../TableBrowser.ui" line="269"/>
+        <source>Find previous match with wrapping</source>
+        <translation>折り返して前を検索</translation>
     </message>
     <message>
         <location filename="../TableBrowser.ui" line="276"/>
@@ -6566,7 +6586,7 @@ Hold %3Shift and click to jump there</source>
     <message>
         <location filename="../TableBrowser.ui" line="286"/>
         <source>Find next match with wrapping</source>
-        <translation>マッピングで次を検索</translation>
+        <translation>折り返して次を検索</translation>
     </message>
     <message>
         <location filename="../TableBrowser.ui" line="293"/>
