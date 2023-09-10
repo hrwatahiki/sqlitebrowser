@@ -3901,22 +3901,22 @@ SQL文をスキーマカラムからSQLエディターや他のアプリケー�
     <message>
         <location filename="../MainWindow.ui" line="2300"/>
         <source>Show &amp;Row Counts</source>
-        <translation type="unfinished"></translation>
+        <translation>行数を表示(&amp;R)</translation>
     </message>
     <message>
         <location filename="../MainWindow.ui" line="2303"/>
         <source>This shows the number of rows for each table and view in the database.</source>
-        <translation type="unfinished"></translation>
+        <translation>データベース内にあるテーブルとビューそれぞれの行数を表示します。</translation>
     </message>
     <message>
         <location filename="../MainWindow.ui" line="2315"/>
         <source>Save Database &amp;As...</source>
-        <translation type="unfinished"></translation>
+        <translation>名前を付けてデータベースを保存(&amp;A)...</translation>
     </message>
     <message>
         <location filename="../MainWindow.ui" line="2318"/>
         <source>Save the current database as a different file</source>
-        <translation type="unfinished"></translation>
+        <translation>現在のデータベースを別のファイルに保存します</translation>
     </message>
     <message>
         <location filename="../MainWindow.ui" line="2327"/>
@@ -3926,7 +3926,7 @@ SQL文をスキーマカラムからSQLエディターや他のアプリケー�
     <message>
         <location filename="../MainWindow.ui" line="2330"/>
         <source>Reload the database structure</source>
-        <translation type="unfinished"></translation>
+        <translation>データベース構造を再読み込み</translation>
     </message>
     <message>
         <location filename="../MainWindow.ui" line="2132"/>
@@ -3972,22 +3972,22 @@ SQL文をスキーマカラムからSQLエディターや他のアプリケー�
     <message>
         <location filename="../MainWindow.cpp" line="198"/>
         <source>Ctrl+Tab</source>
-        <translation type="unfinished"></translation>
+        <translation></translation>
     </message>
     <message>
         <location filename="../MainWindow.cpp" line="207"/>
         <source>Ctrl+Shift+Tab</source>
-        <translation type="unfinished"></translation>
+        <translation></translation>
     </message>
     <message>
         <location filename="../MainWindow.cpp" line="218"/>
         <source>Ctrl+PgUp</source>
-        <translation type="unfinished"></translation>
+        <translation></translation>
     </message>
     <message>
         <location filename="../MainWindow.cpp" line="235"/>
         <source>Clear List</source>
-        <translation type="unfinished"></translation>
+        <translation>リストを削除</translation>
     </message>
     <message>
         <location filename="../MainWindow.cpp" line="328"/>
@@ -3997,7 +3997,7 @@ SQL文をスキーマカラムからSQLエディターや他のアプリケー�
     <message>
         <location filename="../MainWindow.cpp" line="332"/>
         <source>Ctrl+Alt+0</source>
-        <translation type="unfinished"></translation>
+        <translation></translation>
     </message>
     <message>
         <location filename="../MainWindow.cpp" line="340"/>
@@ -4007,7 +4007,7 @@ SQL文をスキーマカラムからSQLエディターや他のアプリケー�
     <message>
         <location filename="../MainWindow.cpp" line="341"/>
         <source>Shift+Alt+0</source>
-        <translation type="unfinished"></translation>
+        <translation></translation>
     </message>
     <message>
         <location filename="../MainWindow.cpp" line="350"/>
@@ -4062,7 +4062,7 @@ SQL文をスキーマカラムからSQLエディターや他のアプリケー�
     <message>
         <location filename="../MainWindow.cpp" line="476"/>
         <source>Ctrl+Alt+W</source>
-        <translation type="unfinished"></translation>
+        <translation></translation>
     </message>
     <message>
         <location filename="../MainWindow.cpp" line="511"/>
@@ -4082,7 +4082,7 @@ Reason: %1</source>
         <location filename="../MainWindow.cpp" line="1538"/>
         <location filename="../MainWindow.cpp" line="3053"/>
         <source>Choose a filename to save under</source>
-        <translation>セーブするファイル名を下から選択</translation>
+        <translation>保存するファイル名を下から選択</translation>
     </message>
     <message>
         <location filename="../MainWindow.cpp" line="606"/>
@@ -4092,12 +4092,12 @@ Reason: %1</source>
     <message>
         <location filename="../MainWindow.cpp" line="688"/>
         <source>Choose a database file to save under</source>
-        <translation type="unfinished"></translation>
+        <translation>保存するデータベースファイルを下から選択</translation>
     </message>
     <message>
         <location filename="../MainWindow.cpp" line="699"/>
         <source>Error while saving the database to the new file.</source>
-        <translation type="unfinished"></translation>
+        <translation>データベースを新しいファイルへ保存時にエラー。</translation>
     </message>
     <message>
         <location filename="../MainWindow.cpp" line="713"/>
@@ -4107,12 +4107,12 @@ Reason: %1</source>
     <message>
         <location filename="../MainWindow.cpp" line="990"/>
         <source>Edit View %1</source>
-        <translation type="unfinished"></translation>
+        <translation>ビューを編集 %1</translation>
     </message>
     <message>
         <location filename="../MainWindow.cpp" line="996"/>
         <source>Edit Trigger %1</source>
-        <translation type="unfinished"></translation>
+        <translation>トリガーを編集 %1</translation>
     </message>
     <message>
         <location filename="../MainWindow.cpp" line="1716"/>
@@ -4127,7 +4127,7 @@ Reason: %1</source>
     <message>
         <location filename="../MainWindow.cpp" line="2075"/>
         <source>The statements in the tab &apos;%1&apos; are still executing. Closing the tab will stop the execution. This might leave the database in an inconsistent state. Are you sure you want to close the tab?</source>
-        <translation type="unfinished"></translation>
+        <translation>タブ &apos;%1&apos; の文はまだ実行中です。タブを閉じると実行が停止します。これはデータベースの一貫性がなくなる可能性があります。本当にタブを閉じますか?</translation>
     </message>
     <message>
         <location filename="../MainWindow.cpp" line="2330"/>
@@ -4137,17 +4137,17 @@ Reason: %1</source>
     <message>
         <location filename="../MainWindow.cpp" line="2704"/>
         <source>DB file &apos;%1&apos; could not be opened</source>
-        <translation type="unfinished"></translation>
+        <translation>DBファイル &apos;%1&apos; を開けませんでした</translation>
     </message>
     <message>
         <location filename="../MainWindow.cpp" line="2841"/>
         <source>This project file is using an old file format because it was created using DB Browser for SQLite version 3.10 or lower. Loading this file format is no longer fully supported. If you want to load it completely, please use DB Browser for SQLite version 3.12 to convert it to the new file format.</source>
-        <translation type="unfinished"></translation>
+        <translation>このプロジェクトファイルはDB Browser for SQLite バージョン 3.10 以前で作られた古いファイルフォーマットを使用しています。このファイルフォーマットの読み込みは既に完全にはサポートされていません。もし完全に読み込みたい場合は、DB Browser for SQLite バージョン3.12 を使って新しいファイルフォーマットに変換してください。</translation>
     </message>
     <message>
         <location filename="../MainWindow.cpp" line="2860"/>
         <source>Table &apos;%1&apos; not found; settings ignored</source>
-        <translation type="unfinished"></translation>
+        <translation>テーブル &apos;%1&apos; が見つかりません; 設定は無視されます</translation>
     </message>
     <message>
         <location filename="../MainWindow.cpp" line="3069"/>
@@ -4159,7 +4159,7 @@ Reason: %1</source>
     <message>
         <location filename="../MainWindow.cpp" line="3187"/>
         <source>-- Reference to file &quot;%1&quot; (not supported by this version) --</source>
-        <translation type="unfinished"></translation>
+        <translation>-- ファイル &quot;%1&quot; への参照 (このバージョンではサポートされていません) --</translation>
     </message>
     <message>
         <location filename="../MainWindow.cpp" line="3203"/>
@@ -4169,12 +4169,12 @@ Reason: %1</source>
     <message>
         <location filename="../MainWindow.cpp" line="3400"/>
         <source>Yes. Don&apos;t ask again</source>
-        <translation type="unfinished"></translation>
+        <translation>はい。もう聞かないで</translation>
     </message>
     <message>
         <location filename="../MainWindow.cpp" line="3505"/>
         <source>This action will open a new SQL tab with the following statements for you to edit and run:</source>
-        <translation type="unfinished"></translation>
+        <translation>この操作は以下の文を編集実行できる新しいSQLタブを開きます:</translation>
     </message>
     <message>
         <location filename="../MainWindow.cpp" line="3627"/>
@@ -4383,6 +4383,7 @@ Are you sure?</source>
     <message numerus="yes">
         <location filename="../MainWindow.cpp" line="1849"/>
         <source>Select the action to apply to the dropped file(s). &lt;br/&gt;Note: only &apos;Import&apos; will process more than one file.</source>
+        <translatorcomment>警告が出るが問題なし</translatorcomment>
         <translation>
             <numerusform>ドロップされたファイルに対して行う操作を選択してください。 &lt;br/&gt;注意: &apos;インポート&apos; のみが複数ファイルを処理できます。</numerusform>
         </translation>
@@ -4635,12 +4636,12 @@ Create a backup!</source>
     <message>
         <location filename="../PlotDock.ui" line="68"/>
         <source>Y1</source>
-        <translation type="unfinished"></translation>
+        <translation>Y1</translation>
     </message>
     <message>
         <location filename="../PlotDock.ui" line="73"/>
         <source>Y2</source>
-        <translation type="unfinished"></translation>
+        <translation>Y2</translation>
     </message>
     <message>
         <location filename="../PlotDock.ui" line="78"/>
@@ -4814,7 +4815,7 @@ Select the axes or axes labels to drag and zoom only in that orientation.</sourc
     <message>
         <location filename="../PlotDock.cpp" line="107"/>
         <source>Fixed number format</source>
-        <translation type="unfinished"></translation>
+        <translation>固定の数値フォーマット</translation>
     </message>
     <message>
         <location filename="../PlotDock.cpp" line="198"/>
@@ -4869,7 +4870,7 @@ Warning: not all data has been fetched from the table yet due to the partial fet
     <message>
         <location filename="../PlotDock.cpp" line="698"/>
         <source>Choose a filename to save under</source>
-        <translation>以下を保存するファイル名を選択</translation>
+        <translation>保存するファイル名を下から選択</translation>
     </message>
     <message>
         <location filename="../PlotDock.cpp" line="699"/>
@@ -5074,18 +5075,19 @@ Warning: not all data has been fetched from the table yet due to the partial fet
     <message>
         <location filename="../PreferencesDialog.ui" line="576"/>
         <source>Max Recent Files</source>
-        <translation type="unfinished"></translation>
+        <translation>ファイル使用履歴最大数</translation>
     </message>
     <message>
         <location filename="../PreferencesDialog.ui" line="596"/>
         <source>Prompt to save SQL tabs
 in new project file</source>
-        <translation type="unfinished"></translation>
+        <translation>新しいプロジェクトファイルに
+SQLタブを保存するときに尋ねる</translation>
     </message>
     <message>
         <location filename="../PreferencesDialog.ui" line="607"/>
         <source>If this is turned on, then changes to the SQL editor generate a save a project confirmation dialog when closing the SQL editor tab.</source>
-        <translation type="unfinished"></translation>
+        <translation>有効にすると、SQL編集タブを閉じるときに、変更があるとプロジェクト保存確認ダイアル具が表示されます。</translation>
     </message>
     <message>
         <location filename="../PreferencesDialog.ui" line="621"/>
@@ -5255,12 +5257,12 @@ Can be set to 0 for disabling completion.</source>
     <message>
         <location filename="../PreferencesDialog.ui" line="542"/>
         <source>Light style</source>
-        <translation type="unfinished"></translation>
+        <translation>ライトスタイル</translation>
     </message>
     <message>
         <location filename="../PreferencesDialog.ui" line="885"/>
         <source>Formatted</source>
-        <translation type="unfinished"></translation>
+        <translation>整形済み</translation>
     </message>
     <message>
         <location filename="../PreferencesDialog.ui" line="1280"/>
@@ -5350,32 +5352,32 @@ Can be set to 0 for disabling completion.</source>
     <message>
         <location filename="../PreferencesDialog.ui" line="1488"/>
         <source>selected_bg</source>
-        <translation type="unfinished"></translation>
+        <translation></translation>
     </message>
     <message>
         <location filename="../PreferencesDialog.ui" line="1491"/>
         <source>Selection background</source>
-        <translation type="unfinished"></translation>
+        <translation>選択中背景</translation>
     </message>
     <message>
         <location filename="../PreferencesDialog.ui" line="1496"/>
         <source>selected_fg</source>
-        <translation type="unfinished"></translation>
+        <translation></translation>
     </message>
     <message>
         <location filename="../PreferencesDialog.ui" line="1499"/>
         <source>Selection foreground</source>
-        <translation type="unfinished"></translation>
+        <translation>選択中前景</translation>
     </message>
     <message>
         <location filename="../PreferencesDialog.ui" line="1504"/>
         <source>highlight</source>
-        <translation type="unfinished"></translation>
+        <translation></translation>
     </message>
     <message>
         <location filename="../PreferencesDialog.ui" line="1507"/>
         <source>Highlight</source>
-        <translation type="unfinished"></translation>
+        <translation>強調</translation>
     </message>
     <message>
         <location filename="../PreferencesDialog.ui" line="1517"/>
@@ -5400,12 +5402,12 @@ Can be set to 0 for disabling completion.</source>
     <message>
         <location filename="../PreferencesDialog.ui" line="1594"/>
         <source>Use tabs for indentation</source>
-        <translation type="unfinished"></translation>
+        <translation>インデントにタブを使う</translation>
     </message>
     <message>
         <location filename="../PreferencesDialog.ui" line="1604"/>
         <source>When set, the Tab key will insert tab and space characters for indentation. Otherwise, just spaces will be used.</source>
-        <translation type="unfinished"></translation>
+        <translation>設定すると、タブキーはインデントにタブと空白文字を挿入します。そうでなければ、空白文字だけを使用します。</translation>
     </message>
     <message>
         <location filename="../PreferencesDialog.ui" line="1614"/>
@@ -5495,12 +5497,12 @@ Can be set to 0 for disabling completion.</source>
     <message>
         <location filename="../PreferencesDialog.ui" line="1760"/>
         <source>Close button on tabs</source>
-        <translation type="unfinished"></translation>
+        <translation>タブに閉じるボタンを表示</translation>
     </message>
     <message>
         <location filename="../PreferencesDialog.ui" line="1770"/>
         <source>If enabled, SQL editor tabs will have a close button. In any case, you can use the contextual menu or the keyboard shortcut to close them.</source>
-        <translation type="unfinished"></translation>
+        <translation>有効にするとSQL編集タブに閉じるボタンを表示します。どのような場合でもコンテキストメニューやキーボードショートカットからタブを閉じることができます。</translation>
     </message>
     <message>
         <location filename="../PreferencesDialog.ui" line="1783"/>
@@ -5565,12 +5567,12 @@ Can be set to 0 for disabling completion.</source>
     <message>
         <location filename="../PreferencesDialog.ui" line="2114"/>
         <source>Export Settings</source>
-        <translation type="unfinished"></translation>
+        <translation>設定をエクスポート</translation>
     </message>
     <message>
         <location filename="../PreferencesDialog.ui" line="2121"/>
         <source>Import Settings</source>
-        <translation type="unfinished"></translation>
+        <translation>設定をインポート</translation>
     </message>
     <message>
         <location filename="../PreferencesDialog.ui" line="1913"/>
@@ -5703,35 +5705,37 @@ All your preferences will be lost and default values will be used.</source>
     <message>
         <location filename="../PreferencesDialog.cpp" line="726"/>
         <source>Save Settings File</source>
-        <translation type="unfinished"></translation>
+        <translation>設定ファイルを保存</translation>
     </message>
     <message>
         <location filename="../PreferencesDialog.cpp" line="726"/>
         <location filename="../PreferencesDialog.cpp" line="736"/>
         <source>Initialization File (*.ini)</source>
-        <translation type="unfinished"></translation>
+        <translation>INIファイル (*.ini)</translation>
     </message>
     <message>
         <location filename="../PreferencesDialog.cpp" line="730"/>
         <source>The settings file has been saved in location :
 </source>
-        <translation type="unfinished"></translation>
+        <translation>設定ファイルをここに保存しました:
+</translation>
     </message>
     <message>
         <location filename="../PreferencesDialog.cpp" line="736"/>
         <source>Open Settings File</source>
-        <translation type="unfinished"></translation>
+        <translation>設定ファイルを開く</translation>
     </message>
     <message>
         <location filename="../PreferencesDialog.cpp" line="743"/>
         <source>The settings file was loaded properly.</source>
-        <translation type="unfinished"></translation>
+        <translation>設定ファイルが正しく読み込まれました。</translation>
     </message>
     <message>
         <location filename="../PreferencesDialog.cpp" line="750"/>
         <source>The selected settings file is not a normal settings file.
 Please check again.</source>
-        <translation type="unfinished"></translation>
+        <translation>選択された設定ファイルに異常があります。
+再度確認してください。</translation>
     </message>
 </context>
 <context>
@@ -5962,7 +5966,7 @@ Please check again.</source>
     <message>
         <location filename="../RemoteCommitsModel.cpp" line="65"/>
         <source>Authored and committed by %1</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 が作成、コミットしました</translation>
     </message>
     <message>
         <location filename="../RemoteCommitsModel.cpp" line="67"/>
@@ -6007,7 +6011,7 @@ Please check again.</source>
     <message>
         <location filename="../RemoteDock.ui" line="86"/>
         <source>Upload</source>
-        <translation type="unfinished"></translation>
+        <translation>アップロード</translation>
     </message>
     <message>
         <location filename="../RemoteDock.ui" line="106"/>
@@ -6017,7 +6021,7 @@ Please check again.</source>
     <message>
         <location filename="../RemoteDock.ui" line="139"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;In this pane, remote databases from dbhub.io website can be added to DB Browser for SQLite. First you need an identity:&lt;/p&gt;&lt;ol style=&quot;margin-top: 0px; margin-bottom: 0px; margin-left: 0px; margin-right: 0px; -qt-list-indent: 1;&quot;&gt;&lt;li style=&quot; margin-top:12px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Login to the dbhub.io website (use your GitHub credentials or whatever you want)&lt;/li&gt;&lt;li style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Click the button to &amp;quot;Generate client certificate&amp;quot; (that&apos;s your identity). That&apos;ll give you a certificate file (save it to your local disk).&lt;/li&gt;&lt;li style=&quot; margin-top:0px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Go to the Remote tab in DB Browser for SQLite Preferences. Click the button to add a new certificate to DB Browser for SQLite and choose the just downloaded certificate file.&lt;/li&gt;&lt;/ol&gt;&lt;p&gt;Now the Remote panel shows your identity and you can add remote databases.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;この画面では、dbhub.io ウェブサイトのリモートデータベースを DB Browser for SQLite に追加できます。最初に認証が必要です:&lt;/p&gt;&lt;ol style=&quot;margin-top: 0px; margin-bottom: 0px; margin-left: 0px; margin-right: 0px; -qt-list-indent: 1;&quot;&gt;&lt;li style=&quot; margin-top:12px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;dbhub.io にログイン (GitHub 認証かあなたの望むものを使います)&lt;/li&gt;&lt;li style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Click the button to &amp;quot;Generate client certificate&amp;quot; (that&apos;s your identity). That&apos;ll give you a certificate file (save it to your local disk).&amp;quot;Generate client certificate&amp;quot ボタンをクリック; (これがあなたの認証情報です) これで証明書ファイルが入手できます(これをあなたのローカルディスクに保存します)。&lt;/li&gt;&lt;li style=&quot; margin-top:0px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;DB Browser for SQLite の設定にあるリモートタブへ移動します。ボタンをクリック、ダウンロードした証明書ファイルを選択し、 DB Browser for SQLite に新しい認証情報を追加します。&lt;/li&gt;&lt;/ol&gt;&lt;p&gt;これでリモートパネルにあなたの認証情報が表示され、りもーとでーたべーすがついかできるようになります。&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
         <location filename="../RemoteDock.ui" line="147"/>
@@ -6160,12 +6164,12 @@ Please check again.</source>
     <message>
         <location filename="../RemoteDock.ui" line="240"/>
         <source>&amp;User</source>
-        <translation type="unfinished"></translation>
+        <translation>ユーザー(&amp;U)</translation>
     </message>
     <message>
         <location filename="../RemoteDock.ui" line="257"/>
         <source>&amp;Database</source>
-        <translation type="unfinished">データベース(&amp;D)</translation>
+        <translation>データベース(&amp;D)</translation>
     </message>
     <message>
         <location filename="../RemoteDock.ui" line="400"/>
@@ -6529,6 +6533,7 @@ Are you sure you want to proceed?</source>
     <message>
         <location filename="../SqlExecutionArea.ui" line="161"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;When checked, the pattern to find is interpreted as a UNIX regular expression. See &lt;a href=&quot;https://en.wikibooks.org/wiki/Regular_Expressions&quot;&gt;Regular Expression in Wikibooks&lt;/a&gt;.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
+        <translatorcomment>URLのため%の数が一致しない。</translatorcomment>
         <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;設定すると、検索条件はUNIX正規表現と解釈されます。以下を参照 &lt;a href=&quot;https://ja.wikibooks.org/wiki/%E6%AD%A3%E8%A6%8F%E8%A1%A8%E7%8F%BE&quot;&gt;Wikibooksの正規表現&lt;/a&gt;。&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
@@ -6564,7 +6569,7 @@ Are you sure you want to proceed?</source>
     <message>
         <location filename="../SqlExecutionArea.cpp" line="246"/>
         <source>Couldn&apos;t read file &quot;%1&quot;: %2.</source>
-        <translation type="unfinished"></translation>
+        <translation>ファイル &quot;%1&quot; を読めません: %2。</translation>
     </message>
     <message>
         <location filename="../SqlExecutionArea.cpp" line="276"/>
@@ -6585,17 +6590,17 @@ Are you sure you want to proceed?</source>
     <message>
         <location filename="../SqlExecutionArea.cpp" line="325"/>
         <source>Answer &quot;Yes to All&quot; to reload the file on any external update without further prompting.</source>
-        <translation type="unfinished"></translation>
+        <translation>&quot;すべてはい&quot;を選択すると、外部で行われた更新を、確認せずにすべて再読み込みします。</translation>
     </message>
     <message>
         <location filename="../SqlExecutionArea.cpp" line="327"/>
         <source>Answer &quot;No to All&quot; to ignore any external update without further prompting.</source>
-        <translation type="unfinished"></translation>
+        <translation>&quot;すべていいえ&quot;を選択すると、外部で行われた変更を確認せずにすべて無視します。</translation>
     </message>
     <message>
         <location filename="../SqlExecutionArea.cpp" line="329"/>
         <source>Modifying and saving the file will restore prompting.</source>
-        <translation type="unfinished"></translation>
+        <translation>ファイルを変更・保存すると、確認ダイアログは復活します。</translation>
     </message>
 </context>
 <context>
@@ -6608,7 +6613,7 @@ Are you sure you want to proceed?</source>
     <message>
         <location filename="../sqltextedit.cpp" line="48"/>
         <source>Ctrl+PgDown</source>
-        <translation type="unfinished"></translation>
+        <translation></translation>
     </message>
 </context>
 <context>
@@ -6661,7 +6666,7 @@ Are you sure you want to proceed?</source>
     <message>
         <location filename="../SqlUiLexer.cpp" line="88"/>
         <source>() The last_insert_rowid() function returns the ROWID of the last row insert from the database connection which invoked the function.</source>
-        <translation>() last_insert_rowid() 関数は、この関数を呼び出したデータベース接続が最後に INSERT した行の ROWID を返します。of the last row insert from the database connection which invoked the function.</translation>
+        <translation>() last_insert_rowid() 関数は、この関数を呼び出したデータベース接続が最後に INSERT した行の ROWID を返します。</translation>
     </message>
     <message>
         <location filename="../SqlUiLexer.cpp" line="89"/>
